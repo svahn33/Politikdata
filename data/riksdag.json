@@ -1,7 +1,4953 @@
 {
-  "updated": null,
-  "status": "not_synced",
-  "session": null,
-  "votes": [],
-  "note": "Ingen lokal voteringsdata har hämtats. Kör GitHub Actions-flödet Synka riksdagsdata."
+  "updated": "2026-11-22 20:40 UTC",
+  "status": "synced",
+  "session": "2026/27, 2025/26",
+  "source": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
+  "note": "Endast registrerade ledamotsröster. Urvalet begränsas till de senaste 125 voteringarna per riksmöte.",
+  "votes": [
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 2
+        },
+        "KD": {
+          "Ja": 21,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "MP": {
+          "Ja": 20,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Frånvarande": 3,
+          "Ja": 96
+        },
+        "SD": {
+          "Nej": 61,
+          "Frånvarande": 1
+        },
+        "V": {
+          "Ja": 26,
+          "Frånvarande": 4
+        }
+      },
+      "date": "2026-11-18",
+      "document": "AU3",
+      "point": "2",
+      "title": "Betänkande AU3 · förslagspunkt 2",
+      "id": "AAFED836-B59B-4B51-A085-505D44E3AE4D",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=AU3&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 2
+        },
+        "KD": {
+          "Ja": 21,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 19
+        },
+        "M": {
+          "Ja": 69,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 21,
+          "Frånvarande": 1
+        },
+        "S": {
+          "Ja": 99
+        },
+        "SD": {
+          "Ja": 61,
+          "Frånvarande": 1
+        },
+        "V": {
+          "Nej": 30
+        }
+      },
+      "date": "2026-11-11",
+      "document": "KU9",
+      "point": "1",
+      "title": "Betänkande KU9 · förslagspunkt 1",
+      "id": "A4FFC05D-04B4-4139-A9EB-A0ED698B0443",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KU9&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 2
+        },
+        "KD": {
+          "Ja": 21,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 19
+        },
+        "M": {
+          "Ja": 69,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Ja": 19,
+          "Frånvarande": 2,
+          "Nej": 1
+        },
+        "S": {
+          "Ja": 99
+        },
+        "SD": {
+          "Ja": 61,
+          "Frånvarande": 1
+        },
+        "V": {
+          "Ja": 30
+        }
+      },
+      "date": "2026-11-11",
+      "document": "KU6",
+      "point": "3",
+      "title": "Betänkande KU6 · förslagspunkt 3",
+      "id": "E80584EC-68E4-4618-9765-34DFE3C3B525",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KU6&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 2
+        },
+        "KD": {
+          "Frånvarande": 1,
+          "Ja": 21
+        },
+        "L": {
+          "Ja": 19
+        },
+        "M": {
+          "Ja": 69,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 21,
+          "Frånvarande": 1
+        },
+        "S": {
+          "Ja": 99
+        },
+        "SD": {
+          "Ja": 61,
+          "Frånvarande": 1
+        },
+        "V": {
+          "Ja": 30
+        }
+      },
+      "date": "2026-11-11",
+      "document": "KU6",
+      "point": "1",
+      "title": "Betänkande KU6 · förslagspunkt 1",
+      "id": "5DE56842-83CE-4DD2-B5FF-CF4C54E1EC09",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KU6&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 25
+        },
+        "KD": {
+          "Ja": 19,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 19
+        },
+        "M": {
+          "Ja": 70
+        },
+        "MP": {
+          "Ja": 22
+        },
+        "S": {
+          "Ja": 99
+        },
+        "SD": {
+          "Nej": 61,
+          "Frånvarande": 1
+        },
+        "V": {
+          "Ja": 30
+        }
+      },
+      "date": "2026-11-04",
+      "document": "KU4",
+      "point": "1",
+      "title": "Betänkande KU4 · förslagspunkt 1",
+      "id": "F21A5C48-FA78-4414-9602-4495A63C75DE",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KU4&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 25
+        },
+        "KD": {
+          "Ja": 19,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 19
+        },
+        "M": {
+          "Ja": 70
+        },
+        "MP": {
+          "Ja": 22
+        },
+        "S": {
+          "Ja": 99
+        },
+        "SD": {
+          "Ja": 61,
+          "Frånvarande": 1
+        },
+        "V": {
+          "Nej": 30
+        }
+      },
+      "date": "2026-11-04",
+      "document": "FöU2",
+      "point": "2",
+      "title": "Betänkande FöU2 · förslagspunkt 2",
+      "id": "D41FD97A-5F61-4320-A5AE-B64AF39D8CBC",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=F%C3%B6U2&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "UbU30",
+      "point": "7",
+      "title": "Betänkande UbU30 · förslagspunkt 7",
+      "id": "0CDCE6BD-6D77-4706-B6AA-BB64EA232060",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU30&punkt=7&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 22,
+          "Frånvarande": 1,
+          "Ja": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "UbU30",
+      "point": "6",
+      "title": "Betänkande UbU30 · förslagspunkt 6",
+      "id": "4A17C4FC-A437-4C1F-9D6E-54E7800F4360",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU30&punkt=6&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 15,
+          "Frånvarande": 1
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 17,
+          "Nej": 1
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "UbU30",
+      "point": "3",
+      "title": "Betänkande UbU30 · förslagspunkt 3",
+      "id": "5ADCFDA5-4886-44A0-9407-F56574F9515F",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU30&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "UbU30",
+      "point": "2",
+      "title": "Betänkande UbU30 · förslagspunkt 2",
+      "id": "8BADA090-C009-495A-98D2-F967E799BA61",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU30&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 22,
+          "Frånvarande": 1,
+          "Ja": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "UU24",
+      "point": "5",
+      "title": "Betänkande UU24 · förslagspunkt 5",
+      "id": "4F6C36D8-7D22-446C-A4FA-E0B395595338",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU24&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "UU24",
+      "point": "3",
+      "title": "Betänkande UU24 · förslagspunkt 3",
+      "id": "6F43175A-AD01-4649-AFF7-7BDCB7279BD2",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU24&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "UU24",
+      "point": "1",
+      "title": "Betänkande UU24 · förslagspunkt 1",
+      "id": "22FB16CD-C739-4A79-868B-946B2BA3E67D",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU24&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 20,
+          "Avstår": 1
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SoU40",
+      "point": "2",
+      "title": "Betänkande SoU40 · förslagspunkt 2",
+      "id": "9D24133A-122E-4607-87EE-F0CB8CCE9DF0",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU40&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SoU40",
+      "point": "1",
+      "title": "Betänkande SoU40 · förslagspunkt 1",
+      "id": "453E9A58-E5CC-48AA-9274-6736A40054B7",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU40&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 19,
+          "Ja": 2
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SoU39",
+      "point": "3",
+      "title": "Betänkande SoU39 · förslagspunkt 3",
+      "id": "2A5A7C00-6A77-4E33-A307-1DC693227685",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU39&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SoU39",
+      "point": "2",
+      "title": "Betänkande SoU39 · förslagspunkt 2",
+      "id": "8669C841-2CDC-48F5-AF84-A99DE2D75C93",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU39&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SoU39",
+      "point": "1",
+      "title": "Betänkande SoU39 · förslagspunkt 1",
+      "id": "FF7E4529-2A51-48C6-880D-D1F3C5A94A6E",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU39&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 104,
+          "Frånvarande": 1,
+          "Nej": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SoU38",
+      "point": "5",
+      "title": "Betänkande SoU38 · förslagspunkt 5",
+      "id": "37B2BF12-11EA-478C-AA24-543AB85770F6",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU38&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SoU38",
+      "point": "2",
+      "title": "Betänkande SoU38 · förslagspunkt 2",
+      "id": "4905F0F8-F001-4918-A4B7-901EA26D07DB",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU38&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "9",
+      "title": "Betänkande SfU37 · förslagspunkt 9",
+      "id": "A0E58D9F-D3DF-4CAF-BDEC-7E8DB9B0519D",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=9&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "8",
+      "title": "Betänkande SfU37 · förslagspunkt 8",
+      "id": "4285216E-DAAB-451F-AF36-EBD28C8AD6FD",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=8&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "7",
+      "title": "Betänkande SfU37 · förslagspunkt 7",
+      "id": "75557818-17F8-4C9F-82A9-36A046F03B8F",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=7&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "6",
+      "title": "Betänkande SfU37 · förslagspunkt 6",
+      "id": "A0ACDA38-74ED-4918-9CE5-19BCCB09AE8A",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=6&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "4",
+      "title": "Betänkande SfU37 · förslagspunkt 4",
+      "id": "A8D2258A-D08E-406D-A22A-C209250791CD",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "3",
+      "title": "Betänkande SfU37 · förslagspunkt 3",
+      "id": "9039B400-8645-4B8E-989E-1F4BA8806C60",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "2",
+      "title": "Betänkande SfU37 · förslagspunkt 2",
+      "id": "C043BF26-FD9B-47EA-9AD5-A98B64888898",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "12",
+      "title": "Betänkande SfU37 · förslagspunkt 12",
+      "id": "32BDF094-4F76-47A2-8DCC-7F1C2A00D7C4",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=12&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "SfU37",
+      "point": "1",
+      "title": "Betänkande SfU37 · förslagspunkt 1",
+      "id": "F6A9329B-E3E9-4EC0-AFFC-72DE373AFFE7",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "JuU48",
+      "point": "2",
+      "title": "Betänkande JuU48 · förslagspunkt 2",
+      "id": "A232E23A-3700-4EEE-8AB5-C92F1041CC4D",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU48&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "JuU48",
+      "point": "1",
+      "title": "Betänkande JuU48 · förslagspunkt 1",
+      "id": "B2595DDF-343A-4612-B2F1-F0845AAC61C9",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU48&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 15,
+          "Frånvarande": 1
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "JuU41",
+      "point": "5",
+      "title": "Betänkande JuU41 · förslagspunkt 5",
+      "id": "A3DA22A3-5CB8-4EBC-8895-5F4C45A7F4FB",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU41&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "JuU41",
+      "point": "4",
+      "title": "Betänkande JuU41 · förslagspunkt 4",
+      "id": "9BD72659-C4FA-4ED9-B454-0433E008B146",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU41&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "JuU41",
+      "point": "2",
+      "title": "Betänkande JuU41 · förslagspunkt 2",
+      "id": "AE49887E-8CF5-4594-9C95-C7CBFE483180",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU41&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 17,
+          "Nej": 1
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-08-13",
+      "document": "JuU41",
+      "point": "1",
+      "title": "Betänkande JuU41 · förslagspunkt 1",
+      "id": "8EA8F8A3-AD25-4C70-87D5-62ED1D8EC8DD",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU41&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "UbU31",
+      "point": "2",
+      "title": "Betänkande UbU31 · förslagspunkt 2",
+      "id": "D821E8CC-6D08-4ADF-B94E-9EBDABA113A0",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU31&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "9",
+      "title": "Betänkande TU20 · förslagspunkt 9",
+      "id": "F61D867F-CBCB-4808-B396-3306672EDF13",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=9&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Avstår": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "3",
+      "title": "Betänkande TU20 · förslagspunkt 3",
+      "id": "5D4F6F29-4789-44DC-B126-1D83AEF72565",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 17,
+          "Ja": 1
+        },
+        "S": {
+          "Avstår": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "26",
+      "title": "Betänkande TU20 · förslagspunkt 26",
+      "id": "C77BA815-0695-40DC-8EBD-F2B11B32FC3F",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=26&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "24",
+      "title": "Betänkande TU20 · förslagspunkt 24",
+      "id": "273B9923-F49A-4AC9-B278-518A3A372145",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=24&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "20",
+      "title": "Betänkande TU20 · förslagspunkt 20",
+      "id": "0C31B7A1-DF59-402E-8DD5-7487CD07B7DD",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=20&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "2",
+      "title": "Betänkande TU20 · förslagspunkt 2",
+      "id": "DFEA0739-D544-498B-BF52-C5B844A8FF36",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "18",
+      "title": "Betänkande TU20 · förslagspunkt 18",
+      "id": "AEDA557F-E721-4F88-B4D4-A128882C30A9",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=18&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "15",
+      "title": "Betänkande TU20 · förslagspunkt 15",
+      "id": "C26BF67E-BB24-4280-A831-71EA0DA627DD",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=15&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "TU20",
+      "point": "11",
+      "title": "Betänkande TU20 · förslagspunkt 11",
+      "id": "870B84B0-75A3-478B-97CC-A04BAEBC6326",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=11&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "SkU30",
+      "point": "2",
+      "title": "Betänkande SkU30 · förslagspunkt 2",
+      "id": "AB0CEC26-309B-4E16-AEAC-48C465CBC52C",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SkU30&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 103,
+          "Frånvarande": 3
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "SkU30",
+      "point": "1",
+      "title": "Betänkande SkU30 · förslagspunkt 1",
+      "id": "A9321CFF-7D4C-47F7-A824-DB067F315594",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SkU30&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "SfU34",
+      "point": "5",
+      "title": "Betänkande SfU34 · förslagspunkt 5",
+      "id": "11CE493D-4677-411D-914E-D2B25E9D20CB",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU34&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "SfU34",
+      "point": "2",
+      "title": "Betänkande SfU34 · förslagspunkt 2",
+      "id": "CD39A58F-8523-4F47-8B28-9F3606F10930",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU34&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "SfU34",
+      "point": "1",
+      "title": "Betänkande SfU34 · förslagspunkt 1",
+      "id": "6FF39C34-E1CE-48FC-8AD0-6A699C7DEBE9",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU34&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "SfU31",
+      "point": "3",
+      "title": "Betänkande SfU31 · förslagspunkt 3",
+      "id": "274821C2-BCC6-4477-A1E0-D70B4E962C11",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU31&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-17",
+      "document": "SfU31",
+      "point": "2",
+      "title": "Betänkande SfU31 · förslagspunkt 2",
+      "id": "48A7F858-474D-49E3-B5AC-78A22F7C83C7",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU31&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "SfU31",
+      "point": "1",
+      "title": "Betänkande SfU31 · förslagspunkt 1",
+      "id": "2521C645-A279-47BB-8BAF-AC54814522B5",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU31&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "JuU47",
+      "point": "2",
+      "title": "Betänkande JuU47 · förslagspunkt 2",
+      "id": "34C219E0-BF4E-40BF-8DE2-F64FE1B019DA",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU47&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "JuU45",
+      "point": "1",
+      "title": "Betänkande JuU45 · förslagspunkt 1",
+      "id": "1786EB01-C5E8-42B5-93DF-5ED372C4A9D5",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU45&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "FöU14",
+      "point": "3",
+      "title": "Betänkande FöU14 · förslagspunkt 3",
+      "id": "D01EA9E2-C344-4AD9-91D3-E64D2F805159",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U14&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "FöU14",
+      "point": "2",
+      "title": "Betänkande FöU14 · förslagspunkt 2",
+      "id": "13FA18B9-3512-44C9-B1CD-265A8145CD19",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U14&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "FöU14",
+      "point": "1",
+      "title": "Betänkande FöU14 · förslagspunkt 1",
+      "id": "F87D57E7-ABD7-4CA4-A1DB-C3C956FAE75B",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U14&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "FiU47",
+      "point": "2",
+      "title": "Betänkande FiU47 · förslagspunkt 2",
+      "id": "C699F89B-07D4-4D0A-ABE1-29D4018242B9",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=FiU47&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "FiU47",
+      "point": "1",
+      "title": "Betänkande FiU47 · förslagspunkt 1",
+      "id": "14B90381-2745-4F7F-9A08-E6AF4F8B493C",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=FiU47&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "CU40",
+      "point": "2",
+      "title": "Betänkande CU40 · förslagspunkt 2",
+      "id": "D21011D6-8588-4DC3-B4B4-A8566C17C36D",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=CU40&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-06-17",
+      "document": "CU40",
+      "point": "1",
+      "title": "Betänkande CU40 · förslagspunkt 1",
+      "id": "D2E1DA58-A786-42D1-A22B-81CFC7C215FC",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=CU40&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "SfU33",
+      "point": "2",
+      "title": "Betänkande SfU33 · förslagspunkt 2",
+      "id": "70B91856-1B84-4A9E-BCF0-247F16897474",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU33&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 23,
+          "Ja": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "SfU33",
+      "point": "1",
+      "title": "Betänkande SfU33 · förslagspunkt 1",
+      "id": "DB442127-C0A0-4CC5-AEC2-B0B0E0A33D78",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU33&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 15,
+          "Ja": 3
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 19,
+          "Ja": 2
+        }
+      },
+      "date": "2026-06-16",
+      "document": "MJU29",
+      "point": "6",
+      "title": "Betänkande MJU29 · förslagspunkt 6",
+      "id": "3ECE9299-E7F7-49F7-A655-52DDBF4EA9A3",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU29&punkt=6&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 15,
+          "Ja": 3
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Nej": 70
+        },
+        "V": {
+          "Ja": 3,
+          "Avstår": 18
+        }
+      },
+      "date": "2026-06-16",
+      "document": "MJU29",
+      "point": "5",
+      "title": "Betänkande MJU29 · förslagspunkt 5",
+      "id": "36F08F9F-38C1-4155-8498-8FD360BF95AC",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU29&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 14,
+          "Ja": 4
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "MJU29",
+      "point": "2",
+      "title": "Betänkande MJU29 · förslagspunkt 2",
+      "id": "E465C640-7553-46FE-9231-10FC860ECDEC",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU29&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 3,
+          "Avstår": 18
+        }
+      },
+      "date": "2026-06-16",
+      "document": "MJU29",
+      "point": "1",
+      "title": "Betänkande MJU29 · förslagspunkt 1",
+      "id": "BB9A0E7F-7EC9-4450-81FE-E34FC72B28D6",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU29&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "MJU28",
+      "point": "4",
+      "title": "Betänkande MJU28 · förslagspunkt 4",
+      "id": "EC52CA21-2243-485A-9FF1-6A1EBD4980D6",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU28&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "MJU28",
+      "point": "2",
+      "title": "Betänkande MJU28 · förslagspunkt 2",
+      "id": "164E8AD3-EB9A-4779-B3BD-6DB79C78A00E",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU28&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "KU42",
+      "point": "1",
+      "title": "Betänkande KU42 · förslagspunkt 1",
+      "id": "0CFD1EC3-3791-4189-BABD-CA0D75AC2389",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=KU42&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "KU39",
+      "point": "1",
+      "title": "Betänkande KU39 · förslagspunkt 1",
+      "id": "DCA347C0-D1CA-40A9-9748-2797405C09CB",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=KU39&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "FöU19",
+      "point": "3",
+      "title": "Betänkande FöU19 · förslagspunkt 3",
+      "id": "B96AB5E2-9B3C-4821-A755-21CC84AAEA29",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U19&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "FöU19",
+      "point": "2",
+      "title": "Betänkande FöU19 · förslagspunkt 2",
+      "id": "3A21AE34-8CA7-4FE4-A3F8-D34000BBA1EB",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U19&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "FiU45",
+      "point": "2",
+      "title": "Betänkande FiU45 · förslagspunkt 2",
+      "id": "0B1D0CCC-8EA6-4368-8DFD-EFA2A2394307",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=FiU45&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Nej": 104,
+          "Frånvarande": 1,
+          "Ja": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "FiU45",
+      "point": "1",
+      "title": "Betänkande FiU45 · förslagspunkt 1",
+      "id": "BA1264FF-08F4-41AA-AC88-E0F76DF0FD0A",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=FiU45&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "AU13",
+      "point": "2",
+      "title": "Betänkande AU13 · förslagspunkt 2",
+      "id": "54F03D57-55B9-4462-937C-F33823D1FCCE",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=AU13&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 24
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-06-16",
+      "document": "AU13",
+      "point": "1",
+      "title": "Betänkande AU13 · förslagspunkt 1",
+      "id": "528D1989-F1CD-4556-8A5B-006D656C7876",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=AU13&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 104,
+          "Frånvarande": 1,
+          "Nej": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 20,
+          "Nej": 1
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SoU34",
+      "point": "9",
+      "title": "Betänkande SoU34 · förslagspunkt 9",
+      "id": "BB221F85-2D3F-463D-A483-1D824BD0D468",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=9&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SoU34",
+      "point": "8",
+      "title": "Betänkande SoU34 · förslagspunkt 8",
+      "id": "B623B7D7-DAFA-4B7D-B805-0026430A0100",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=8&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SoU34",
+      "point": "7",
+      "title": "Betänkande SoU34 · förslagspunkt 7",
+      "id": "9A778D5E-7F15-4A02-9F63-EF8C1D1AA74E",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=7&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SoU34",
+      "point": "6",
+      "title": "Betänkande SoU34 · förslagspunkt 6",
+      "id": "BAA8ADBB-FA99-4058-A37D-5B4BCE3C7779",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=6&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SoU34",
+      "point": "11",
+      "title": "Betänkande SoU34 · förslagspunkt 11",
+      "id": "AEB6E295-BAA2-4F36-B587-0E29ECE3B5CD",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=11&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Avstår": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU36",
+      "point": "3",
+      "title": "Betänkande SfU36 · förslagspunkt 3",
+      "id": "C1F7DB90-B425-469D-92CD-54B9DFD03E4C",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU36&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU36",
+      "point": "2",
+      "title": "Betänkande SfU36 · förslagspunkt 2",
+      "id": "425D45FD-6E47-4155-AB08-7F9B77376B7A",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU36&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 104,
+          "Nej": 1,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU36",
+      "point": "1",
+      "title": "Betänkande SfU36 · förslagspunkt 1",
+      "id": "A68D0D4F-F025-48B3-AAE1-1226B8A1E230",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU36&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU32",
+      "point": "7",
+      "title": "Betänkande SfU32 · förslagspunkt 7",
+      "id": "454C887B-D57A-4A85-8B21-F6E00D5CE3B9",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=7&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU32",
+      "point": "6",
+      "title": "Betänkande SfU32 · förslagspunkt 6",
+      "id": "22CDE4B4-A6F4-4D11-AF17-2853B13E9E79",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=6&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU32",
+      "point": "5",
+      "title": "Betänkande SfU32 · förslagspunkt 5",
+      "id": "E2FB674B-D9BC-4DD9-B75B-A93B0454E94A",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU32",
+      "point": "4",
+      "title": "Betänkande SfU32 · förslagspunkt 4",
+      "id": "3404B131-B3FD-4737-9653-84AF442FBDB7",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU32",
+      "point": "3",
+      "title": "Betänkande SfU32 · förslagspunkt 3",
+      "id": "D1A7466B-ECD1-4B2D-A384-781662911F11",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 17,
+          "Avstår": 1
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU32",
+      "point": "2",
+      "title": "Betänkande SfU32 · förslagspunkt 2",
+      "id": "A8DFAD11-0089-4C3F-92EA-EA89099B1876",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 4,
+          "Avstår": 14
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU32",
+      "point": "1",
+      "title": "Betänkande SfU32 · förslagspunkt 1",
+      "id": "DF74014B-4513-4AB1-9763-5C5655AE0440",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "SfU31",
+      "point": "1",
+      "title": "Betänkande SfU31 · förslagspunkt 1",
+      "id": "0E5ECE08-D143-4FB9-8540-6CB4E31FEF25",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU31&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU27",
+      "point": "6",
+      "title": "Betänkande NU27 · förslagspunkt 6",
+      "id": "45E67630-B76C-4C6E-AE5B-709072DB8CA2",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=6&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU27",
+      "point": "5",
+      "title": "Betänkande NU27 · förslagspunkt 5",
+      "id": "99C816D0-5524-4E7F-8282-3E6AD3EDB81E",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU27",
+      "point": "5",
+      "title": "Betänkande NU27 · förslagspunkt 5",
+      "id": "C5AEC987-963C-485A-A268-9D26A48DC018",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 104,
+          "Frånvarande": 2
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU27",
+      "point": "4",
+      "title": "Betänkande NU27 · förslagspunkt 4",
+      "id": "173BD738-675B-48C9-AF9B-E10FAD1992DC",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU27",
+      "point": "2",
+      "title": "Betänkande NU27 · förslagspunkt 2",
+      "id": "2A07FAA9-36E5-41BA-A0A9-3D310AB1611E",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU27",
+      "point": "1",
+      "title": "Betänkande NU27 · förslagspunkt 1",
+      "id": "0E78A2C4-DD71-476B-AFEF-3131B368B94F",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 104,
+          "Nej": 1,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU25",
+      "point": "4",
+      "title": "Betänkande NU25 · förslagspunkt 4",
+      "id": "E6862E93-8A5F-4023-B904-340B26B70C4D",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU25&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU25",
+      "point": "3",
+      "title": "Betänkande NU25 · förslagspunkt 3",
+      "id": "EB0C4AFF-CC00-4562-BDE3-477B24609969",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU25&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 22,
+          "Ja": 2
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 103,
+          "Frånvarande": 1,
+          "Nej": 2
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU25",
+      "point": "2",
+      "title": "Betänkande NU25 · förslagspunkt 2",
+      "id": "B2940C57-0325-457C-872A-05AB889EB140",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU25&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Avstår": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU24",
+      "point": "2",
+      "title": "Betänkande NU24 · förslagspunkt 2",
+      "id": "8FDBCB3D-8FBC-4DD2-80A2-78DDBEEF9442",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU24&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "NU24",
+      "point": "1",
+      "title": "Betänkande NU24 · förslagspunkt 1",
+      "id": "11110A34-6EF8-49F9-96AF-5B3C8C2FC8B1",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU24&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "MJU24",
+      "point": "5",
+      "title": "Betänkande MJU24 · förslagspunkt 5",
+      "id": "CE87703A-1B27-4996-A02E-988F23C753CF",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU24&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 18,
+          "Ja": 3
+        }
+      },
+      "date": "2026-06-15",
+      "document": "MJU24",
+      "point": "4",
+      "title": "Betänkande MJU24 · förslagspunkt 4",
+      "id": "55B83835-C409-4DC6-AEA1-CD6AE9A207C5",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU24&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "MJU24",
+      "point": "2",
+      "title": "Betänkande MJU24 · förslagspunkt 2",
+      "id": "A0AEB335-FAD9-4C3D-ADE4-24D9934D0506",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU24&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "JuU42",
+      "point": "3",
+      "title": "Betänkande JuU42 · förslagspunkt 3",
+      "id": "56F77B00-3ACD-451A-A296-8E015CD4A513",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU42&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 19,
+          "Nej": 1,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-15",
+      "document": "JuU42",
+      "point": "1",
+      "title": "Betänkande JuU42 · förslagspunkt 1",
+      "id": "3915E3F4-B02A-4DD8-9995-04712821F513",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU42&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "JuU40",
+      "point": "4",
+      "title": "Betänkande JuU40 · förslagspunkt 4",
+      "id": "70F70DFC-12B4-4FBB-A060-5202467F5B63",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU40&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "JuU40",
+      "point": "2",
+      "title": "Betänkande JuU40 · förslagspunkt 2",
+      "id": "0CE98726-7674-4FD4-BA3E-174D2F682415",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU40&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Ja": 19,
+          "Frånvarande": 1,
+          "Nej": 1
+        }
+      },
+      "date": "2026-06-15",
+      "document": "JuU40",
+      "point": "1",
+      "title": "Betänkande JuU40 · förslagspunkt 1",
+      "id": "C3971148-EC97-4C70-8B11-7D4344E2414E",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU40&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 24
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-15",
+      "document": "AU14",
+      "point": "1",
+      "title": "Betänkande AU14 · förslagspunkt 1",
+      "id": "062E0CAB-D202-4FC9-B97F-3C25B1ED16EC",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=AU14&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 17,
+          "Frånvarande": 1
+        },
+        "S": {
+          "Ja": 104,
+          "Frånvarande": 2
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-11",
+      "document": "TU19",
+      "point": "2",
+      "title": "Betänkande TU19 · förslagspunkt 2",
+      "id": "F1E4B348-BF0E-4C5E-877F-F31D8EC656A9",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU19&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 17,
+          "Frånvarande": 1
+        },
+        "S": {
+          "Nej": 104,
+          "Frånvarande": 2
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-11",
+      "document": "TU19",
+      "point": "1",
+      "title": "Betänkande TU19 · förslagspunkt 1",
+      "id": "C1A05CD5-3697-4E2A-B7B3-B2950919936D",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU19&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 17,
+          "Frånvarande": 1
+        },
+        "S": {
+          "Nej": 104,
+          "Frånvarande": 2
+        },
+        "SD": {
+          "Ja": 70
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-11",
+      "document": "SkU29",
+      "point": "2",
+      "title": "Betänkande SkU29 · förslagspunkt 2",
+      "id": "7B477DDA-CBA7-4781-9F72-5F50846866FE",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SkU29&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 22,
+          "Frånvarande": 2
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 69,
+          "Frånvarande": 1
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-06-10",
+      "document": "UU23",
+      "point": "1",
+      "title": "Betänkande UU23 · förslagspunkt 1",
+      "id": "AFC2AC13-F375-49D6-9F67-0C3DB6EBAD04",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU23&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Ja": 21
+        }
+      },
+      "date": "2026-06-10",
+      "document": "UU22",
+      "point": "2",
+      "title": "Betänkande UU22 · förslagspunkt 2",
+      "id": "FC54998B-DAB3-4027-934B-808812094CA2",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU22&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 22,
+          "Frånvarande": 2
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-10",
+      "document": "UU17",
+      "point": "1",
+      "title": "Betänkande UU17 · förslagspunkt 1",
+      "id": "1EF5A7BC-9995-4658-8977-BBDC90B87B91",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU17&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 22,
+          "Frånvarande": 2
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Nej": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Avstår": 21
+        }
+      },
+      "date": "2026-06-10",
+      "document": "UU17",
+      "point": "1",
+      "title": "Betänkande UU17 · förslagspunkt 1",
+      "id": "A5C1A03A-4413-4DF6-8618-2C3446FA7594",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU17&punkt=1&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 22,
+          "Frånvarande": 2
+        },
+        "KD": {
+          "Ja": 19
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 66
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 105,
+          "Frånvarande": 1
+        },
+        "SD": {
+          "Ja": 69,
+          "Frånvarande": 1
+        },
+        "V": {
+          "Nej": 21
+        }
+      },
+      "date": "2026-06-10",
+      "document": "KU41",
+      "point": "4",
+      "title": "Betänkande KU41 · förslagspunkt 4",
+      "id": "717BCCAA-8F84-4E35-981D-72095A5E4B7F",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=KU41&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UbU26",
+      "point": "8",
+      "title": "Betänkande UbU26 · förslagspunkt 8",
+      "id": "6B1CC664-2D16-4E4F-83F7-EB7A79882049",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU26&punkt=8&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UbU26",
+      "point": "6",
+      "title": "Betänkande UbU26 · förslagspunkt 6",
+      "id": "B5766B5F-746D-4FD7-8BBF-76334A9CEF72",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU26&punkt=6&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UbU26",
+      "point": "5",
+      "title": "Betänkande UbU26 · förslagspunkt 5",
+      "id": "488D6FC4-DB19-4C7C-8C7C-069967C7C6C2",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU26&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Ja": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Ja": 18,
+          "Avstår": 1,
+          "Nej": 1,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UbU26",
+      "point": "2",
+      "title": "Betänkande UbU26 · förslagspunkt 2",
+      "id": "729CAD43-6CFA-4B52-9825-35864214EAB8",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU26&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UbU25",
+      "point": "4",
+      "title": "Betänkande UbU25 · förslagspunkt 4",
+      "id": "069697CF-27F5-4234-B159-629E41DDFD36",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU25&punkt=4&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UbU25",
+      "point": "3",
+      "title": "Betänkande UbU25 · förslagspunkt 3",
+      "id": "413694FF-CEC9-47CF-98CD-C82903E91FE5",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU25&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Nej": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UbU25",
+      "point": "2",
+      "title": "Betänkande UbU25 · förslagspunkt 2",
+      "id": "09BCE880-BA35-46A6-8EA1-49CC0EEDD6AD",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU25&punkt=2&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Ja": 18
+        },
+        "S": {
+          "Ja": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UU9",
+      "point": "5",
+      "title": "Betänkande UU9 · förslagspunkt 5",
+      "id": "527FEA79-2C31-4B8C-8164-3A6EB25836F0",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU9&punkt=5&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Nej": 18
+        },
+        "S": {
+          "Ja": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 1
+        }
+      },
+      "date": "2026-06-09",
+      "document": "UU9",
+      "point": "3",
+      "title": "Betänkande UU9 · förslagspunkt 3",
+      "id": "94BF2AF0-2A22-4C0D-A407-2649A898BD81",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU9&punkt=3&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 25
+        },
+        "KD": {
+          "Nej": 22
+        },
+        "L": {
+          "Nej": 19
+        },
+        "M": {
+          "Nej": 70
+        },
+        "MP": {
+          "Nej": 22
+        },
+        "S": {
+          "Nej": 99
+        },
+        "SD": {
+          "Nej": 62
+        },
+        "V": {
+          "Nej": 30
+        }
+      },
+      "date": "",
+      "document": "1103-1",
+      "point": "0",
+      "title": "Betänkande 1103-1 · förslagspunkt 0",
+      "id": "1B990602-1D92-432B-A378-E867376E0A6B",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=1103-1&punkt=0&utformat=HTML"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 25
+        },
+        "KD": {
+          "Nej": 22
+        },
+        "L": {
+          "Nej": 19
+        },
+        "M": {
+          "Nej": 70
+        },
+        "MP": {
+          "Nej": 21,
+          "Frånvarande": 1
+        },
+        "S": {
+          "Ja": 99
+        },
+        "SD": {
+          "Nej": 62
+        },
+        "V": {
+          "Nej": 29,
+          "Frånvarande": 1
+        }
+      },
+      "date": "",
+      "document": "1015-1",
+      "point": "0",
+      "title": "Betänkande 1015-1 · förslagspunkt 0",
+      "id": "3C26FA04-DAA4-4E03-B135-C55FD0B8567F",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=1015-1&punkt=0&utformat=HTML"
+    }
+  ]
 }
