@@ -27,7 +27,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'data' / 'riksdag.json'
 DATASET_BASE = 'https://data.riksdagen.se/dataset/votering/'
-SESSIONS = ('2026/27', '2025/26')
+SESSIONS = ('2026/27', '2025/26', '2024/25')
 PARTIES = {'S', 'M', 'SD', 'V', 'C', 'KD', 'MP', 'L'}
 VOTES = {'Ja', 'Nej', 'Avstår', 'Frånvarande'}
 MAX_PER_SESSION = 125
@@ -136,7 +136,10 @@ def aggregate(rows: list[dict], session: str) -> list[dict]:
         event['source_url'] = source_url(session,event['document'],event['point'])
         output.append(event)
     output.sort(key=lambda r:(r['date'],r['document'],str(r['point'])),reverse=True)
-    return output[:MAX_PER_SESSION]
+    recent = output[:MAX_PER_SESSION]
+    documents = {vote['document'] for vote in recent if vote['document']}
+    related = [vote for vote in output[MAX_PER_SESSION:] if vote['document'] in documents]
+    return recent + related
 
 
 def fetch_json(url: str) -> dict:
@@ -236,7 +239,7 @@ def main():
         'status':'synced',
         'session':', '.join(SESSIONS),
         'source':'https://data.riksdagen.se/dataset/katalog/dataset-votering.html',
-        'note':'Endast registrerade ledamotsröster. Urvalet begränsas till de senaste 125 voteringarna per riksmöte.',
+        'note':'Endast registrerade ledamotsröster. Omfattar de senaste 125 voteringarna per riksmöte samt övriga voteringar i de betänkanden som ingår.',
         'votes':aggregated,
     }
     tmp=OUTPUT.with_suffix('.tmp')
