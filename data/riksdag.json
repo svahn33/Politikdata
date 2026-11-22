@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22 20:50 UTC",
+  "updated": "2026-11-22 20:57 UTC",
   "status": "synced",
   "session": "2026/27, 2025/26",
   "source": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
@@ -40,6 +40,11 @@
           "Frånvarande": 4
         }
       },
+      "totals": {
+        "Nej": 61,
+        "Frånvarande": 17,
+        "Ja": 271
+      },
       "date": "2026-11-18",
       "document": "AU3",
       "point": "2",
@@ -48,7 +53,8 @@
       "session": "2026/27",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=AU3&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01au3/",
-      "point_title": "Principen om likabehandling vid myndigheters beslut"
+      "point_title": "Principen om likabehandling vid myndigheters beslut",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -82,6 +88,11 @@
           "Nej": 30
         }
       },
+      "totals": {
+        "Ja": 292,
+        "Nej": 51,
+        "Frånvarande": 6
+      },
       "date": "2026-11-11",
       "document": "KU9",
       "point": "1",
@@ -90,7 +101,8 @@
       "session": "2026/27",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KU9&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01ku9/",
-      "point_title": "Vilande förslag"
+      "point_title": "Vilande förslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -124,6 +136,11 @@
         "V": {
           "Ja": 30
         }
+      },
+      "totals": {
+        "Ja": 341,
+        "Frånvarande": 7,
+        "Nej": 1
       },
       "date": "2026-11-11",
       "document": "KU6",
@@ -167,6 +184,11 @@
           "Ja": 30
         }
       },
+      "totals": {
+        "Ja": 322,
+        "Frånvarande": 6,
+        "Nej": 21
+      },
       "date": "2026-11-11",
       "document": "KU6",
       "point": "1",
@@ -175,7 +197,8 @@
       "session": "2026/27",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KU6&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01ku6/",
-      "point_title": "Vilande förslag"
+      "point_title": "Vilande förslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -206,6 +229,11 @@
           "Ja": 30
         }
       },
+      "totals": {
+        "Nej": 61,
+        "Ja": 284,
+        "Frånvarande": 4
+      },
       "date": "2026-11-04",
       "document": "KU4",
       "point": "1",
@@ -214,7 +242,8 @@
       "session": "2026/27",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KU4&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01ku4/",
-      "point_title": "Vilande förslag"
+      "point_title": "Vilande förslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -245,6 +274,11 @@
           "Nej": 30
         }
       },
+      "totals": {
+        "Ja": 315,
+        "Nej": 30,
+        "Frånvarande": 4
+      },
       "date": "2026-11-04",
       "document": "FöU2",
       "point": "2",
@@ -253,7 +287,8 @@
       "session": "2026/27",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=F%C3%B6U2&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01f%C3%B6u2/",
-      "point_title": "Villkor för förlängd värnplikt för tidigare yrkes- och reservofficerare"
+      "point_title": "Villkor för förlängd värnplikt för tidigare yrkes- och reservofficerare",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -284,6 +319,11 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 303,
+        "Nej": 44,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "UbU30",
       "point": "7",
@@ -292,7 +332,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU30&punkt=7&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu30/",
-      "point_title": "Utvärdering av lagändringarnas konsekvenser"
+      "point_title": "Utvärdering av lagändringarnas konsekvenser",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -324,6 +365,11 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Nej": 41,
+        "Ja": 306,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "UbU30",
       "point": "6",
@@ -332,7 +378,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU30&punkt=6&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu30/",
-      "point_title": "Undantag från kravet på särredovisning för idéburna organisationer"
+      "point_title": "Undantag från kravet på särredovisning för idéburna organisationer",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -365,6 +412,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 215,
+        "Nej": 131,
+        "Frånvarande": 3
+      },
       "date": "2026-08-13",
       "document": "UbU30",
       "point": "3",
@@ -373,7 +425,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU30&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu30/",
-      "point_title": "Värdeöverföringsförbud utan begränsningar"
+      "point_title": "Värdeöverföringsförbud utan begränsningar",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -404,6 +457,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 199,
+        "Nej": 148,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "UbU30",
       "point": "2",
@@ -412,7 +470,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU30&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu30/",
-      "point_title": "Förbud mot vinstutdelning"
+      "point_title": "Förbud mot vinstutdelning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -444,6 +503,12 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Avstår": 25,
+        "Nej": 18,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "UU24",
       "point": "5",
@@ -452,7 +517,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU24&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu24/",
-      "point_title": "Övriga frågor"
+      "point_title": "Övriga frågor",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -483,6 +549,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Avstår": 3,
+        "Nej": 40,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "UU24",
       "point": "3",
@@ -491,7 +563,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU24&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu24/",
-      "point_title": "Samordning mellan Sveriges underrättelsemyndigheter"
+      "point_title": "Samordning mellan Sveriges underrättelsemyndigheter",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -522,6 +595,12 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 320,
+        "Nej": 24,
+        "Avstår": 3,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "UU24",
       "point": "1",
@@ -530,7 +609,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU24&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu24/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -562,6 +642,12 @@
           "Avstår": 1
         }
       },
+      "totals": {
+        "Ja": 320,
+        "Avstår": 4,
+        "Nej": 23,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SoU40",
       "point": "2",
@@ -570,7 +656,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU40&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou40/",
-      "point_title": "Frågor om tillstånd"
+      "point_title": "Frågor om tillstånd",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -601,6 +688,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 281,
+        "Nej": 66,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SoU40",
       "point": "1",
@@ -609,7 +701,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU40&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou40/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -641,6 +734,12 @@
           "Ja": 2
         }
       },
+      "totals": {
+        "Ja": 284,
+        "Nej": 44,
+        "Avstår": 19,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SoU39",
       "point": "3",
@@ -649,7 +748,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU39&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou39/",
-      "point_title": "Uppföljning och utvärdering av den nya lagen m.m."
+      "point_title": "Uppföljning och utvärdering av den nya lagen m.m.",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -680,6 +780,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Ja": 281,
+        "Nej": 22,
+        "Avstår": 44,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SoU39",
       "point": "2",
@@ -688,7 +794,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU39&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou39/",
-      "point_title": "Utredning om att vilja ta emot stöd från socialtjänsten"
+      "point_title": "Utredning om att vilja ta emot stöd från socialtjänsten",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -719,6 +826,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 281,
+        "Avstår": 23,
+        "Nej": 43,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SoU39",
       "point": "1",
@@ -727,7 +840,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU39&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou39/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -759,6 +873,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Nej": 40,
+        "Avstår": 3,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SoU38",
       "point": "5",
@@ -767,7 +887,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU38&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou38/",
-      "point_title": "Översyn av särskilda befogenheter"
+      "point_title": "Översyn av särskilda befogenheter",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -797,6 +918,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 176,
+        "Nej": 171,
+        "Frånvarande": 2
       },
       "date": "2026-08-13",
       "document": "SoU38",
@@ -806,7 +932,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU38&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou38/",
-      "point_title": "Krav på samtycke från barn som fyllt 15 år"
+      "point_title": "Krav på samtycke från barn som fyllt 15 år",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -836,6 +963,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 282,
+        "Nej": 65,
+        "Frånvarande": 2
       },
       "date": "2026-08-13",
       "document": "SfU37",
@@ -845,7 +977,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=9&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Andra frågor om uppehållstillstånd för unga vuxna"
+      "point_title": "Andra frågor om uppehållstillstånd för unga vuxna",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -876,6 +1009,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 176,
+        "Nej": 171,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SfU37",
       "point": "8",
@@ -884,7 +1022,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=8&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Uppehållstillstånd för unga vuxna i vissa situationer"
+      "point_title": "Uppehållstillstånd för unga vuxna i vissa situationer",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -915,6 +1054,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 281,
+        "Nej": 65,
+        "Frånvarande": 2,
+        "Avstår": 1
+      },
       "date": "2026-08-13",
       "document": "SfU37",
       "point": "7",
@@ -923,7 +1068,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=7&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Familjeåterförening utan biologiskt släktskap"
+      "point_title": "Familjeåterförening utan biologiskt släktskap",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -953,6 +1099,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 176,
+        "Nej": 171,
+        "Frånvarande": 2
       },
       "date": "2026-08-13",
       "document": "SfU37",
@@ -962,7 +1113,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=6&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Möjlighet till uppehållstillstånd"
+      "point_title": "Möjlighet till uppehållstillstånd",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -992,6 +1144,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 176,
+        "Nej": 171,
+        "Frånvarande": 2
       },
       "date": "2026-08-13",
       "document": "SfU37",
@@ -1001,7 +1158,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Försörjningskrav för familjemedlemmar till forskare"
+      "point_title": "Försörjningskrav för familjemedlemmar till forskare",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1031,6 +1189,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 176,
+        "Nej": 171,
+        "Frånvarande": 2
       },
       "date": "2026-08-13",
       "document": "SfU37",
@@ -1040,7 +1203,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Försörjningskrav"
+      "point_title": "Försörjningskrav",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1070,6 +1234,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 176,
+        "Nej": 171,
+        "Frånvarande": 2
       },
       "date": "2026-08-13",
       "document": "SfU37",
@@ -1079,7 +1248,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Krav på vistelsetid"
+      "point_title": "Krav på vistelsetid",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1110,6 +1280,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 171,
+        "Ja": 176,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SfU37",
       "point": "12",
@@ -1118,7 +1293,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=12&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Utvärdering och översyn av lagförslagen"
+      "point_title": "Utvärdering och översyn av lagförslagen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1149,6 +1325,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Nej": 129,
+        "Ja": 176,
+        "Avstår": 42,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "SfU37",
       "point": "1",
@@ -1157,7 +1339,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU37&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu37/",
-      "point_title": "Uppehållstillstånd på grund av anknytning"
+      "point_title": "Uppehållstillstånd på grund av anknytning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1189,6 +1372,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Nej": 42,
+        "Frånvarande": 3
+      },
       "date": "2026-08-13",
       "document": "JuU48",
       "point": "2",
@@ -1197,7 +1385,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU48&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu48/",
-      "point_title": "Ny översyn av brottsbalken"
+      "point_title": "Ny översyn av brottsbalken",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1228,6 +1417,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 171,
+        "Ja": 176,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "JuU48",
       "point": "1",
@@ -1236,7 +1430,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU48&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu48/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1268,6 +1463,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 280,
+        "Frånvarande": 3,
+        "Nej": 66
+      },
       "date": "2026-08-13",
       "document": "JuU41",
       "point": "5",
@@ -1276,7 +1476,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU41&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu41/",
-      "point_title": "Förslag om registrering av en fällande dom i mål om bevistalan"
+      "point_title": "Förslag om registrering av en fällande dom i mål om bevistalan",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1306,6 +1507,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 281,
+        "Nej": 66,
+        "Frånvarande": 2
       },
       "date": "2026-08-13",
       "document": "JuU41",
@@ -1315,7 +1521,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU41&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu41/",
-      "point_title": "Förslag om ungdomsvård"
+      "point_title": "Förslag om ungdomsvård",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1346,6 +1553,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 66,
+        "Ja": 281,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "JuU41",
       "point": "2",
@@ -1354,7 +1566,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU41&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu41/",
-      "point_title": "Sänkt straffbarhetsålder till 14 år för allvarliga brott"
+      "point_title": "Sänkt straffbarhetsålder till 14 år för allvarliga brott",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1386,6 +1599,11 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 343,
+        "Nej": 4,
+        "Frånvarande": 2
+      },
       "date": "2026-08-13",
       "document": "JuU41",
       "point": "1",
@@ -1394,7 +1612,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU41&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu41/",
-      "point_title": "Avslag på propositionen"
+      "point_title": "Avslag på propositionen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1424,6 +1643,11 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 320,
+        "Nej": 27,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "UbU31",
       "point": "2",
@@ -1432,7 +1656,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU31&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu31/",
-      "point_title": "Etikprövningslagens framtida utformning"
+      "point_title": "Etikprövningslagens framtida utformning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1462,6 +1687,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 175,
+        "Nej": 172,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "TU20",
       "point": "9",
@@ -1470,7 +1700,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=9&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Transportsektorns klimatmål"
+      "point_title": "Transportsektorns klimatmål",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1500,6 +1731,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Avstår": 124,
+        "Ja": 199,
+        "Nej": 24,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "TU20",
       "point": "3",
@@ -1508,7 +1745,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Myndighetsstrukturen inom transportområdet"
+      "point_title": "Myndighetsstrukturen inom transportområdet",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1539,6 +1777,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Ja": 176,
+        "Avstår": 147,
+        "Nej": 24,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "TU20",
       "point": "26",
@@ -1547,7 +1791,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=26&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Forskning och innovation"
+      "point_title": "Forskning och innovation",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1576,6 +1821,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 175,
+        "Nej": 172,
+        "Frånvarande": 2
       },
       "date": "2026-06-17",
       "document": "TU20",
@@ -1585,7 +1835,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=24&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Vägbelysningsnätet"
+      "point_title": "Vägbelysningsnätet",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1614,6 +1865,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 175,
+        "Nej": 172,
+        "Frånvarande": 2
       },
       "date": "2026-06-17",
       "document": "TU20",
@@ -1623,7 +1879,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=20&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Nya stambanor"
+      "point_title": "Nya stambanor",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1652,6 +1909,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 175,
+        "Nej": 172,
+        "Frånvarande": 2
       },
       "date": "2026-06-17",
       "document": "TU20",
@@ -1661,7 +1923,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Ansvarsfördelningen inom infrastrukturplaneringen"
+      "point_title": "Ansvarsfördelningen inom infrastrukturplaneringen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1691,6 +1954,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 172,
+        "Ja": 175,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "TU20",
       "point": "18",
@@ -1699,7 +1967,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=18&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Om återtagandet av eftersatt järnvägsunderhåll"
+      "point_title": "Om återtagandet av eftersatt järnvägsunderhåll",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1729,6 +1998,12 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 214,
+        "Nej": 109,
+        "Avstår": 24,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "TU20",
       "point": "15",
@@ -1737,7 +2012,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=15&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Kostnadskontroll, produktivitet och effektivitet"
+      "point_title": "Kostnadskontroll, produktivitet och effektivitet",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1767,6 +2043,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 175,
+        "Nej": 172,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "TU20",
       "point": "11",
@@ -1775,7 +2056,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU20&punkt=11&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu20/",
-      "point_title": "Klimatanpassning av infrastrukturen"
+      "point_title": "Klimatanpassning av infrastrukturen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1805,6 +2087,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 305,
+        "Nej": 42,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "SkU30",
       "point": "2",
@@ -1813,7 +2100,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SkU30&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sku30/",
-      "point_title": "Rättssäker folkbokföring"
+      "point_title": "Rättssäker folkbokföring",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1843,6 +2131,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 321,
+        "Nej": 24,
+        "Frånvarande": 4
+      },
       "date": "2026-06-17",
       "document": "SkU30",
       "point": "1",
@@ -1851,7 +2144,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SkU30&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sku30/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1880,6 +2174,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Nej": 172,
+        "Ja": 175,
+        "Frånvarande": 2
       },
       "date": "2026-06-17",
       "document": "SfU34",
@@ -1889,7 +2188,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU34&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu34/",
-      "point_title": "Kompetensförsörjning och barnperspektivet"
+      "point_title": "Kompetensförsörjning och barnperspektivet",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1919,6 +2219,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 175,
+        "Nej": 172,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "SfU34",
       "point": "2",
@@ -1927,7 +2232,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU34&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu34/",
-      "point_title": "Beslut om förvar"
+      "point_title": "Beslut om förvar",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1957,6 +2263,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Nej": 43,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "SfU34",
       "point": "1",
@@ -1965,7 +2276,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU34&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu34/",
-      "point_title": "Rättssäkerhet m.m."
+      "point_title": "Rättssäkerhet m.m.",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -1995,6 +2307,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 65,
+        "Ja": 279,
+        "Avstår": 2,
+        "Frånvarande": 3
+      },
       "date": "2026-06-17",
       "document": "SfU31",
       "point": "3",
@@ -2003,7 +2321,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU31&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu31/",
-      "point_title": "Barn och andra utsatta personer"
+      "point_title": "Barn och andra utsatta personer",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2034,6 +2353,11 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Nej": 41,
+        "Frånvarande": 4
+      },
       "date": "2026-06-17",
       "document": "SfU31",
       "point": "2",
@@ -2042,7 +2366,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU31&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu31/",
-      "point_title": "Översyn"
+      "point_title": "Översyn",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2071,6 +2396,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Nej": 172,
+        "Ja": 175,
+        "Frånvarande": 2
       },
       "date": "2026-06-17",
       "document": "SfU31",
@@ -2110,6 +2440,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 305,
+        "Nej": 42,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "JuU47",
       "point": "2",
@@ -2118,7 +2453,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU47&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu47/",
-      "point_title": "Utvärdering av den nya lagstiftningen"
+      "point_title": "Utvärdering av den nya lagstiftningen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2148,6 +2484,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 305,
+        "Nej": 24,
+        "Avstår": 18,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "JuU45",
       "point": "1",
@@ -2156,7 +2498,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU45&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu45/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2186,6 +2529,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Nej": 40,
+        "Avstår": 3,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "FöU14",
       "point": "3",
@@ -2194,7 +2543,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U14&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01f%C3%B6u14/",
-      "point_title": "Utförsel av krigsmateriel"
+      "point_title": "Utförsel av krigsmateriel",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2223,6 +2573,12 @@
         "V": {
           "Avstår": 21
         }
+      },
+      "totals": {
+        "Ja": 303,
+        "Nej": 18,
+        "Avstår": 26,
+        "Frånvarande": 2
       },
       "date": "2026-06-17",
       "document": "FöU14",
@@ -2262,6 +2618,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Ja": 322,
+        "Avstår": 21,
+        "Nej": 4,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "FöU14",
       "point": "1",
@@ -2270,7 +2632,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U14&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01f%C3%B6u14/",
-      "point_title": "Avslag på propositionen"
+      "point_title": "Avslag på propositionen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2299,6 +2662,12 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 305,
+        "Nej": 40,
+        "Avstår": 2,
+        "Frånvarande": 2
       },
       "date": "2026-06-17",
       "document": "FiU47",
@@ -2308,7 +2677,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=FiU47&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01fiu47/",
-      "point_title": "Krisstöd till hushåll och företag"
+      "point_title": "Krisstöd till hushåll och företag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2338,6 +2708,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 305,
+        "Nej": 39,
+        "Avstår": 3,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "FiU47",
       "point": "1",
@@ -2346,7 +2722,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=FiU47&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01fiu47/",
-      "point_title": "Extra ändringsbudget för 2026 - Stöd till Ukraina samt stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern"
+      "point_title": "Extra ändringsbudget för 2026 - Stöd till Ukraina samt stöd till hushåll och andra åtgärder med anledning av kriget i Mellanöstern",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2375,6 +2752,11 @@
         "V": {
           "Ja": 21
         }
+      },
+      "totals": {
+        "Ja": 323,
+        "Nej": 24,
+        "Frånvarande": 2
       },
       "date": "2026-06-17",
       "document": "CU40",
@@ -2384,7 +2766,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=CU40&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01cu40/",
-      "point_title": "Lagstiftningens framtida utformning"
+      "point_title": "Lagstiftningens framtida utformning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2414,6 +2797,12 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 321,
+        "Avstår": 2,
+        "Nej": 24,
+        "Frånvarande": 2
+      },
       "date": "2026-06-17",
       "document": "CU40",
       "point": "1",
@@ -2422,7 +2811,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=CU40&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01cu40/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2453,6 +2843,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Ja": 279,
+        "Avstår": 43,
+        "Nej": 24,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "SfU33",
       "point": "2",
@@ -2461,7 +2857,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU33&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu33/",
-      "point_title": "Utlänningar som kom till Sverige innan de fyllde 15 år"
+      "point_title": "Utlänningar som kom till Sverige innan de fyllde 15 år",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2493,6 +2890,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 280,
+        "Avstår": 41,
+        "Nej": 25,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "SfU33",
       "point": "1",
@@ -2501,7 +2904,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU33&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu33/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2534,6 +2938,12 @@
           "Ja": 2
         }
       },
+      "totals": {
+        "Ja": 203,
+        "Avstår": 37,
+        "Nej": 106,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "MJU29",
       "point": "6",
@@ -2542,7 +2952,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU29&punkt=6&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju29/",
-      "point_title": "Konsekvensanalys och uppföljning"
+      "point_title": "Konsekvensanalys och uppföljning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2575,6 +2986,12 @@
           "Avstår": 18
         }
       },
+      "totals": {
+        "Ja": 213,
+        "Avstår": 60,
+        "Frånvarande": 3,
+        "Nej": 73
+      },
       "date": "2026-06-16",
       "document": "MJU29",
       "point": "5",
@@ -2583,7 +3000,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU29&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju29/",
-      "point_title": "Produktionshöjande åtgärder och miljöhänsyn"
+      "point_title": "Produktionshöjande åtgärder och miljöhänsyn",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2615,6 +3033,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 308,
+        "Avstår": 17,
+        "Nej": 21,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "MJU29",
       "point": "2",
@@ -2623,7 +3047,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU29&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju29/",
-      "point_title": "Ett tydligt regelverk för aktivt skogsbruk"
+      "point_title": "Ett tydligt regelverk för aktivt skogsbruk",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2655,6 +3080,12 @@
           "Avstår": 18
         }
       },
+      "totals": {
+        "Ja": 307,
+        "Avstår": 18,
+        "Nej": 21,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "MJU29",
       "point": "1",
@@ -2663,7 +3094,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU29&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju29/",
-      "point_title": "Avslag på propositionen"
+      "point_title": "Avslag på propositionen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2694,6 +3126,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Nej": 42,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "MJU28",
       "point": "4",
@@ -2702,7 +3139,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU28&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju28/",
-      "point_title": "Finansiering av ersättning"
+      "point_title": "Finansiering av ersättning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2733,6 +3171,12 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 319,
+        "Nej": 24,
+        "Avstår": 3,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "MJU28",
       "point": "2",
@@ -2741,7 +3185,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU28&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju28/",
-      "point_title": "Återbetalning av utbetald ersättning"
+      "point_title": "Återbetalning av utbetald ersättning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2772,6 +3217,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Nej": 42,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "KU42",
       "point": "1",
@@ -2780,7 +3230,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=KU42&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ku42/",
-      "point_title": "Ändrad fördelning av ändamål och verksamheter på utgiftsområden"
+      "point_title": "Ändrad fördelning av ändamål och verksamheter på utgiftsområden",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2811,6 +3262,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 174,
+        "Nej": 172,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "KU39",
       "point": "1",
@@ -2819,7 +3275,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=KU39&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ku39/",
-      "point_title": "Ökad insyn i politiska processer"
+      "point_title": "Ökad insyn i politiska processer",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2850,6 +3307,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 303,
+        "Nej": 40,
+        "Avstår": 3,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "FöU19",
       "point": "3",
@@ -2858,7 +3321,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U19&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01f%C3%B6u19/",
-      "point_title": "Kärnkraft och totalförsvaret"
+      "point_title": "Kärnkraft och totalförsvaret",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2889,6 +3353,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 64,
+        "Ja": 279,
+        "Avstår": 3,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "FöU19",
       "point": "2",
@@ -2897,7 +3367,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=F%C3%B6U19&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01f%C3%B6u19/",
-      "point_title": "Kärnkraftsaktörers ansvar för kostnader"
+      "point_title": "Kärnkraftsaktörers ansvar för kostnader",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2928,6 +3399,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 127,
+        "Ja": 198,
+        "Avstår": 21,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "FiU45",
       "point": "2",
@@ -2936,7 +3413,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=FiU45&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01fiu45/",
-      "point_title": "Lagstiftningens framtida utformning"
+      "point_title": "Lagstiftningens framtida utformning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -2968,6 +3446,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 129,
+        "Ja": 217,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "FiU45",
       "point": "1",
@@ -2976,7 +3459,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=FiU45&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01fiu45/",
-      "point_title": "Stickprovsinsamling av uppgifter om hushållens skulder"
+      "point_title": "Stickprovsinsamling av uppgifter om hushållens skulder",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3007,6 +3491,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Ja": 174,
+        "Nej": 124,
+        "Avstår": 48,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "AU13",
       "point": "2",
@@ -3015,7 +3505,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=AU13&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01au13/",
-      "point_title": "Mäns våld mot kvinnor, våld i nära relationer och utnyttjande i prostitution och människohandel"
+      "point_title": "Mäns våld mot kvinnor, våld i nära relationer och utnyttjande i prostitution och människohandel",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3046,6 +3537,12 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 195,
+        "Nej": 124,
+        "Avstår": 27,
+        "Frånvarande": 3
+      },
       "date": "2026-06-16",
       "document": "AU13",
       "point": "1",
@@ -3054,7 +3551,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=AU13&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01au13/",
-      "point_title": "En nationell strategi mot våld, förtryck och utnyttjande"
+      "point_title": "En nationell strategi mot våld, förtryck och utnyttjande",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3086,6 +3584,11 @@
           "Nej": 1
         }
       },
+      "totals": {
+        "Ja": 323,
+        "Nej": 23,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SoU34",
       "point": "9",
@@ -3094,7 +3597,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=9&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou34/",
-      "point_title": "Genomföranderedovisning"
+      "point_title": "Genomföranderedovisning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3124,6 +3628,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 322,
+        "Nej": 24,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SoU34",
       "point": "8",
@@ -3132,7 +3641,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=8&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou34/",
-      "point_title": "En nationell övergångsplan"
+      "point_title": "En nationell övergångsplan",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3161,6 +3671,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Nej": 172,
+        "Ja": 174,
+        "Frånvarande": 3
       },
       "date": "2026-06-15",
       "document": "SoU34",
@@ -3170,7 +3685,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=7&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou34/",
-      "point_title": "En nationell stöd- och samordningsfunktion"
+      "point_title": "En nationell stöd- och samordningsfunktion",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3199,6 +3715,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Nej": 172,
+        "Ja": 174,
+        "Frånvarande": 3
       },
       "date": "2026-06-15",
       "document": "SoU34",
@@ -3208,7 +3729,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=6&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou34/",
-      "point_title": "Finansiering av reformen"
+      "point_title": "Finansiering av reformen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3238,6 +3760,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 172,
+        "Ja": 174,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SoU34",
       "point": "11",
@@ -3246,7 +3773,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SoU34&punkt=11&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sou34/",
-      "point_title": "Uppföljning och utvärdering av reformen"
+      "point_title": "Uppföljning och utvärdering av reformen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3276,6 +3804,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Ja": 174,
+        "Avstår": 148,
+        "Nej": 24,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SfU36",
       "point": "3",
@@ -3284,7 +3818,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU36&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu36/",
-      "point_title": "Vandelsprövningen"
+      "point_title": "Vandelsprövningen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3314,6 +3849,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Nej": 130,
+        "Ja": 174,
+        "Avstår": 42,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SfU36",
       "point": "2",
@@ -3322,7 +3863,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU36&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu36/",
-      "point_title": "Begreppet vandel"
+      "point_title": "Begreppet vandel",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3353,6 +3895,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 302,
+        "Nej": 44,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SfU36",
       "point": "1",
@@ -3361,7 +3908,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU36&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu36/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3390,6 +3938,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 304,
+        "Nej": 42,
+        "Frånvarande": 3
       },
       "date": "2026-06-15",
       "document": "SfU32",
@@ -3399,7 +3952,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=7&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu32/",
-      "point_title": "Uppföljning av lagförslagets konsekvenser m.m."
+      "point_title": "Uppföljning av lagförslagets konsekvenser m.m.",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3428,6 +3982,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 303,
+        "Nej": 43,
+        "Frånvarande": 3
       },
       "date": "2026-06-15",
       "document": "SfU32",
@@ -3437,7 +3996,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=6&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu32/",
-      "point_title": "Rätt till offentligt biträde"
+      "point_title": "Rätt till offentligt biträde",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3466,6 +4026,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Nej": 172,
+        "Ja": 174,
+        "Frånvarande": 3
       },
       "date": "2026-06-15",
       "document": "SfU32",
@@ -3475,7 +4040,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu32/",
-      "point_title": "Omhändertagande av elektronisk kommunikationsutrustning"
+      "point_title": "Omhändertagande av elektronisk kommunikationsutrustning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3505,6 +4071,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 172,
+        "Ja": 174,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SfU32",
       "point": "4",
@@ -3513,7 +4084,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu32/",
-      "point_title": "Ansvaret för att uppgifter lämnas ut och behandlingen av sidoinformation"
+      "point_title": "Ansvaret för att uppgifter lämnas ut och behandlingen av sidoinformation",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3543,6 +4115,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 304,
+        "Nej": 42,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SfU32",
       "point": "3",
@@ -3551,7 +4128,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu32/",
-      "point_title": "Lagförslaget i övrigt"
+      "point_title": "Lagförslaget i övrigt",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3582,6 +4160,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 174,
+        "Nej": 171,
+        "Avstår": 1,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "SfU32",
       "point": "2",
@@ -3590,7 +4174,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu32/",
-      "point_title": "Nya uppgiftsskyldigheter"
+      "point_title": "Nya uppgiftsskyldigheter",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3621,6 +4206,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Ja": 308,
+        "Avstår": 35,
+        "Frånvarande": 3,
+        "Nej": 3
+      },
       "date": "2026-06-15",
       "document": "SfU32",
       "point": "1",
@@ -3629,7 +4220,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SfU32&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sfu32/",
-      "point_title": "Avslag på propositionen"
+      "point_title": "Avslag på propositionen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3658,6 +4250,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 174,
+        "Nej": 172,
+        "Frånvarande": 3
       },
       "date": "2026-06-15",
       "document": "SfU31",
@@ -3697,6 +4294,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 172,
+        "Ja": 174,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "NU27",
       "point": "6",
@@ -3705,7 +4307,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=6&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu27/",
-      "point_title": "Kommunalt inflytande när det gäller brytning i alunskiffer"
+      "point_title": "Kommunalt inflytande när det gäller brytning i alunskiffer",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3735,6 +4338,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 279,
+        "Nej": 67,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "NU27",
       "point": "5",
@@ -3743,7 +4351,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu27/",
-      "point_title": "Förbud mot brytning i alunskiffer"
+      "point_title": "Förbud mot brytning i alunskiffer",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3772,6 +4381,12 @@
         "V": {
           "Avstår": 21
         }
+      },
+      "totals": {
+        "Ja": 174,
+        "Nej": 106,
+        "Avstår": 66,
+        "Frånvarande": 3
       },
       "date": "2026-06-15",
       "document": "NU27",
@@ -3811,6 +4426,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 302,
+        "Nej": 43,
+        "Frånvarande": 4
+      },
       "date": "2026-06-15",
       "document": "NU27",
       "point": "4",
@@ -3819,7 +4439,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu27/",
-      "point_title": "Förbud mot utvinning av uran"
+      "point_title": "Förbud mot utvinning av uran",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3849,6 +4470,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 174,
+        "Nej": 172,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "NU27",
       "point": "2",
@@ -3857,7 +4483,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu27/",
-      "point_title": "Kommunalt inflytande när det gäller utvinning av kärnämnen"
+      "point_title": "Kommunalt inflytande när det gäller utvinning av kärnämnen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3887,6 +4514,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 280,
+        "Nej": 66,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "NU27",
       "point": "1",
@@ -3895,7 +4527,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU27&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu27/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3926,6 +4559,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 303,
+        "Nej": 43,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "NU25",
       "point": "4",
@@ -3934,7 +4572,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU25&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu25/",
-      "point_title": "Energigemenskaper"
+      "point_title": "Energigemenskaper",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -3964,6 +4603,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 198,
+        "Nej": 148,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "NU25",
       "point": "3",
@@ -3972,7 +4616,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU25&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu25/",
-      "point_title": "Anvisade elavtal"
+      "point_title": "Anvisade elavtal",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4004,6 +4649,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 280,
+        "Nej": 66,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "NU25",
       "point": "2",
@@ -4012,7 +4662,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU25&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu25/",
-      "point_title": "Flexibilitet och obalanser"
+      "point_title": "Flexibilitet och obalanser",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4042,6 +4693,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 216,
+        "Avstår": 106,
+        "Nej": 24,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "NU24",
       "point": "2",
@@ -4050,7 +4707,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU24&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu24/",
-      "point_title": "Områden för kärnkraft och havsvindkraft"
+      "point_title": "Områden för kärnkraft och havsvindkraft",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4079,6 +4737,11 @@
         "V": {
           "Nej": 21
         }
+      },
+      "totals": {
+        "Ja": 174,
+        "Nej": 172,
+        "Frånvarande": 3
       },
       "date": "2026-06-15",
       "document": "NU24",
@@ -4088,7 +4751,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=NU24&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01nu24/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4118,6 +4782,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 172,
+        "Ja": 174,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "MJU24",
       "point": "5",
@@ -4126,7 +4795,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU24&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju24/",
-      "point_title": "Myndighetens organisation, kompetensförsörjning och finansiering"
+      "point_title": "Myndighetens organisation, kompetensförsörjning och finansiering",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4157,6 +4827,12 @@
           "Ja": 3
         }
       },
+      "totals": {
+        "Ja": 301,
+        "Nej": 24,
+        "Avstår": 21,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "MJU24",
       "point": "4",
@@ -4165,7 +4841,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU24&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju24/",
-      "point_title": "Myndighetens uppdrag"
+      "point_title": "Myndighetens uppdrag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4195,6 +4872,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 322,
+        "Nej": 24,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "MJU24",
       "point": "2",
@@ -4203,7 +4885,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=MJU24&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01mju24/",
-      "point_title": "Ny myndighet för miljöprövning"
+      "point_title": "Ny myndighet för miljöprövning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4234,6 +4917,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Nej": 106,
+        "Ja": 192,
+        "Avstår": 47,
+        "Frånvarande": 4
+      },
       "date": "2026-06-15",
       "document": "JuU42",
       "point": "3",
@@ -4242,7 +4931,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU42&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu42/",
-      "point_title": "Skärpta straff m.m."
+      "point_title": "Skärpta straff m.m.",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4274,6 +4964,12 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Avstår": 25,
+        "Ja": 299,
+        "Nej": 21,
+        "Frånvarande": 4
+      },
       "date": "2026-06-15",
       "document": "JuU42",
       "point": "1",
@@ -4282,7 +4978,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU42&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu42/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4312,6 +5009,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 216,
+        "Nej": 130,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "JuU40",
       "point": "4",
@@ -4320,7 +5022,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU40&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu40/",
-      "point_title": "Undantag för tvingande samhällsintresse"
+      "point_title": "Undantag för tvingande samhällsintresse",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4350,6 +5053,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Nej": 172,
+        "Ja": 174,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "JuU40",
       "point": "2",
@@ -4358,7 +5066,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU40&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu40/",
-      "point_title": "Missbruk av offentlig ställning"
+      "point_title": "Missbruk av offentlig ställning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4390,6 +5099,11 @@
           "Nej": 1
         }
       },
+      "totals": {
+        "Ja": 323,
+        "Nej": 22,
+        "Frånvarande": 4
+      },
       "date": "2026-06-15",
       "document": "JuU40",
       "point": "1",
@@ -4398,7 +5112,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=JuU40&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01juu40/",
-      "point_title": "Avslag på propositionen"
+      "point_title": "Avslag på propositionen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4428,6 +5143,12 @@
           "Avstår": 21
         }
       },
+      "totals": {
+        "Ja": 198,
+        "Nej": 106,
+        "Avstår": 42,
+        "Frånvarande": 3
+      },
       "date": "2026-06-15",
       "document": "AU14",
       "point": "1",
@@ -4436,7 +5157,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=AU14&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01au14/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4468,6 +5190,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 320,
+        "Nej": 24,
+        "Frånvarande": 5
+      },
       "date": "2026-06-11",
       "document": "TU19",
       "point": "2",
@@ -4476,7 +5203,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU19&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu19/",
-      "point_title": "Önskemål om ytterligare utredning"
+      "point_title": "Önskemål om ytterligare utredning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4508,6 +5236,11 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 198,
+        "Nej": 146,
+        "Frånvarande": 5
+      },
       "date": "2026-06-11",
       "document": "TU19",
       "point": "1",
@@ -4516,7 +5249,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=TU19&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01tu19/",
-      "point_title": "Regeringens lagförslag"
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4549,6 +5283,11 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Nej": 168,
+        "Ja": 175,
+        "Frånvarande": 6
+      },
       "date": "2026-06-11",
       "document": "SkU29",
       "point": "2",
@@ -4557,7 +5296,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=SkU29&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01sku29/",
-      "point_title": "Koncernintern uthyrning"
+      "point_title": "Koncernintern uthyrning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4589,6 +5329,12 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 323,
+        "Nej": 21,
+        "Frånvarande": 4,
+        "Avstår": 1
+      },
       "date": "2026-06-10",
       "document": "UU23",
       "point": "1",
@@ -4597,7 +5343,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU23&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu23/",
-      "point_title": "Avtal om fördjupat partnerskap och samarbete mellan Europeiska unionen och dess medlemsstater, å ena sidan, och Republiken Kirgizistan, å andra sidan"
+      "point_title": "Avtal om fördjupat partnerskap och samarbete mellan Europeiska unionen och dess medlemsstater, å ena sidan, och Republiken Kirgizistan, å andra sidan",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4629,6 +5376,12 @@
           "Ja": 21
         }
       },
+      "totals": {
+        "Ja": 321,
+        "Frånvarande": 6,
+        "Nej": 21,
+        "Avstår": 1
+      },
       "date": "2026-06-10",
       "document": "UU22",
       "point": "2",
@@ -4637,7 +5390,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU22&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu22/",
-      "point_title": "Demokrati, mänskliga rättigheter och rättsstatens principer"
+      "point_title": "Demokrati, mänskliga rättigheter och rättsstatens principer",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4669,6 +5423,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 278,
+        "Nej": 43,
+        "Avstår": 23,
+        "Frånvarande": 5
+      },
       "date": "2026-06-10",
       "document": "UU17",
       "point": "1",
@@ -4677,7 +5437,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU17&punkt=1&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu17/",
-      "point_title": "Riksrevisionens granskning av det humanitära biståndet"
+      "point_title": "Riksrevisionens granskning av det humanitära biståndet",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4708,6 +5469,12 @@
         "V": {
           "Avstår": 21
         }
+      },
+      "totals": {
+        "Avstår": 65,
+        "Nej": 106,
+        "Ja": 173,
+        "Frånvarande": 5
       },
       "date": "2026-06-10",
       "document": "UU17",
@@ -4749,6 +5516,12 @@
           "Nej": 21
         }
       },
+      "totals": {
+        "Ja": 299,
+        "Avstår": 22,
+        "Nej": 24,
+        "Frånvarande": 4
+      },
       "date": "2026-06-10",
       "document": "KU41",
       "point": "4",
@@ -4757,7 +5530,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=KU41&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ku41/",
-      "point_title": "Konsekvensanalyser m.m. i lagstiftningsprocessen"
+      "point_title": "Konsekvensanalyser m.m. i lagstiftningsprocessen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4790,6 +5564,11 @@
           "Nej": 20,
           "Frånvarande": 1
         }
+      },
+      "totals": {
+        "Nej": 171,
+        "Ja": 172,
+        "Frånvarande": 6
       },
       "date": "2026-06-09",
       "document": "UbU26",
@@ -4799,7 +5578,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU26&punkt=8&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu26/",
-      "point_title": "Betygssystemets anpassning till komvux"
+      "point_title": "Betygssystemets anpassning till komvux",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4832,6 +5612,11 @@
           "Nej": 20,
           "Frånvarande": 1
         }
+      },
+      "totals": {
+        "Nej": 171,
+        "Ja": 172,
+        "Frånvarande": 6
       },
       "date": "2026-06-09",
       "document": "UbU26",
@@ -4841,7 +5626,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU26&punkt=6&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu26/",
-      "point_title": "Genomförande, uppföljning och utvärdering"
+      "point_title": "Genomförande, uppföljning och utvärdering",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4875,6 +5661,11 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Nej": 171,
+        "Ja": 172,
+        "Frånvarande": 6
+      },
       "date": "2026-06-09",
       "document": "UbU26",
       "point": "5",
@@ -4883,7 +5674,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU26&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu26/",
-      "point_title": "Digitala nationella slutprov"
+      "point_title": "Digitala nationella slutprov",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4919,6 +5711,12 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Ja": 297,
+        "Nej": 24,
+        "Avstår": 22,
+        "Frånvarande": 6
+      },
       "date": "2026-06-09",
       "document": "UbU26",
       "point": "2",
@@ -4927,7 +5725,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU26&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu26/",
-      "point_title": "Urval till vidare studier"
+      "point_title": "Urval till vidare studier",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -4961,6 +5760,11 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Nej": 151,
+        "Ja": 192,
+        "Frånvarande": 6
+      },
       "date": "2026-06-09",
       "document": "UbU25",
       "point": "4",
@@ -4969,7 +5773,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU25&punkt=4&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu25/",
-      "point_title": "Konsekvenser för lärarbristen"
+      "point_title": "Konsekvenser för lärarbristen",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -5003,6 +5808,11 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Nej": 171,
+        "Ja": 172,
+        "Frånvarande": 6
+      },
       "date": "2026-06-09",
       "document": "UbU25",
       "point": "3",
@@ -5011,7 +5821,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU25&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu25/",
-      "point_title": "Ekonomiska konsekvenser"
+      "point_title": "Ekonomiska konsekvenser",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -5045,6 +5856,12 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Ja": 192,
+        "Nej": 148,
+        "Avstår": 3,
+        "Frånvarande": 6
+      },
       "date": "2026-06-09",
       "document": "UbU25",
       "point": "2",
@@ -5053,7 +5870,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UbU25&punkt=2&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01ubu25/",
-      "point_title": "Dialog med arbetsmarknadens parter"
+      "point_title": "Dialog med arbetsmarknadens parter",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -5087,6 +5905,11 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Ja": 339,
+        "Frånvarande": 6,
+        "Nej": 4
+      },
       "date": "2026-06-09",
       "document": "UU9",
       "point": "5",
@@ -5095,7 +5918,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU9&punkt=5&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu9/",
-      "point_title": "Motioner som bereds förenklat"
+      "point_title": "Motioner som bereds förenklat",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -5129,6 +5953,12 @@
           "Frånvarande": 1
         }
       },
+      "totals": {
+        "Ja": 321,
+        "Frånvarande": 6,
+        "Nej": 21,
+        "Avstår": 1
+      },
       "date": "2026-06-09",
       "document": "UU9",
       "point": "3",
@@ -5137,7 +5967,8 @@
       "session": "2025/26",
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU9&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu9/",
-      "point_title": "Skrivelsens framtida utformning"
+      "point_title": "Skrivelsens framtida utformning",
+      "decision": "committee_approved"
     },
     {
       "party_votes": {
@@ -5165,6 +5996,10 @@
         "V": {
           "Nej": 30
         }
+      },
+      "totals": {
+        "Ja": 25,
+        "Nej": 324
       },
       "date": "",
       "document": "1103-1",
@@ -5202,6 +6037,11 @@
           "Nej": 29,
           "Frånvarande": 1
         }
+      },
+      "totals": {
+        "Ja": 99,
+        "Nej": 248,
+        "Frånvarande": 2
       },
       "date": "",
       "document": "1015-1",
