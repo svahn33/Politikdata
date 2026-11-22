@@ -140,6 +140,24 @@ function renderTopics(){
 function voteDesignation(v){
   return [v.session, v.document].filter(Boolean).join(':');
 }
+function voteResult(v){
+  const decision = {
+    committee_approved: 'Kammaren biföll utskottets förslag',
+    alternative_approved: 'Kammaren biföll ett motförslag'
+  }[v.decision] || 'Beslut för den här voteringen saknas';
+  const totals = v.totals || {};
+  const yes = totals.Ja || 0;
+  const no = totals.Nej || 0;
+  const yesShare = yes + no ? 100 * yes / (yes + no) : 0;
+  return `<div class="vote-result" style="margin:12px 0">
+    <p class="semibold">${decision}</p>
+    ${v.totals ? `<p class="small muted">Ja ${fmt(yes)} · Nej ${fmt(no)} · Avstod ${fmt(totals.Avstår || 0)} · Frånvarande ${fmt(totals.Frånvarande || 0)}</p>
+      ${yes + no ? `<div aria-hidden="true" style="display:flex;height:10px;border-radius:5px;overflow:hidden;margin-top:5px">
+        <span style="width:${yesShare}%;background:#267457"></span>
+        <span style="flex:1;background:#a4474e"></span>
+      </div><p class="micro muted">Stapeln visar fördelningen mellan ja och nej.</p>` : ''}` : ''}
+  </div>`;
+}
 function summarizeVote(v){
   const p=state.voteParty!=='Alla'?state.voteParty:null;
   const shown= p ? [p] : store.parties.map(e=>e.id);
@@ -150,6 +168,7 @@ function summarizeVote(v){
   return `<article class="panel vote-item"><div class="vote-item-top"><span class="pill blue">${esc(designation || 'Riksmöte')}</span><span class="micro muted">${esc(v.date||'Datum ej angivet')}</span></div>
     <h3>${documentUrl==='#' ? title : `<a href="${documentUrl}" class="linkish" target="_blank" rel="noopener noreferrer">${title} <span aria-hidden="true">↗</span></a>`}</h3>
     <p class="micro muted">Förslagspunkt ${esc(v.point||'okänd')}${pointTitle} · Protokollförd omröstning, inte en klassificerad partiståndpunkt.</p>
+    ${voteResult(v)}
     <div class="vote-counts">${shown.map(id=>{
       const counts=v.party_votes?.[id]; if(!counts)return '';
       return `<span class="party-result">${partyBadge(partyById(id))} ${Object.entries(counts).filter(([k,n])=>n>0).map(([k,n])=>`${esc(k)} ${fmt(n)}`).join(' · ')}</span>`;
