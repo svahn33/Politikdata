@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta name="description" content="Politikdata är en oberoende faktaplattform för att jämföra svenska partier, valresultat och dokumenterad politik med tydliga källor.">
+  <title>Politikdata – Svensk politik, med källan i fokus</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script defer src="./assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Hoppa till innehåll</a>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#oversikt" aria-label="Politikdata, till översikten">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>politik<span class="brand-end">data</span><span class="brand-dot">.</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Huvudnavigation">
+          <a href="#oversikt" data-nav="oversikt">Översikt</a>
+          <a href="#jamfor" data-nav="jamfor">Jämför</a>
+          <a href="#sakfragor" data-nav="sakfragor">Sakfrågor</a>
+          <a href="#riksdagen" data-nav="riksdagen">Riksdagen</a>
+          <a href="#historik" data-nav="historik">Historik</a>
+          <a href="#partier" data-nav="partier">Partier</a>
+        </nav>
+        <a class="header-method" href="#metodik">Källor & metodik <span aria-hidden="true">↗</span></a>
+        <button class="mobile-menu-button" id="menu-button" aria-label="Öppna meny" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
+      </div>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobilnavigation" hidden>
+        <a href="#oversikt">Översikt</a><a href="#jamfor">Jämför partier</a><a href="#sakfragor">Sakfrågor</a><a href="#riksdagen">Riksdagen</a><a href="#historik">Historik</a><a href="#partier">Partier</a><a href="#metodik">Källor & metodik</a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="loading-stage"><div class="spinner" aria-hidden="true"></div> Läser faktaunderlaget …</div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div><a class="brand small-brand" href="#oversikt">politik<span class="brand-end">data</span><span class="brand-dot">.</span></a><p>Oberoende faktaunderlag. Inga partirankningar, inga rekommendationer.</p></div>
+        <div class="footer-links"><a href="#metodik">Källor och metodik</a><a href="https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/" target="_blank" rel="noopener noreferrer">Riksdagens öppna data ↗</a><a href="https://www.val.se/valresultat-och-statistik" target="_blank" rel="noopener noreferrer">Valmyndigheten ↗</a></div>
+        <div class="footer-note">Detta är en självständig tjänst och representerar inte Sveriges riksdag, Valmyndigheten eller något politiskt parti.<br><span id="footer-date"></span></div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

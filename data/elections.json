@@ -1,0 +1,21 @@
+{
+  "updated": "2026-11-22",
+  "source": {
+    "2022": "https://www.val.se/valresultat-och-statistik/riksdags--region--och-kommunval/valresultat-2022",
+    "2026": "https://www.val.se/valresultat-och-statistik/riksdags--region--och-kommunval/valresultat-2026?view=final"
+  },
+  "scope": "Slutliga riksdagsval. Andel giltiga röster i procent. Mandat enligt valmyndighetens slutresultat.",
+  "years": [
+    2022,
+    2026
+  ],
+  "turnout": {
+    "2022": 84.21,
+    "2026": 84.9
+  },
+  "electorate": {
+    "2022": 7775390,
+    "2026": 8051355
+  },
+  "seats_total": 349
+}

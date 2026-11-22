@@ -1,0 +1,134 @@
+{
+  "updated": "2026-11-22",
+  "source": "https://www.val.se/valresultat-och-statistik/riksdags--region--och-kommunval/valresultat-2026?view=final",
+  "parties": [
+    {
+      "id": "C",
+      "name": "Centerpartiet",
+      "color": "#148b50",
+      "website": "https://www.centerpartiet.se",
+      "elections": {
+        "2022": {
+          "share": 6.71,
+          "seats": 24
+        },
+        "2026": {
+          "share": 7.03,
+          "seats": 25
+        }
+      }
+    },
+    {
+      "id": "KD",
+      "name": "Kristdemokraterna",
+      "color": "#174783",
+      "website": "https://kristdemokraterna.se",
+      "elections": {
+        "2022": {
+          "share": 5.34,
+          "seats": 19
+        },
+        "2026": {
+          "share": 6.17,
+          "seats": 22
+        }
+      }
+    },
+    {
+      "id": "L",
+      "name": "Liberalerna",
+      "color": "#247db3",
+      "website": "https://www.liberalerna.se",
+      "elections": {
+        "2022": {
+          "share": 4.61,
+          "seats": 16
+        },
+        "2026": {
+          "share": 5.34,
+          "seats": 19
+        }
+      }
+    },
+    {
+      "id": "MP",
+      "name": "Miljöpartiet",
+      "color": "#61a44a",
+      "website": "https://www.mp.se",
+      "elections": {
+        "2022": {
+          "share": 5.08,
+          "seats": 18
+        },
+        "2026": {
+          "share": 6.12,
+          "seats": 22
+        }
+      }
+    },
+    {
+      "id": "M",
+      "name": "Moderaterna",
+      "color": "#46a7d9",
+      "website": "https://moderaterna.se",
+      "elections": {
+        "2022": {
+          "share": 19.1,
+          "seats": 68
+        },
+        "2026": {
+          "share": 19.85,
+          "seats": 70
+        }
+      }
+    },
+    {
+      "id": "S",
+      "name": "Socialdemokraterna",
+      "color": "#df3945",
+      "website": "https://www.socialdemokraterna.se",
+      "elections": {
+        "2022": {
+          "share": 30.33,
+          "seats": 107
+        },
+        "2026": {
+          "share": 28.02,
+          "seats": 99
+        }
+      }
+    },
+    {
+      "id": "SD",
+      "name": "Sverigedemokraterna",
+      "color": "#caa52a",
+      "website": "https://www.sd.se",
+      "elections": {
+        "2022": {
+          "share": 20.54,
+          "seats": 73
+        },
+        "2026": {
+          "share": 17.48,
+          "seats": 62
+        }
+      }
+    },
+    {
+      "id": "V",
+      "name": "Vänsterpartiet",
+      "color": "#b72d37",
+      "website": "https://www.vansterpartiet.se",
+      "elections": {
+        "2022": {
+          "share": 6.75,
+          "seats": 24
+        },
+        "2026": {
+          "share": 8.4,
+          "seats": 30
+        }
+      }
+    }
+  ]
+}

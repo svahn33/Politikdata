@@ -1,0 +1,7 @@
+{
+  "updated": null,
+  "status": "not_synced",
+  "session": null,
+  "votes": [],
+  "note": "Ingen lokal voteringsdata har hämtats. Kör GitHub Actions-flödet Synka riksdagsdata."
+}
