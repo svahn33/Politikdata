@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-22 20:57 UTC",
+  "updated": "2026-11-22 21:23 UTC",
   "status": "synced",
-  "session": "2026/27, 2025/26",
+  "session": "2026/27, 2025/26, 2024/25",
   "source": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
-  "note": "Endast registrerade ledamotsröster. Urvalet begränsas till de senaste 125 voteringarna per riksmöte.",
+  "note": "Endast registrerade ledamotsröster. Omfattar de senaste 125 voteringarna per riksmöte samt övriga voteringar i de betänkanden som ingår.",
   "votes": [
     {
       "party_votes": {
@@ -5968,6 +5968,6599 @@
       "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU9&punkt=3&utformat=HTML",
       "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu9/",
       "point_title": "Skrivelsens framtida utformning",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 23,
+          "Frånvarande": 1
+        },
+        "KD": {
+          "Ja": 18,
+          "Frånvarande": 1
+        },
+        "L": {
+          "Ja": 16
+        },
+        "M": {
+          "Ja": 65,
+          "Frånvarande": 1
+        },
+        "MP": {
+          "Avstår": 18
+        },
+        "S": {
+          "Nej": 106
+        },
+        "SD": {
+          "Ja": 68,
+          "Frånvarande": 2
+        },
+        "V": {
+          "Avstår": 19,
+          "Nej": 1,
+          "Frånvarande": 1
+        }
+      },
+      "totals": {
+        "Ja": 195,
+        "Avstår": 40,
+        "Nej": 108,
+        "Frånvarande": 6
+      },
+      "date": "2026-06-09",
+      "document": "UU9",
+      "point": "2",
+      "title": "Strategisk exportkontroll 2025 – krigsmateriel och produkter med dubbla användningsområden",
+      "id": "A60F1B81-790E-45C5-8B03-70B593118675",
+      "session": "2025/26",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2025%2F26&bet=UU9&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hd01uu9/",
+      "point_title": "Tillämpning av regelverket",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Avstår": 20
+        }
+      },
+      "totals": {
+        "Ja": 153,
+        "Nej": 93,
+        "Frånvarande": 48,
+        "Avstår": 55
+      },
+      "date": "2025-06-18",
+      "document": "UbU17",
+      "point": "3",
+      "title": "En tioårig grundskola",
+      "id": "0727DE0C-3532-4D73-90F8-5BEC82C0FEC2",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU17&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu17/",
+      "point_title": "Fortbildning, validering och behörighet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Avstår": 93,
+        "Ja": 173,
+        "Frånvarande": 48,
+        "Nej": 35
+      },
+      "date": "2025-06-18",
+      "document": "UbU17",
+      "point": "2",
+      "title": "En tioårig grundskola",
+      "id": "3278F8D2-8462-462A-9F0A-A81042CBE35D",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU17&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu17/",
+      "point_title": "Förskolans pedagogik",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 4,
+          "Avstår": 20
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Ja": 15
+        },
+        "S": {
+          "Nej": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Avstår": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 20
+        }
+      },
+      "totals": {
+        "Nej": 93,
+        "Frånvarande": 48,
+        "Ja": 124,
+        "Avstår": 84
+      },
+      "date": "2025-06-18",
+      "document": "TU15",
+      "point": "6",
+      "title": "Sjöfartsfrågor",
+      "id": "64B081DB-FB74-4D20-BE5B-4A14EE789A2A",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU15&punkt=6&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu15/",
+      "point_title": "Vissa frågor om hamnar",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Avstår": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 109,
+        "Nej": 35,
+        "Avstår": 157,
+        "Frånvarande": 48
+      },
+      "date": "2025-06-18",
+      "document": "TU15",
+      "point": "5",
+      "title": "Sjöfartsfrågor",
+      "id": "AFC24D0B-EDFC-46D7-BAC0-3C49A5C50CF1",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU15&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu15/",
+      "point_title": "Främjande av inlands- och kustsjöfarten",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 3,
+          "Avstår": 1
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Avstår": 62,
+          "Frånvarande": 9,
+          "Ja": 1
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 20
+        }
+      },
+      "totals": {
+        "Ja": 109,
+        "Avstår": 172,
+        "Frånvarande": 48,
+        "Nej": 20
+      },
+      "date": "2025-06-18",
+      "document": "TU15",
+      "point": "3",
+      "title": "Sjöfartsfrågor",
+      "id": "3924D02C-6BC8-41D4-A5C5-44E947A2C995",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU15&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu15/",
+      "point_title": "Farledsavgifter, hamnavgifter och lotsning",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 173,
+        "Avstår": 108,
+        "Frånvarande": 48,
+        "Nej": 20
+      },
+      "date": "2025-06-18",
+      "document": "TU15",
+      "point": "10",
+      "title": "Sjöfartsfrågor",
+      "id": "A59F6748-CD73-4C1F-8453-A074FE5BD400",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU15&punkt=10&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu15/",
+      "point_title": "Gotlandstrafiken",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Frånvarande": 3,
+          "Ja": 16
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 9,
+          "Ja": 59
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Avstår": 15
+        },
+        "S": {
+          "Nej": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Avstår": 20
+        }
+      },
+      "totals": {
+        "Nej": 93,
+        "Frånvarande": 48,
+        "Avstår": 55,
+        "Ja": 153
+      },
+      "date": "2025-06-18",
+      "document": "FiU20",
+      "point": "1",
+      "title": "Riktlinjer för den ekonomiska politiken och budgetpolitiken",
+      "id": "BE89FC1E-EBF0-448F-8A41-C2A9F759954C",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=FiU20&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01fiu20/",
+      "point_title": "Riktlinjer för den ekonomiska politiken och budgetpolitiken",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Ja": 15
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 20
+        }
+      },
+      "totals": {
+        "Nej": 94,
+        "Ja": 188,
+        "Frånvarande": 46,
+        "Avstår": 21
+      },
+      "date": "2025-06-17",
+      "document": "UbU14",
+      "point": "5",
+      "title": "Högskolan",
+      "id": "4E171D85-F37F-40F4-8469-7813439AA650",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU14&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu14/",
+      "point_title": "Utbildningsformer",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Avstår": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Nej": 20
+        }
+      },
+      "totals": {
+        "Ja": 219,
+        "Avstår": 64,
+        "Frånvarande": 46,
+        "Nej": 20
+      },
+      "date": "2025-06-17",
+      "document": "UbU14",
+      "point": "4",
+      "title": "Högskolan",
+      "id": "BDFDC819-C0B3-4C27-8B90-481E9424F520",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU14&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu14/",
+      "point_title": "Samarbete med vissa länder",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 9,
+          "Ja": 59
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Ja": 15
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 9,
+          "Nej": 63
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Frånvarande": 46,
+        "Ja": 219,
+        "Avstår": 20,
+        "Nej": 64
+      },
+      "date": "2025-06-17",
+      "document": "UbU14",
+      "point": "3",
+      "title": "Högskolan",
+      "id": "15C12D0B-CBD1-4033-8B48-3F6E25A049C5",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU14&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu14/",
+      "point_title": "Yttrandefrihet m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Nej": 15
+        },
+        "S": {
+          "Avstår": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Avstår": 115,
+        "Ja": 173,
+        "Frånvarande": 46,
+        "Nej": 15
+      },
+      "date": "2025-06-17",
+      "document": "UbU14",
+      "point": "11",
+      "title": "Högskolan",
+      "id": "D8B30FE1-1B46-4C56-9394-DA31B58B3126",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU14&punkt=11&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu14/",
+      "point_title": "Studenthälsan",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 20
+        }
+      },
+      "totals": {
+        "Ja": 172,
+        "Avstår": 109,
+        "Nej": 21,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-17",
+      "document": "UbU14",
+      "point": "1",
+      "title": "Högskolan",
+      "id": "194E10D7-7446-4E31-B283-20718CD20295",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU14&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu14/",
+      "point_title": "Utveckling och styrning av högskolans verksamhet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Nej": 15
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Avstår": 19,
+          "Frånvarande": 4,
+          "Ja": 1
+        }
+      },
+      "totals": {
+        "Ja": 269,
+        "Avstår": 19,
+        "Frånvarande": 46,
+        "Nej": 15
+      },
+      "date": "2025-06-17",
+      "document": "SoU29",
+      "point": "2",
+      "title": "Ett fritidskort för barn och unga – en aktiv och meningsfull fritid i gemenskap med andra",
+      "id": "5DBEE425-FB2E-420A-9B8C-B47F23F6C9EC",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU29&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou29/",
+      "point_title": "Alternativ lösning",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Nej": 20
+        }
+      },
+      "totals": {
+        "Nej": 149,
+        "Ja": 153,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-17",
+      "document": "SoU29",
+      "point": "1",
+      "title": "Ett fritidskort för barn och unga – en aktiv och meningsfull fritid i gemenskap med andra",
+      "id": "8FED33B4-1D72-4F51-B8D5-30EF1F6D1740",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU29&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou29/",
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 9,
+          "Ja": 59
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Ja": 15
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 9,
+          "Ja": 63
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Frånvarande": 46,
+        "Nej": 94,
+        "Ja": 189,
+        "Avstår": 20
+      },
+      "date": "2025-06-17",
+      "document": "SfU22",
+      "point": "4",
+      "title": "Förbättrad ordning och säkerhet vid förvar",
+      "id": "5C1BFC38-0A50-45A6-A7FF-AE628390EE90",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU22&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu22/",
+      "point_title": "Kontroll utanför förvaret",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Avstår": 15
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Avstår": 20
+        }
+      },
+      "totals": {
+        "Ja": 153,
+        "Nej": 115,
+        "Frånvarande": 46,
+        "Avstår": 35
+      },
+      "date": "2025-06-17",
+      "document": "SfU22",
+      "point": "3",
+      "title": "Förbättrad ordning och säkerhet vid förvar",
+      "id": "BA151D24-478C-48CD-8E4B-0E346DAC5F0D",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU22&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu22/",
+      "point_title": "Kontroll på förvaret",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 92,
+          "Frånvarande": 13,
+          "Nej": 1
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 267,
+        "Avstår": 20,
+        "Nej": 16,
+        "Frånvarande": 46
+      },
+      "date": "2025-06-17",
+      "document": "SfU22",
+      "point": "2",
+      "title": "Förbättrad ordning och säkerhet vid förvar",
+      "id": "2078D315-165A-435F-9958-C71131A00938",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU22&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu22/",
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 92,
+          "Nej": 1,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 267,
+        "Nej": 21,
+        "Frånvarande": 46,
+        "Avstår": 15
+      },
+      "date": "2025-06-17",
+      "document": "SfU22",
+      "point": "1",
+      "title": "Förbättrad ordning och säkerhet vid förvar",
+      "id": "8D04B22C-1C47-4082-B803-29C9A43DCA8E",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU22&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu22/",
+      "point_title": "Avslag på propositionen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Avstår": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 125,
+        "Nej": 94,
+        "Avstår": 84,
+        "Frånvarande": 46
+      },
+      "date": "2025-06-17",
+      "document": "MJU23",
+      "point": "4",
+      "title": "Förbättrade förutsättningar för ett hållbart vattenbruk",
+      "id": "62ECA3E7-166E-4D6E-B322-04CF19E375F4",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU23&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju23/",
+      "point_title": "Livsmedelsförsörjning och sysselsättning",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Avstår": 18,
+          "Ja": 2
+        }
+      },
+      "totals": {
+        "Ja": 249,
+        "Avstår": 33,
+        "Nej": 21,
+        "Frånvarande": 46
+      },
+      "date": "2025-06-17",
+      "document": "MJU23",
+      "point": "3",
+      "title": "Förbättrade förutsättningar för ett hållbart vattenbruk",
+      "id": "6B1DBD23-1B6B-4B55-A5A3-B988313237BA",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU23&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju23/",
+      "point_title": "Utformningen av bestämmelser på förordnings- och föreskriftsnivå",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Nej": 20
+        }
+      },
+      "totals": {
+        "Ja": 283,
+        "Frånvarande": 46,
+        "Nej": 20
+      },
+      "date": "2025-06-17",
+      "document": "MJU23",
+      "point": "1",
+      "title": "Förbättrade förutsättningar för ett hållbart vattenbruk",
+      "id": "FD7F6600-1754-4C6D-9909-159340C64B73",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU23&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju23/",
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 9,
+          "Ja": 59
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Nej": 15
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 9,
+          "Ja": 63
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Frånvarande": 46,
+        "Ja": 268,
+        "Nej": 35
+      },
+      "date": "2025-06-17",
+      "document": "MJU22",
+      "point": "1",
+      "title": "Ett förbättrat genomförande av MKB-direktivet",
+      "id": "F928FD0C-DFF5-430A-B20C-0B9ED26FD8C1",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU22&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju22/",
+      "point_title": "Tillgängliggörande av beslut för allmänheten",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Nej": 15
+        },
+        "S": {
+          "Ja": 92,
+          "Frånvarande": 13,
+          "Nej": 1
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Nej": 20
+        }
+      },
+      "totals": {
+        "Ja": 267,
+        "Frånvarande": 46,
+        "Nej": 36
+      },
+      "date": "2025-06-17",
+      "document": "MJU21",
+      "point": "6",
+      "title": "Nämdöskärgårdens nationalpark och naturvård",
+      "id": "98C0250B-61C1-448C-AD13-E2F0DA105CCF",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU21&punkt=6&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju21/",
+      "point_title": "Nya siffersatta mål för skydd av natur",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Nej": 15
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 266,
+        "Avstår": 21,
+        "Frånvarande": 47,
+        "Nej": 15
+      },
+      "date": "2025-06-17",
+      "document": "MJU21",
+      "point": "3",
+      "title": "Nämdöskärgårdens nationalpark och naturvård",
+      "id": "10617C3F-FEC9-436B-9005-481156C526B3",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU21&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju21/",
+      "point_title": "Genomförande av naturrestaureringsförordningen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 266,
+        "Nej": 21,
+        "Avstår": 15,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-17",
+      "document": "MJU21",
+      "point": "2",
+      "title": "Nämdöskärgårdens nationalpark och naturvård",
+      "id": "53BAD81C-E2F9-44FF-872C-F8432463B94A",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU21&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju21/",
+      "point_title": "Genomförande av konventionen om biologisk mångfald",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 1,
+          "Frånvarande": 3,
+          "Avstår": 20
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 3,
+          "Nej": 1
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 152,
+        "Avstår": 35,
+        "Nej": 116,
+        "Frånvarande": 46
+      },
+      "date": "2025-06-17",
+      "document": "MJU21",
+      "point": "18",
+      "title": "Nämdöskärgårdens nationalpark och naturvård",
+      "id": "7EF88120-6F97-4B2F-94C6-452570C171DA",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU21&punkt=18&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju21/",
+      "point_title": "Återvätning av dikade våtmarker och andra restaureringsåtgärder",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Nej": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 20
+        }
+      },
+      "totals": {
+        "Ja": 224,
+        "Nej": 64,
+        "Avstår": 15,
+        "Frånvarande": 46
+      },
+      "date": "2025-06-17",
+      "document": "MJU21",
+      "point": "14",
+      "title": "Nämdöskärgårdens nationalpark och naturvård",
+      "id": "F30AEF77-2C02-4C2B-AD9F-BEFD25DC1064",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU21&punkt=14&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju21/",
+      "point_title": "Genomförande av vattendirektivet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 9,
+          "Ja": 59
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Ja": 15
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 10,
+          "Nej": 62
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Frånvarande": 47,
+        "Ja": 239,
+        "Nej": 63
+      },
+      "date": "2025-06-17",
+      "document": "KrU11",
+      "point": "7",
+      "title": "Partipolitiska lotterier",
+      "id": "40A05E00-441F-4D4F-ACC8-262722A54C28",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=KrU11&punkt=7&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01kru11/",
+      "point_title": "ATG",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Avstår": 18,
+          "Frånvarande": 4,
+          "Ja": 2
+        }
+      },
+      "totals": {
+        "Ja": 269,
+        "Avstår": 18,
+        "Nej": 15,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-17",
+      "document": "KrU11",
+      "point": "3",
+      "title": "Partipolitiska lotterier",
+      "id": "E9550977-264F-4D89-802E-D05E2FDAD214",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=KrU11&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01kru11/",
+      "point_title": "Partipolitiska lotterier ska inte undantas från spelskatt",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 9,
+          "Ja": 59
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 10,
+          "Ja": 62
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Frånvarande": 47,
+        "Ja": 246,
+        "Avstår": 35,
+        "Nej": 21
+      },
+      "date": "2025-06-17",
+      "document": "KrU11",
+      "point": "2",
+      "title": "Partipolitiska lotterier",
+      "id": "0FF78D7E-5736-4864-B51D-1E9FF50F518F",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=KrU11&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01kru11/",
+      "point_title": "Det ska vara tydligt att ett lottköp stöder partipolitisk verksamhet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 20,
+          "Nej": 1,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 19,
+          "Avstår": 1
+        }
+      },
+      "totals": {
+        "Ja": 191,
+        "Nej": 16,
+        "Avstår": 95,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-17",
+      "document": "KrU11",
+      "point": "10",
+      "title": "Partipolitiska lotterier",
+      "id": "92FD9BFB-D4E8-4CE6-9FE0-9AE1342EAA0D",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=KrU11&punkt=10&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01kru11/",
+      "point_title": "Spellicenser för små föreningsdrivna lotterier",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Frånvarande": 5,
+          "Nej": 18,
+          "Ja": 1
+        }
+      },
+      "totals": {
+        "Ja": 168,
+        "Nej": 133,
+        "Frånvarande": 48
+      },
+      "date": "2025-06-17",
+      "document": "KrU11",
+      "point": "1",
+      "title": "Partipolitiska lotterier",
+      "id": "02968533-D3C3-42D4-9B76-F7FC23E68AD7",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=KrU11&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01kru11/",
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 9,
+          "Ja": 59
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 10,
+          "Ja": 62
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Frånvarande": 47,
+        "Ja": 281,
+        "Nej": 21
+      },
+      "date": "2025-06-17",
+      "document": "FöU8",
+      "point": "2",
+      "title": "Nationell strategi för cybersäkerhet 2025–2029",
+      "id": "A1AE1741-185A-445A-A802-5628BC85F185",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=F%C3%B6U8&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01f%C3%B6u8/",
+      "point_title": "Totalsträckskrypterade kommunikationstjänster",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 5,
+          "Ja": 19
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 90,
+          "Frånvarande": 16
+        },
+        "SD": {
+          "Ja": 61,
+          "Frånvarande": 11
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Nej": 105,
+        "Ja": 167,
+        "Frånvarande": 57,
+        "Avstår": 20
+      },
+      "date": "2025-06-11",
+      "document": "SoU16",
+      "point": "5",
+      "title": "Hälso- och sjukvårdens organisation",
+      "id": "38150E8A-1AE9-4F41-AA79-0440BB2F1617",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU16&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou16/",
+      "point_title": "Frågor om privatisering och LOV",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 5,
+          "Nej": 19
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 90,
+          "Frånvarande": 16
+        },
+        "SD": {
+          "Ja": 61,
+          "Frånvarande": 11
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Nej": 144,
+        "Ja": 148,
+        "Frånvarande": 57
+      },
+      "date": "2025-06-11",
+      "document": "SoU16",
+      "point": "12",
+      "title": "Hälso- och sjukvårdens organisation",
+      "id": "2D3E687D-5D89-4D7A-A991-80F2234EDC84",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU16&punkt=12&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou16/",
+      "point_title": "Samsjuklighet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 5,
+          "Ja": 19
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 90,
+          "Frånvarande": 16
+        },
+        "SD": {
+          "Nej": 61,
+          "Frånvarande": 11
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 210,
+        "Avstår": 20,
+        "Frånvarande": 57,
+        "Nej": 62
+      },
+      "date": "2025-06-11",
+      "document": "SoU16",
+      "point": "11",
+      "title": "Hälso- och sjukvårdens organisation",
+      "id": "2DC2DF5A-C0D9-4B50-B8B5-F1C63CCAE4F4",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU16&punkt=11&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou16/",
+      "point_title": "Behandlingsmetoder",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Nej": 59,
+          "Frånvarande": 12,
+          "Avstår": 1
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 199,
+        "Nej": 59,
+        "Avstår": 37,
+        "Frånvarande": 54
+      },
+      "date": "2025-06-10",
+      "document": "UU9",
+      "point": "3",
+      "title": "Strategisk exportkontroll 2024 – krigsmateriel och produkter med dubbla användningsområden",
+      "id": "8D801C78-15F5-494D-8C3B-204DE7EE932D",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU9&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu9/",
+      "point_title": "Tillämpning av regelverket",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Nej": 129,
+        "Ja": 166,
+        "Frånvarande": 54
+      },
+      "date": "2025-06-10",
+      "document": "UU9",
+      "point": "2",
+      "title": "Strategisk exportkontroll 2024 – krigsmateriel och produkter med dubbla användningsområden",
+      "id": "AB702FA4-F956-4E02-8847-EFBD18AA9419",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU9&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu9/",
+      "point_title": "Klassificering av sikten",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 91,
+          "Frånvarande": 13,
+          "Avstår": 2
+        },
+        "SD": {
+          "Frånvarande": 12,
+          "Ja": 60
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 257,
+        "Frånvarande": 54,
+        "Nej": 15,
+        "Avstår": 23
+      },
+      "date": "2025-06-10",
+      "document": "UU9",
+      "point": "1",
+      "title": "Strategisk exportkontroll 2024 – krigsmateriel och produkter med dubbla användningsområden",
+      "id": "0B26DD5F-4CE8-4DBA-B28E-E6C3239DE3ED",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU9&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu9/",
+      "point_title": "Regelverket för krigsmaterielexport",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 7,
+          "Ja": 17
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 274,
+        "Frånvarande": 54,
+        "Nej": 21
+      },
+      "date": "2025-06-10",
+      "document": "UU19",
+      "point": "3",
+      "title": "Verksamheten i Nordatlantiska fördragsorganisationen (Nato) under 2024",
+      "id": "2A1F26B1-4AEC-418E-89D6-19EEEF23A9DF",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU19&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu19/",
+      "point_title": "Centrum för demokratisk resiliens",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 281,
+        "Frånvarande": 54,
+        "Nej": 14
+      },
+      "date": "2025-06-10",
+      "document": "UU19",
+      "point": "2",
+      "title": "Verksamheten i Nordatlantiska fördragsorganisationen (Nato) under 2024",
+      "id": "C653591F-544F-41B0-9EBD-C1A0A0635599",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU19&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu19/",
+      "point_title": "Sveriges utrikes- och säkerhetspolitik som medlem i Nato",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 242,
+        "Nej": 21,
+        "Avstår": 31,
+        "Frånvarande": 55
+      },
+      "date": "2025-06-10",
+      "document": "UU14",
+      "point": "4",
+      "title": "Nordiskt samarbete inklusive Arktis",
+      "id": "A70B2A86-772E-428A-B130-EA6402BF724E",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU14&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu14/",
+      "point_title": "Utrikespolitik, säkerhetspolitik och krisberedskap",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Nej": 129,
+        "Ja": 165,
+        "Frånvarande": 55
+      },
+      "date": "2025-06-10",
+      "document": "UU14",
+      "point": "3",
+      "title": "Nordiskt samarbete inklusive Arktis",
+      "id": "D3A0C7F0-8D75-4A4D-9AA4-F1B7B0BB0F47",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU14&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu14/",
+      "point_title": "Klimat och miljö i Arktis",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Nej": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 196,
+        "Avstår": 38,
+        "Nej": 60,
+        "Frånvarande": 55
+      },
+      "date": "2025-06-10",
+      "document": "UU14",
+      "point": "2",
+      "title": "Nordiskt samarbete inklusive Arktis",
+      "id": "195DDB49-D585-4A13-9091-C475EAE481EB",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU14&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu14/",
+      "point_title": "Arktis och Barentsregionen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 241,
+        "Avstår": 34,
+        "Nej": 17,
+        "Frånvarande": 57
+      },
+      "date": "2025-06-10",
+      "document": "UU14",
+      "point": "1",
+      "title": "Nordiskt samarbete inklusive Arktis",
+      "id": "23011899-2CF3-4666-9337-BB236F76667D",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU14&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu14/",
+      "point_title": "Nordiskt samarbete",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Avstår": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Avstår": 91,
+        "Ja": 183,
+        "Nej": 21,
+        "Frånvarande": 54
+      },
+      "date": "2025-06-10",
+      "document": "UU10",
+      "point": "7",
+      "title": "Verksamheten i Europeiska unionen under 2024",
+      "id": "6E6CF0B6-60F2-4B36-9FE7-57CE66623A51",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU10&punkt=7&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu10/",
+      "point_title": "Bilaterala och regionala relationer",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 7,
+          "Nej": 17
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Avstår": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Nej": 111,
+        "Ja": 124,
+        "Frånvarande": 54,
+        "Avstår": 60
+      },
+      "date": "2025-06-10",
+      "document": "UU10",
+      "point": "3",
+      "title": "Verksamheten i Europeiska unionen under 2024",
+      "id": "7EFF00D0-74BE-4A8F-97D2-7A619E18FF39",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU10&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu10/",
+      "point_title": "Sanktionsregimen mot terrorism",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Nej": 94,
+        "Ja": 163,
+        "Avstår": 38,
+        "Frånvarande": 54
+      },
+      "date": "2025-06-10",
+      "document": "UU10",
+      "point": "2",
+      "title": "Verksamheten i Europeiska unionen under 2024",
+      "id": "AEC50DF5-D47A-432F-890D-C173C61BAE92",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UU10&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01uu10/",
+      "point_title": "Utrikes- och säkerhetspolitik",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Avstår": 59,
+          "Frånvarande": 12,
+          "Ja": 1
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Nej": 94,
+        "Ja": 140,
+        "Avstår": 59,
+        "Frånvarande": 56
+      },
+      "date": "2025-06-10",
+      "document": "TU14",
+      "point": "4",
+      "title": "Trafiksäkerhet",
+      "id": "AB670C73-29D0-4788-B156-D6ECC7B72445",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU14&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu14/",
+      "point_title": "Insatser mot alkohol och droger i trafiken",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 262,
+        "Avstår": 17,
+        "Frånvarande": 56,
+        "Nej": 14
+      },
+      "date": "2025-06-10",
+      "document": "TU14",
+      "point": "3",
+      "title": "Trafiksäkerhet",
+      "id": "CFEE926C-417D-41C1-A563-35FF2E8BC3A0",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU14&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu14/",
+      "point_title": "Hastighetsbegränsningar och hastighetsövervakning",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 256,
+        "Nej": 37,
+        "Frånvarande": 56
+      },
+      "date": "2025-06-10",
+      "document": "TU14",
+      "point": "13",
+      "title": "Trafiksäkerhet",
+      "id": "FCCF074F-3326-4357-9387-A5F02725956E",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU14&punkt=13&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu14/",
+      "point_title": "Synkontroller och tester för äldre vid körkortsförnyelse",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 59,
+          "Frånvarande": 13
+        },
+        "V": {
+          "Ja": 19,
+          "Frånvarande": 5
+        }
+      },
+      "totals": {
+        "Nej": 125,
+        "Ja": 166,
+        "Frånvarande": 58
+      },
+      "date": "2025-06-10",
+      "document": "TU14",
+      "point": "1",
+      "title": "Trafiksäkerhet",
+      "id": "F1A860E8-6DDE-4590-B1E2-0BD3EE3939F2",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU14&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu14/",
+      "point_title": "Nollvisionen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 12,
+          "Nej": 60
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 218,
+        "Frånvarande": 54,
+        "Nej": 60,
+        "Avstår": 17
+      },
+      "date": "2025-06-10",
+      "document": "MJU18",
+      "point": "9",
+      "title": "Cirkulär och giftfri ekonomi",
+      "id": "AE0BD4D8-0CCC-4A5F-854D-25AE2F64B8BA",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU18&punkt=9&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju18/",
+      "point_title": "Övriga frågor om återanvändning och återvinning",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 7,
+          "Ja": 17
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Nej": 94,
+        "Ja": 187,
+        "Frånvarande": 54,
+        "Avstår": 14
+      },
+      "date": "2025-06-10",
+      "document": "MJU18",
+      "point": "4",
+      "title": "Cirkulär och giftfri ekonomi",
+      "id": "3BEF588C-980E-4C8B-BDE6-2D0378926E27",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU18&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju18/",
+      "point_title": "Företagens förutsättningar för att bidra till en cirkulär ekonomi",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 13,
+          "Avstår": 59
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 183,
+        "Frånvarande": 55,
+        "Avstår": 73,
+        "Nej": 38
+      },
+      "date": "2025-06-10",
+      "document": "MJU18",
+      "point": "31",
+      "title": "Cirkulär och giftfri ekonomi",
+      "id": "6F57C9C9-0ADF-44ED-B8E6-D23073389FC8",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU18&punkt=31&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju18/",
+      "point_title": "Åtgärder för att minska förekomsten av farliga ämnen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 12,
+          "Ja": 60
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 166,
+        "Frånvarande": 54,
+        "Nej": 129
+      },
+      "date": "2025-06-10",
+      "document": "MJU18",
+      "point": "28",
+      "title": "Cirkulär och giftfri ekonomi",
+      "id": "8DD1BF97-122A-4F80-B48A-6542538E1578",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU18&punkt=28&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju18/",
+      "point_title": "Översyn av EU:s kemikalielagstiftning",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 12,
+          "Ja": 60
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 264,
+        "Frånvarande": 54,
+        "Nej": 17,
+        "Avstår": 14
+      },
+      "date": "2025-06-10",
+      "document": "MJU18",
+      "point": "1",
+      "title": "Cirkulär och giftfri ekonomi",
+      "id": "F1D91DA9-4D06-4234-A359-494E2AA647D5",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU18&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju18/",
+      "point_title": "Övergripande åtgärder för en cirkulär ekonomi",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 180,
+        "Nej": 94,
+        "Avstår": 21,
+        "Frånvarande": 54
+      },
+      "date": "2025-06-10",
+      "document": "AU7",
+      "point": "9",
+      "title": "Arbetsrätt och arbetstid",
+      "id": "FDE57628-CFC2-48FE-8A2C-B32F5BCB1C9F",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=AU7&punkt=9&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01au7/",
+      "point_title": "Arbete via digitala plattformar",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 7,
+          "Nej": 17
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Frånvarande": 2,
+          "Ja": 14
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 12,
+          "Ja": 60
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 278,
+        "Frånvarande": 54,
+        "Nej": 17
+      },
+      "date": "2025-06-10",
+      "document": "AU7",
+      "point": "6",
+      "title": "Arbetsrätt och arbetstid",
+      "id": "9FF407C7-A278-41F3-927D-AED519665635",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=AU7&punkt=6&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01au7/",
+      "point_title": "Stridsåtgärder",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 17,
+          "Frånvarande": 7
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Nej": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 217,
+        "Avstår": 17,
+        "Nej": 60,
+        "Frånvarande": 55
+      },
+      "date": "2025-06-10",
+      "document": "AU7",
+      "point": "18",
+      "title": "Arbetsrätt och arbetstid",
+      "id": "D82243CF-3ACF-411C-B173-F04486087A8C",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=AU7&punkt=18&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01au7/",
+      "point_title": "Den svenska arbetsmarknadsmodellen och EU",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 7,
+          "Ja": 17
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 260,
+        "Frånvarande": 54,
+        "Nej": 21,
+        "Avstår": 14
+      },
+      "date": "2025-06-10",
+      "document": "AU7",
+      "point": "14",
+      "title": "Arbetsrätt och arbetstid",
+      "id": "975949B4-6A5A-4BA9-BD81-AF5F619F451B",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=AU7&punkt=14&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01au7/",
+      "point_title": "Förkortad arbetstid",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Ja": 61,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Nej": 20
+        }
+      },
+      "totals": {
+        "Nej": 149,
+        "Ja": 153,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-04",
+      "document": "UbU21",
+      "point": "4",
+      "title": "Skolor mot brott",
+      "id": "1B572956-EF13-422B-A48D-1EB3B473B1FF",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU21&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu21/",
+      "point_title": "Vikten av att ungdomsförbund m.fl. inte stängs ute från skolorna",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Avstår": 21
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Frånvarande": 3,
+          "Ja": 13
+        },
+        "M": {
+          "Ja": 61,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 9,
+          "Ja": 63
+        },
+        "V": {
+          "Avstår": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 153,
+        "Frånvarande": 47,
+        "Avstår": 56,
+        "Nej": 93
+      },
+      "date": "2025-06-04",
+      "document": "UbU21",
+      "point": "3",
+      "title": "Skolor mot brott",
+      "id": "A1F3C1C5-00D5-4A77-B3C8-0C4B4BCBFB6C",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU21&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu21/",
+      "point_title": "Rektorns skyldighet att anmäla brott m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Ja": 61,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Nej": 20
+        }
+      },
+      "totals": {
+        "Ja": 281,
+        "Frånvarande": 48,
+        "Nej": 20
+      },
+      "date": "2025-06-04",
+      "document": "UbU21",
+      "point": "1",
+      "title": "Skolor mot brott",
+      "id": "26FB7D08-E7AF-4F10-BE89-04B4DD204530",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU21&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu21/",
+      "point_title": "Lagförslaget i fråga om undersökning av väskor och andra föremål och anmälan till Polismyndigheten vid misstanke om brott",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Ja": 61,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Avstår": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 203,
+        "Avstår": 84,
+        "Nej": 15,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-04",
+      "document": "UbU11",
+      "point": "8",
+      "title": "Lärare och elever",
+      "id": "592083FE-95CC-4907-A3F6-35FFB48150F1",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU11&punkt=8&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu11/",
+      "point_title": "Elevhälsa",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Frånvarande": 3,
+          "Ja": 16
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Ja": 61,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Ja": 15
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Nej": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 239,
+        "Frånvarande": 47,
+        "Nej": 63
+      },
+      "date": "2025-06-04",
+      "document": "UbU11",
+      "point": "5",
+      "title": "Lärare och elever",
+      "id": "79D33109-729D-4BE6-8B14-110AEFA1675C",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU11&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu11/",
+      "point_title": "Trygghet och säkerhet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Frånvarande": 3,
+          "Ja": 13
+        },
+        "M": {
+          "Ja": 61,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Avstår": 93,
+        "Ja": 189,
+        "Nej": 20,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-04",
+      "document": "UbU11",
+      "point": "4",
+      "title": "Lärare och elever",
+      "id": "E3EDE31B-AAFC-47DD-9CFB-1EABAC27577A",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU11&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu11/",
+      "point_title": "Undantag från krav på lärarlegitimation",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Frånvarande": 3,
+          "Ja": 16
+        },
+        "L": {
+          "Frånvarande": 3,
+          "Ja": 13
+        },
+        "M": {
+          "Frånvarande": 7,
+          "Ja": 61
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 3,
+          "Avstår": 1
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 20
+        }
+      },
+      "totals": {
+        "Ja": 280,
+        "Frånvarande": 47,
+        "Nej": 21,
+        "Avstår": 1
+      },
+      "date": "2025-06-04",
+      "document": "UbU11",
+      "point": "16",
+      "title": "Lärare och elever",
+      "id": "FAE0EF53-44DA-4070-A554-6B6283E63F42",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU11&punkt=16&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu11/",
+      "point_title": "Stöd i svenska språket",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Frånvarande": 3,
+          "Ja": 16
+        },
+        "L": {
+          "Frånvarande": 3,
+          "Ja": 13
+        },
+        "M": {
+          "Frånvarande": 7,
+          "Ja": 61
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 92,
+          "Frånvarande": 13,
+          "Ja": 1
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 20
+        }
+      },
+      "totals": {
+        "Ja": 189,
+        "Frånvarande": 47,
+        "Nej": 92,
+        "Avstår": 21
+      },
+      "date": "2025-06-04",
+      "document": "UbU11",
+      "point": "1",
+      "title": "Lärare och elever",
+      "id": "EAAEC303-D349-463F-9CBB-6FC836D73B77",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU11&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu11/",
+      "point_title": "Lärarbrist m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Ja": 61,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 20,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Ja": 188,
+        "Avstår": 93,
+        "Nej": 21,
+        "Frånvarande": 47
+      },
+      "date": "2025-06-04",
+      "document": "MJU20",
+      "point": "5",
+      "title": "En utvidgad insamling och utlämning av djurhälsodata samt jordbrukspolitik",
+      "id": "35567E67-D318-40CD-BB16-A1DC24FDE92F",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU20&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju20/",
+      "point_title": "Livsmedelsstrategin",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Frånvarande": 3,
+          "Ja": 16
+        },
+        "L": {
+          "Frånvarande": 3,
+          "Ja": 13
+        },
+        "M": {
+          "Frånvarande": 7,
+          "Ja": 61
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 4,
+          "Ja": 20
+        }
+      },
+      "totals": {
+        "Ja": 194,
+        "Frånvarande": 47,
+        "Nej": 93,
+        "Avstår": 15
+      },
+      "date": "2025-06-04",
+      "document": "MJU20",
+      "point": "17",
+      "title": "En utvidgad insamling och utlämning av djurhälsodata samt jordbrukspolitik",
+      "id": "546270E0-0E26-4E59-B9B1-DBE6706CBD17",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU20&punkt=17&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju20/",
+      "point_title": "Klimatanpassning av jordbruket",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 13,
+          "Frånvarande": 3
+        },
+        "M": {
+          "Frånvarande": 7,
+          "Ja": 60,
+          "Avstår": 1
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Nej": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Avstår": 19,
+          "Frånvarande": 4,
+          "Nej": 1
+        }
+      },
+      "totals": {
+        "Frånvarande": 47,
+        "Nej": 64,
+        "Ja": 203,
+        "Avstår": 35
+      },
+      "date": "2025-06-04",
+      "document": "MJU20",
+      "point": "10",
+      "title": "En utvidgad insamling och utlämning av djurhälsodata samt jordbrukspolitik",
+      "id": "37A859C5-61AA-4712-9F4A-3A638DF36821",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU20&punkt=10&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju20/",
+      "point_title": "Finansiering av jordbruk",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Frånvarande": 10,
+          "Ja": 58
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Frånvarande": 17,
+          "Ja": 89
+        },
+        "SD": {
+          "Avstår": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Frånvarande": 58,
+        "Ja": 206,
+        "Nej": 21,
+        "Avstår": 64
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "9",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "5FAC7632-ECB4-4A98-9E62-BC6261B9E3A7",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=9&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Kvalitet och analys",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Frånvarande": 4,
+          "Nej": 14
+        },
+        "S": {
+          "Nej": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Nej": 18
+        }
+      },
+      "totals": {
+        "Nej": 143,
+        "Ja": 148,
+        "Frånvarande": 58
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "6",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "1CE6B17E-A7E1-458C-8EC8-88BAE9463AD1",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=6&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Särskilt om delmål om jämställdhet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Frånvarande": 5,
+          "Ja": 11
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 237,
+        "Frånvarande": 58,
+        "Nej": 19,
+        "Avstår": 35
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "57",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "D5E4ED38-3BCB-48C3-B797-98CDFAC2C6F3",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=57&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Internationella utbyten och samarbeten m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Avstår": 88,
+          "Frånvarande": 17,
+          "Nej": 1
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Nej": 18
+        }
+      },
+      "totals": {
+        "Avstår": 124,
+        "Ja": 148,
+        "Frånvarande": 58,
+        "Nej": 19
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "53",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "9B06FF13-5DF4-4261-99BE-DF94663C3D89",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=53&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Anställningsvillkor",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 14,
+          "Frånvarande": 5
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Nej": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Ja": 18
+        }
+      },
+      "totals": {
+        "Ja": 205,
+        "Nej": 64,
+        "Avstår": 21,
+        "Frånvarande": 59
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "50",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "9668B6FB-9694-44A4-8E7B-455E8C30D3AF",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=50&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Styrelsefrågor",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Nej": 14,
+          "Frånvarande": 4,
+          "Ja": 1
+        },
+        "L": {
+          "Nej": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Nej": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Ja": 18
+        }
+      },
+      "totals": {
+        "Nej": 118,
+        "Ja": 173,
+        "Frånvarande": 58
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "49",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "7FE1CE83-3888-48A0-A5DD-2498DF3FB658",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=49&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Organisationsform m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Frånvarande": 4,
+          "Avstår": 14
+        },
+        "S": {
+          "Nej": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Ja": 18
+        }
+      },
+      "totals": {
+        "Nej": 90,
+        "Ja": 166,
+        "Frånvarande": 58,
+        "Avstår": 35
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "45",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "0817BF58-C84E-4F3B-B92E-0012E9AD3579",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=45&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Akademisk frihet och forskningens frihet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Frånvarande": 10,
+          "Ja": 58
+        },
+        "MP": {
+          "Avstår": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Frånvarande": 17,
+          "Nej": 89
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Frånvarande": 58,
+        "Avstår": 35,
+        "Ja": 166,
+        "Nej": 90
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "19",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "0F6C0168-4C90-4C88-9D3A-7F1B50C19A74",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=19&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Principer för fördelning m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Ja": 21
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 259,
+        "Frånvarande": 58,
+        "Nej": 32
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "17",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "599386ED-D19C-4701-8D19-4BB9310B84B1",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=17&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Produktivitetsavdraget",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Ja": 21
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Frånvarande": 58,
+        "Nej": 122,
+        "Ja": 169
+      },
+      "date": "2025-05-22",
+      "document": "UbU15",
+      "point": "15",
+      "title": "Forskning och innovation för framtid, nyfikenhet och nytta",
+      "id": "EC5FE63B-FBA2-421C-BC2D-13F885C63F6C",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=UbU15&punkt=15&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01ubu15/",
+      "point_title": "Anslagens storlek",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Ja": 21
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Frånvarande": 58,
+        "Nej": 122,
+        "Ja": 169
+      },
+      "date": "2025-05-22",
+      "document": "SoU27",
+      "point": "2",
+      "title": "Uppdaterat högkostnadsskydd för läkemedel",
+      "id": "F96BE47E-9D63-420C-9331-9A701366938F",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU27&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou27/",
+      "point_title": "Konsekvenser av förslaget",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Frånvarande": 10,
+          "Ja": 58
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Frånvarande": 17,
+          "Nej": 89
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Frånvarande": 58,
+        "Nej": 122,
+        "Ja": 169
+      },
+      "date": "2025-05-22",
+      "document": "SoU27",
+      "point": "1",
+      "title": "Uppdaterat högkostnadsskydd för läkemedel",
+      "id": "8F054C9B-F9F7-4A32-8423-31C1DD8EAAD1",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU27&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou27/",
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Avstår": 88,
+          "Frånvarande": 17,
+          "Nej": 1
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 180,
+        "Avstår": 89,
+        "Frånvarande": 58,
+        "Nej": 22
+      },
+      "date": "2025-05-22",
+      "document": "MJU19",
+      "point": "5",
+      "title": "Fiskeripolitik",
+      "id": "B5B3E091-1A3F-43FF-B1D7-9E7192387D19",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU19&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju19/",
+      "point_title": "Utflyttning av trålgränsen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Ja": 20,
+          "Avstår": 1
+        },
+        "KD": {
+          "Frånvarande": 4,
+          "Ja": 15
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Frånvarande": 4,
+          "Avstår": 14
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Avstår": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Frånvarande": 58,
+        "Ja": 194,
+        "Avstår": 79,
+        "Nej": 18
+      },
+      "date": "2025-05-22",
+      "document": "MJU19",
+      "point": "15",
+      "title": "Fiskeripolitik",
+      "id": "F682BF88-C7A5-426F-8C27-E30790963AC4",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU19&punkt=15&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju19/",
+      "point_title": "Fördelning av fiskemöjligheter och överlåtbara fiskerättigheter",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Nej": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 227,
+        "Nej": 64,
+        "Frånvarande": 58
+      },
+      "date": "2025-05-22",
+      "document": "MJU19",
+      "point": "14",
+      "title": "Fiskeripolitik",
+      "id": "91BFCB4E-B8A6-4D3A-A6EA-E85408F1C77F",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU19&punkt=14&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju19/",
+      "point_title": "Fiskelicenser och generationsväxling",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Ja": 21
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Nej": 90,
+        "Ja": 201,
+        "Frånvarande": 58
+      },
+      "date": "2025-05-22",
+      "document": "MJU19",
+      "point": "12",
+      "title": "Fiskeripolitik",
+      "id": "5D23AD73-8E54-4063-B45E-3DB5D0A3D8F1",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU19&punkt=12&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju19/",
+      "point_title": "Övergripande åtgärder för att värna svensk fiskerinäring",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Avstår": 21
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 256,
+        "Frånvarande": 58,
+        "Nej": 14,
+        "Avstår": 21
+      },
+      "date": "2025-05-22",
+      "document": "MJU19",
+      "point": "1",
+      "title": "Fiskeripolitik",
+      "id": "9E8BA008-D9EB-4D11-990A-FCF788250744",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU19&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju19/",
+      "point_title": "Övergripande åtgärder",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Frånvarande": 4,
+          "Avstår": 14
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 9,
+          "Nej": 1
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Avstår": 18
+        }
+      },
+      "totals": {
+        "Ja": 236,
+        "Frånvarande": 58,
+        "Nej": 22,
+        "Avstår": 33
+      },
+      "date": "2025-05-22",
+      "document": "MJU17",
+      "point": "6",
+      "title": "Nya regler för datacenter och hållbara bränslen samt en ny reduktionsplikt",
+      "id": "A967002B-0C70-4BBE-8274-0BF2463023F3",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU17&punkt=6&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju17/",
+      "point_title": "Produktion av biodrivmedel",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Frånvarande": 4,
+          "Avstår": 14
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Nej": 18
+        }
+      },
+      "totals": {
+        "Ja": 238,
+        "Frånvarande": 58,
+        "Avstår": 35,
+        "Nej": 18
+      },
+      "date": "2025-05-22",
+      "document": "MJU17",
+      "point": "3",
+      "title": "Nya regler för datacenter och hållbara bränslen samt en ny reduktionsplikt",
+      "id": "420E141F-D81B-44DF-97BC-BC37DFC6B080",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU17&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju17/",
+      "point_title": "Utveckling av reduktionsplikten och ett nationellt utsläppshandelssystem",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 15,
+          "Frånvarande": 4
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 58,
+          "Frånvarande": 10
+        },
+        "MP": {
+          "Ja": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 89,
+          "Frånvarande": 17
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Ja": 12,
+          "Avstår": 6
+        }
+      },
+      "totals": {
+        "Ja": 174,
+        "Nej": 90,
+        "Avstår": 27,
+        "Frånvarande": 58
+      },
+      "date": "2025-05-22",
+      "document": "MJU17",
+      "point": "2",
+      "title": "Nya regler för datacenter och hållbara bränslen samt en ny reduktionsplikt",
+      "id": "A158516E-A4DA-4987-8592-3DE1CF2F2B69",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=MJU17&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01mju17/",
+      "point_title": "Nya modeller för reduktionsplikten och reduktionspliktsavgiften",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Avstår": 15
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 175,
+        "Frånvarande": 44,
+        "Nej": 94,
+        "Avstår": 36
+      },
+      "date": "2025-05-21",
+      "document": "TU13",
+      "point": "5",
+      "title": "Luftfartsfrågor",
+      "id": "E360AA13-2658-4435-BCFE-0208AFF3E718",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU13&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu13/",
+      "point_title": "Arlanda, Bromma och Skavsta flygplats",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 8,
+          "Ja": 60
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 92,
+          "Ja": 1,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 9,
+          "Nej": 63
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Frånvarande": 44,
+        "Avstår": 115,
+        "Ja": 127,
+        "Nej": 63
+      },
+      "date": "2025-05-21",
+      "document": "TU13",
+      "point": "4",
+      "title": "Luftfartsfrågor",
+      "id": "DD462A86-86E6-412C-8E93-32521C7C0800",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU13&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu13/",
+      "point_title": "Beredskapsflygplatser",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Avstår": 21
+        },
+        "KD": {
+          "Frånvarande": 3,
+          "Ja": 16
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Frånvarande": 44,
+        "Nej": 94,
+        "Ja": 175,
+        "Avstår": 36
+      },
+      "date": "2025-05-21",
+      "document": "TU13",
+      "point": "3",
+      "title": "Luftfartsfrågor",
+      "id": "9DA91716-4C59-4774-BDC3-2ABD00E2F5A1",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU13&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu13/",
+      "point_title": "Finansiering och stöd till regionala flygplatser",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Nej": 15
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 3,
+          "Avstår": 21
+        }
+      },
+      "totals": {
+        "Ja": 269,
+        "Frånvarande": 44,
+        "Avstår": 21,
+        "Nej": 15
+      },
+      "date": "2025-05-21",
+      "document": "TU13",
+      "point": "2",
+      "title": "Luftfartsfrågor",
+      "id": "20F65818-B1CC-4FF6-AC04-DA06B8CCA6D0",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=TU13&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01tu13/",
+      "point_title": "Omfattning och möjlighet till nedsättning av sanktionsavgifter",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 20,
+          "Frånvarande": 3,
+          "Nej": 1
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 8,
+          "Ja": 60
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Ja": 15
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Frånvarande": 44,
+        "Ja": 210,
+        "Nej": 95
+      },
+      "date": "2025-05-21",
+      "document": "NU21",
+      "point": "8",
+      "title": "Ersättning till radio- och tv-företag vid privatkopiering",
+      "id": "1319DEB0-CFB3-40C5-B090-608D45F9BF35",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=NU21&punkt=8&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01nu21/",
+      "point_title": "Kunskapscentrum för immaterialrätt",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 284,
+        "Nej": 21,
+        "Frånvarande": 44
+      },
+      "date": "2025-05-21",
+      "document": "NU21",
+      "point": "7",
+      "title": "Ersättning till radio- och tv-företag vid privatkopiering",
+      "id": "941525C9-2B9B-4F7C-B5C9-BD1A3F2CB110",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=NU21&punkt=7&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01nu21/",
+      "point_title": "Nationell strategi för immaterialrätt",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Nej": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Avstår": 115,
+        "Ja": 126,
+        "Frånvarande": 44,
+        "Nej": 64
+      },
+      "date": "2025-05-21",
+      "document": "NU21",
+      "point": "5",
+      "title": "Ersättning till radio- och tv-företag vid privatkopiering",
+      "id": "68BD1D8F-7744-4593-8E6F-54AF63532181",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=NU21&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01nu21/",
+      "point_title": "Stöd vid patentintrång",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Nej": 15
+        },
+        "S": {
+          "Avstår": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Avstår": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Ja": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 132,
+        "Avstår": 158,
+        "Frånvarande": 44,
+        "Nej": 15
+      },
+      "date": "2025-05-21",
+      "document": "NU21",
+      "point": "2",
+      "title": "Ersättning till radio- och tv-företag vid privatkopiering",
+      "id": "BAF484CD-DC84-40D6-8780-3C48CF49D472",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=NU21&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01nu21/",
+      "point_title": "Upphovsrätt och AI",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Nej": 94,
+        "Ja": 154,
+        "Avstår": 57,
+        "Frånvarande": 44
+      },
+      "date": "2025-05-21",
+      "document": "NU20",
+      "point": "4",
+      "title": "Finansiering och riskdelning vid investeringar i ny kärnkraft",
+      "id": "F6F7CD39-DD33-4B90-966E-5E6E8BC10485",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=NU20&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01nu20/",
+      "point_title": "Alternativ till regeringens förslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 3,
+          "Ja": 21
+        },
+        "KD": {
+          "Frånvarande": 3,
+          "Ja": 16
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Nej": 15
+        },
+        "S": {
+          "Ja": 80,
+          "Frånvarande": 13,
+          "Avstår": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Frånvarande": 44,
+        "Ja": 255,
+        "Avstår": 14,
+        "Nej": 36
+      },
+      "date": "2025-05-21",
+      "document": "NU20",
+      "point": "3",
+      "title": "Finansiering och riskdelning vid investeringar i ny kärnkraft",
+      "id": "B456B753-B937-4A4B-9638-C83EFEA3BBDD",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=NU20&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01nu20/",
+      "point_title": "Riksdagsprövning av eventuella avtal",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Avstår": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Avstår": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Avstår": 136,
+        "Ja": 154,
+        "Frånvarande": 44,
+        "Nej": 15
+      },
+      "date": "2025-05-21",
+      "document": "NU20",
+      "point": "2",
+      "title": "Finansiering och riskdelning vid investeringar i ny kärnkraft",
+      "id": "9005A968-B8D6-4AAD-9459-8F5479566D7D",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=NU20&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01nu20/",
+      "point_title": "Konsekvensanalys av lagförslaget",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 8,
+          "Ja": 60
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Frånvarande": 9,
+          "Ja": 63
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Frånvarande": 44,
+        "Nej": 151,
+        "Ja": 154
+      },
+      "date": "2025-05-21",
+      "document": "NU20",
+      "point": "1",
+      "title": "Finansiering och riskdelning vid investeringar i ny kärnkraft",
+      "id": "C728AF79-652E-49AD-BC77-4EC630E9E0C5",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=NU20&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01nu20/",
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 60,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Ja": 15
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 63,
+          "Frånvarande": 9
+        },
+        "V": {
+          "Frånvarande": 3,
+          "Ja": 21
+        }
+      },
+      "totals": {
+        "Ja": 284,
+        "Nej": 21,
+        "Frånvarande": 44
+      },
+      "date": "2025-05-21",
+      "document": "FiU37",
+      "point": "2",
+      "title": "Stärkt konsumentskydd på kreditmarknaden",
+      "id": "D3F85585-1067-41B8-B252-BF27694B7579",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=FiU37&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01fiu37/",
+      "point_title": "Fortsatta möjligheter till kreditförmedling",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Avstår": 4,
+          "Ja": 17,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 8,
+          "Ja": 60
+        },
+        "MP": {
+          "Nej": 14,
+          "Frånvarande": 4
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 64,
+          "Frånvarande": 8
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Frånvarande": 44,
+        "Ja": 172,
+        "Nej": 129,
+        "Avstår": 4
+      },
+      "date": "2025-05-21",
+      "document": "CU19",
+      "point": "3",
+      "title": "Lättnader i byggkraven för studentbostäder",
+      "id": "DD18B4ED-DD78-47AB-A6D9-401B48753D4B",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=CU19&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01cu19/",
+      "point_title": "Utvärdering av den nya lagstiftningen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 8,
+          "Ja": 60
+        },
+        "MP": {
+          "Frånvarande": 3,
+          "Avstår": 15
+        },
+        "S": {
+          "Nej": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 64,
+          "Frånvarande": 8
+        },
+        "V": {
+          "Ja": 7,
+          "Avstår": 14,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Frånvarande": 43,
+        "Ja": 183,
+        "Nej": 94,
+        "Avstår": 29
+      },
+      "date": "2025-05-21",
+      "document": "CU19",
+      "point": "2",
+      "title": "Lättnader i byggkraven för studentbostäder",
+      "id": "83486D80-4519-4636-BD9C-578450BCCC7E",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=CU19&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01cu19/",
+      "point_title": "Lagstiftningens framtida utformning m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 14,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Frånvarande": 8,
+          "Ja": 60
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 93,
+          "Frånvarande": 13
+        },
+        "SD": {
+          "Ja": 64,
+          "Frånvarande": 8
+        },
+        "V": {
+          "Nej": 21,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Frånvarande": 43,
+        "Ja": 270,
+        "Nej": 21,
+        "Avstår": 15
+      },
+      "date": "2025-05-21",
+      "document": "CU19",
+      "point": "1",
+      "title": "Lättnader i byggkraven för studentbostäder",
+      "id": "2E5E87C5-54BC-4C8A-A65C-8B4B39B76251",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=CU19&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01cu19/",
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Nej": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Frånvarande": 18,
+          "Ja": 88
+        },
+        "SD": {
+          "Frånvarande": 12,
+          "Ja": 60
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 232,
+        "Frånvarande": 61,
+        "Nej": 56
+      },
+      "date": "2025-05-20",
+      "document": "SoU23",
+      "point": "5",
+      "title": "En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter",
+      "id": "DEFCAAB6-F263-4E65-8999-0D956B57C4FB",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU23&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou23/",
+      "point_title": "Arbete med frivillig återvandring",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Avstår": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Ja": 88,
+          "Frånvarande": 18
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 254,
+        "Nej": 18,
+        "Frånvarande": 61,
+        "Avstår": 16
+      },
+      "date": "2025-05-20",
+      "document": "SoU23",
+      "point": "23",
+      "title": "En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter",
+      "id": "E59868A5-07DA-4466-A91A-2825B01329AF",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU23&punkt=23&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou23/",
+      "point_title": "Ekonomiska konsekvenser",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Frånvarande": 2,
+          "Ja": 17
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Ja": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Nej": 87,
+          "Frånvarande": 18,
+          "Ja": 1
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 179,
+        "Nej": 109,
+        "Frånvarande": 61
+      },
+      "date": "2025-05-20",
+      "document": "SoU23",
+      "point": "18",
+      "title": "En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter",
+      "id": "63AEBD78-FB1B-4A5C-BDE7-3DB05EB0AB43",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU23&punkt=18&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou23/",
+      "point_title": "Uppföljning av ett barns situation",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Nej": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Ja": 88,
+          "Frånvarande": 18
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 272,
+        "Nej": 16,
+        "Frånvarande": 61
+      },
+      "date": "2025-05-20",
+      "document": "SoU23",
+      "point": "14",
+      "title": "En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter",
+      "id": "61D483E0-5630-4520-9B5B-73B846092450",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SoU23&punkt=14&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sou23/",
+      "point_title": "Barns rättigheter",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Frånvarande": 5,
+          "Ja": 11
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Ja": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Frånvarande": 18,
+          "Ja": 88
+        },
+        "SD": {
+          "Frånvarande": 12,
+          "Ja": 60
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 267,
+        "Frånvarande": 61,
+        "Nej": 21
+      },
+      "date": "2025-05-20",
+      "document": "JuU31",
+      "point": "4",
+      "title": "Kontaktförbud – ett utökat skydd för utsatta personer",
+      "id": "9A1F3E0A-467D-4B65-8F62-2121F115655C",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=JuU31&punkt=4&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01juu31/",
+      "point_title": "Översyn av kontaktförbudssystemet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Frånvarande": 12,
+          "Ja": 56
+        },
+        "MP": {
+          "Nej": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Ja": 88,
+          "Frånvarande": 18
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Frånvarande": 6,
+          "Ja": 18
+        }
+      },
+      "totals": {
+        "Ja": 251,
+        "Frånvarande": 61,
+        "Nej": 37
+      },
+      "date": "2025-05-20",
+      "document": "JuU31",
+      "point": "2",
+      "title": "Kontaktförbud – ett utökat skydd för utsatta personer",
+      "id": "E11C9A4F-6162-4BE6-9099-2E54E3E10D0A",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=JuU31&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01juu31/",
+      "point_title": "Riskbedömningen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Avstår": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Avstår": 88,
+          "Frånvarande": 18
+        },
+        "SD": {
+          "Nej": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Avstår": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Avstår": 123,
+        "Ja": 105,
+        "Nej": 60,
+        "Frånvarande": 61
+      },
+      "date": "2025-05-20",
+      "document": "JuU30",
+      "point": "5",
+      "title": "Skärpt syn på sexuella kränkningar, bedrägerier mot äldre och brott med kön som hatbrottsmotiv",
+      "id": "0B5BC944-8620-47BF-A4F1-9698D844BCCB",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=JuU30&punkt=5&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01juu30/",
+      "point_title": "Uppföljning och utvärdering m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Nej": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Avstår": 88,
+          "Frånvarande": 18
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Avstår": 89,
+        "Ja": 183,
+        "Nej": 16,
+        "Frånvarande": 61
+      },
+      "date": "2025-05-20",
+      "document": "JuU30",
+      "point": "3",
+      "title": "Skärpt syn på sexuella kränkningar, bedrägerier mot äldre och brott med kön som hatbrottsmotiv",
+      "id": "A052C38C-2C95-492D-AAE5-210E9461C624",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=JuU30&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01juu30/",
+      "point_title": "Barnpornografibrott",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Frånvarande": 2,
+          "Ja": 17
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Frånvarande": 2,
+          "Ja": 16
+        },
+        "S": {
+          "Nej": 88,
+          "Frånvarande": 18
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 199,
+        "Nej": 89,
+        "Frånvarande": 61
+      },
+      "date": "2025-05-20",
+      "document": "JuU30",
+      "point": "1",
+      "title": "Skärpt syn på sexuella kränkningar, bedrägerier mot äldre och brott med kön som hatbrottsmotiv",
+      "id": "9D9382B1-132C-401B-901D-90F660346D63",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=JuU30&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01juu30/",
+      "point_title": "Regeringens lagförslag",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Frånvarande": 5,
+          "Ja": 11
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Ja": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Frånvarande": 18,
+          "Ja": 88
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 267,
+        "Frånvarande": 61,
+        "Nej": 21
+      },
+      "date": "2025-05-20",
+      "document": "JuU29",
+      "point": "3",
+      "title": "Ett starkare skydd för offentliganställda mot våld, hot och trakasserier m.m.",
+      "id": "0A5EACD3-D435-42A1-8124-458AD48DF644",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=JuU29&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01juu29/",
+      "point_title": "Exponering av beslutsfattares namn",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Frånvarande": 5,
+          "Ja": 11
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Nej": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Frånvarande": 18,
+          "Ja": 88
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Ja": 17,
+          "Frånvarande": 6,
+          "Avstår": 1
+        }
+      },
+      "totals": {
+        "Ja": 271,
+        "Nej": 16,
+        "Frånvarande": 61,
+        "Avstår": 1
+      },
+      "date": "2025-05-20",
+      "document": "JuU29",
+      "point": "1",
+      "title": "Ett starkare skydd för offentliganställda mot våld, hot och trakasserier m.m.",
+      "id": "37E0F64C-1C02-4BE3-B44E-584476978084",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=JuU29&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01juu29/",
+      "point_title": "Lagförslaget om ändringar i brottsbalken",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 21,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Frånvarande": 2,
+          "Ja": 17
+        },
+        "L": {
+          "Ja": 11,
+          "Frånvarande": 5
+        },
+        "M": {
+          "Ja": 56,
+          "Frånvarande": 12
+        },
+        "MP": {
+          "Avstår": 16,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Ja": 88,
+          "Frånvarande": 18
+        },
+        "SD": {
+          "Ja": 60,
+          "Frånvarande": 12
+        },
+        "V": {
+          "Nej": 18,
+          "Frånvarande": 6
+        }
+      },
+      "totals": {
+        "Ja": 254,
+        "Frånvarande": 61,
+        "Nej": 18,
+        "Avstår": 16
+      },
+      "date": "2025-05-20",
+      "document": "JuU28",
+      "point": "2",
+      "title": "Internationell verkställighet i brottmål",
+      "id": "062B49C9-96CF-4241-8465-B87AFAB5758B",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=JuU28&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01juu28/",
+      "point_title": "Den dömdes samtycke",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 4,
+          "Nej": 20
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 12,
+          "Frånvarande": 4
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Frånvarande": 5,
+          "Nej": 19
+        }
+      },
+      "totals": {
+        "Ja": 243,
+        "Nej": 54,
+        "Frånvarande": 52
+      },
+      "date": "2025-05-15",
+      "document": "SkU17",
+      "point": "1",
+      "title": "Förändrade skattesubventioner för solceller och mikroproduktion av el",
+      "id": "1173A52A-EC84-4098-BB8A-CBACB40B9C61",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SkU17&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sku17/",
+      "point_title": "Förändrade skattesubventioner för solceller och mikroproduktion av förnybar el",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 12,
+          "Frånvarande": 4
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Nej": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Ja": 19,
+          "Frånvarande": 5
+        }
+      },
+      "totals": {
+        "Ja": 234,
+        "Frånvarande": 52,
+        "Nej": 63
+      },
+      "date": "2025-05-15",
+      "document": "SfU20",
+      "point": "22",
+      "title": "Socialförsäkringsfrågor",
+      "id": "A0298D8B-EBDF-42AB-BB01-98C8AE53A828",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU20&punkt=22&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu20/",
+      "point_title": "Sjukskrivning vid psykisk ohälsa",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 12,
+          "Frånvarande": 4
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Avstår": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Frånvarande": 10,
+          "Ja": 62
+        },
+        "V": {
+          "Avstår": 19,
+          "Frånvarande": 5
+        }
+      },
+      "totals": {
+        "Nej": 93,
+        "Ja": 170,
+        "Frånvarande": 52,
+        "Avstår": 34
+      },
+      "date": "2025-05-15",
+      "document": "SfU20",
+      "point": "18",
+      "title": "Socialförsäkringsfrågor",
+      "id": "35F8218B-FFDE-4614-AEEC-AAC9E3EBE5F8",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU20&punkt=18&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu20/",
+      "point_title": "Karensavdraget",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 4,
+          "Ja": 20
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 12,
+          "Frånvarande": 4
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Nej": 91,
+          "Frånvarande": 14,
+          "Ja": 1
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Frånvarande": 5,
+          "Nej": 19
+        }
+      },
+      "totals": {
+        "Ja": 171,
+        "Nej": 126,
+        "Frånvarande": 52
+      },
+      "date": "2025-05-15",
+      "document": "SfU20",
+      "point": "16",
+      "title": "Socialförsäkringsfrågor",
+      "id": "23ACEAEA-E1AD-4BC2-A85C-98A70259548D",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU20&punkt=16&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu20/",
+      "point_title": "Sjukpenninggrundande inkomst",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 12,
+          "Frånvarande": 4
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Nej": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Ja": 62,
+          "Frånvarande": 10
+        },
+        "V": {
+          "Nej": 19,
+          "Frånvarande": 5
+        }
+      },
+      "totals": {
+        "Nej": 54,
+        "Ja": 243,
+        "Frånvarande": 52
+      },
+      "date": "2025-05-15",
+      "document": "SfU20",
+      "point": "10",
+      "title": "Socialförsäkringsfrågor",
+      "id": "AEA441C3-9DCD-463F-AFBF-D9086A45B71E",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU20&punkt=10&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu20/",
+      "point_title": "Studerande",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Nej": 20,
+          "Frånvarande": 4
+        },
+        "KD": {
+          "Ja": 16,
+          "Frånvarande": 3
+        },
+        "L": {
+          "Ja": 12,
+          "Frånvarande": 4
+        },
+        "M": {
+          "Ja": 59,
+          "Frånvarande": 9
+        },
+        "MP": {
+          "Ja": 15,
+          "Frånvarande": 3
+        },
+        "S": {
+          "Ja": 92,
+          "Frånvarande": 14
+        },
+        "SD": {
+          "Frånvarande": 10,
+          "Ja": 62
+        },
+        "V": {
+          "Ja": 19,
+          "Frånvarande": 5
+        }
+      },
+      "totals": {
+        "Ja": 277,
+        "Nej": 20,
+        "Frånvarande": 52
+      },
+      "date": "2025-05-15",
+      "document": "SfU20",
+      "point": "1",
+      "title": "Socialförsäkringsfrågor",
+      "id": "F7CD4001-97B9-49B1-BCE9-741656FDFD31",
+      "session": "2024/25",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2024%2F25&bet=SfU20&punkt=1&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_hc01sfu20/",
+      "point_title": "Riksrevisionens rapport om Försäkringskassans användning av övervägande skäl vid 180 dagars sjukskrivning",
       "decision": "committee_approved"
     },
     {
