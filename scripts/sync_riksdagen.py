@@ -19,6 +19,7 @@ import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
+from itertools import chain
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,8 +40,28 @@ def clean(row: dict) -> dict:
     return {(k or '').strip().lstrip('\ufeff').lower(): (v or '').strip() for k, v in row.items() if k}
 
 
-def csv_rows(data: bytes) -> list[dict]:
+def csv_rows(data: bytes, *, session: str = '') -> list[dict]:
     text = data.decode('utf-8-sig', errors='replace')
+    if session:
+        rows = csv.reader(io.StringIO(text, newline=''), strict=True)
+        first = next(rows, [])
+        if first and first[0] == session:
+            # The official CSV ZIP exports have 14 columns and omit the header.
+            records = []
+            for line, row in enumerate(chain([first], rows), start=1):
+                if not row:
+                    continue
+                if len(row) != 14 or row[0] != session or row[8] not in VOTES:
+                    raise ValueError(f'Unexpected Riksdagen CSV row {line} for {session}')
+                records.append({
+                    'beteckning': row[1].strip(),
+                    'votering_id': row[2].strip(),
+                    'punkt': row[3].strip(),
+                    'parti': row[6].strip(),
+                    'rost': row[8],
+                    'datum': row[13].strip(),
+                })
+            return records
     # Supports semicolon-, tab- and comma-separated files, including quoted fields.
     sample = text[:8192]
     try:
@@ -73,7 +94,7 @@ def fetch_session(session: str) -> list[dict]:
         for member in members:
             raw = archive.read(member)
             if raw.strip():
-                result.extend(csv_rows(raw))
+                result.extend(csv_rows(raw, session=session))
         return result
 
 
