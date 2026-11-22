@@ -178,7 +178,14 @@ function summarizeVote(v){
 function votePartyTable(v){
   const rows=store.parties.filter(p=>v.party_votes?.[p.id]).map(p=>{
     const counts=v.party_votes[p.id];
-    return `<tr><th scope="row">${esc(p.id)}</th>${['Ja','Nej','Avstår','Frånvarande'].map(key=>`<td>${fmt(counts[key]||0)}</td>`).join('')}</tr>`;
+    const color=/^#[0-9a-f]{6}$/i.test(p.color) ? p.color : '#64748b';
+    const [red, green, blue]=color.slice(1).match(/../g).map(hex=>{
+      const channel=parseInt(hex,16)/255;
+      return channel<=0.04045 ? channel/12.92 : ((channel+0.055)/1.055)**2.4;
+    });
+    const luminance=0.2126*red+0.7152*green+0.0722*blue;
+    const ink=luminance>0.179 ? '#000' : '#fff';
+    return `<tr><th scope="row"><span style="display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:${color};color:${ink};font-size:11px;letter-spacing:0">${esc(p.id)}</span></th>${['Ja','Nej','Avstår','Frånvarande'].map(key=>`<td>${fmt(counts[key]||0)}</td>`).join('')}</tr>`;
   }).join('');
   return `<details style="margin-top:12px"><summary class="semibold" style="cursor:pointer">Visa röster per parti</summary>
     <div class="table-scroll"><table class="data-table" aria-label="Röster per parti">
