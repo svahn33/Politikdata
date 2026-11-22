@@ -244,19 +244,82 @@ const partySymbolIds = {
   SD: '2795e324a11511f1a8a64a3727721460',
   V: 'e066a36c7c6111f19721ba57d652d633'
 };
+const partyLeaders = {
+  C: [['Elisabeth Thand Ringqvist', 'elisabeth-thand-ringqvist_0a3d47e0-9e04-4726-b141-966d1ba8064d']],
+  KD: [['Ebba Busch', 'ebba-busch_b0cce726-5e23-4d21-a609-95071f8820f0']],
+  L: [['Simona Mohamsson', 'simona-mohamsson_30974e09-3900-4dc5-9a20-e5fab7b442f2']],
+  MP: [
+    ['Amanda Lind', 'amanda-lind_cc9a2dce-628c-4cbe-9e82-489b1078f7b8'],
+    ['Daniel Helldén', 'daniel-hellden_164a2468-a56f-45a7-a8a1-5ab6af559e19']
+  ],
+  M: [['Ulf Kristersson', 'ulf-kristersson_e7e4132a-b4df-11d5-8079-0040ca16072a']],
+  S: [['Magdalena Andersson', 'magdalena-andersson_dcc2ab7d-3fc1-4a28-b3c7-be1679c047b3']],
+  SD: [['Jimmie Åkesson', 'jimmie-akesson_5ecb17ba-ebbe-4958-a142-a5134aff9808']],
+  V: [['Nooshi Dadgostar', 'nooshi-dadgostar_78d79a96-956f-4ac3-bbf7-2b15b3d86ce7']]
+};
+function partyLeadership(p){
+  const people=partyLeaders[p.id]||[];
+  return `<h3 style="margin:16px 0 10px">${p.id==='MP'?'Språkrör':'Partiledare'}</h3>
+    <div style="display:grid;grid-template-columns:repeat(${people.length},minmax(0,1fr));gap:10px">
+      ${people.map(([name,slug])=>{
+        const portraitId=slug.split('_')[1];
+        const source=`https://www.riksdagen.se/sv/ledamoter-och-partier/ledamot/${slug}/`;
+        return `<figure style="margin:0"><img src="https://data.riksdagen.se/filarkiv/bilder/ledamot/${portraitId}_max.jpg"
+          alt="${esc(name)}" referrerpolicy="no-referrer" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:8px;background:#f1f4f7;display:block">
+          <figcaption style="margin-top:5px"><a class="linkish" href="${source}" target="_blank" rel="noopener noreferrer">${esc(name)} ↗</a></figcaption></figure>`;
+      }).join('')}
+    </div><p class="footnote">Porträtt och ledamotsprofiler från Sveriges riksdag.</p>`;
+}
 function renderParties(){
  const focus=state.routeArg && partyById(state.routeArg);
  if(focus){
-  const p=focus; const now=p.elections['2026']; const past=p.elections['2022']; const dp=now.share-past.share;
+  const p=focus;
+  const now=p.elections['2026'];
+  const past=p.elections['2022'];
+  const dp=now.share-past.share;
   const mapped=store.issues.filter(t=>t.positions?.[p.id]);
-  return `<div class="page-wrap"><div class="breadcrumb"><a href="#partier">Partier</a><span>/</span><span>${esc(p.name)}</span></div>
-    <div class="party-details"><aside class="panel party-sidebar"><div class="party-avatar" style="--party-color:${p.color}">${p.id}</div><h2>${esc(p.name)}</h2><p class="small muted">Riksdagsparti 2026–2030</p>
-      <dl><dt>Röstandel 2026</dt><dd>${pct(now.share)}</dd><dt>Mandat 2026</dt><dd>${now.seats}</dd><dt>Röstandel 2022</dt><dd>${pct(past.share)}</dd><dt>Skillnad i röstandel</dt><dd class="delta ${deltaClass(dp)}">${diff(dp)} p.e.</dd></dl>
-      <a class="btn small-btn" style="white-space:normal" href="${ext(p.website)}" target="_blank" rel="noopener noreferrer">Officiell webbplats ↗</a><p class="footnote">Valdata: Valmyndighetens slutliga riksdagsresultat.</p></aside>
-      <div class="panel party-detail-main"><div class="section-title"><div><h2>Dokumenterad politik</h2><p>Endast frågor där källbelagt underlag har lagts in.</p></div></div>
-         ${mapped.length?mapped.map(t=>`<div class="party-issue-row"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><h3>${esc(t.title)}</h3><a class="clever-link" href="#sakfragor/${esc(t.id)}">Alla partier →</a></div><p>${esc(t.positions[p.id].summary)}</p><div class="micro" style="margin-top:7px">${srcLinks(t.positions[p.id].sources)}</div></div>`).join(''):`<div class="empty-message">Inga redaktionellt verifierade ståndpunkter inlagda ännu. Det säger inget om partiets faktiska politik.</div>`}
-        <div style="margin-top:19px">${note('Den här sidan återger inte åsikter från andra partier om partiet. Siffror och partiets egna ståndpunkter har olika källor och visas därför separat.',true)}</div>
-      </div></div><div class="hero-actions" style="margin-top:21px"><a class="btn primary" href="#jamfor">Jämför partier →</a><a class="btn" href="#partier">Alla partier →</a></div>${updatedInfo()}</div>`;
+  return `<div class="page-wrap">
+    <div class="breadcrumb"><a href="#partier">Partier</a><span>/</span><span>${esc(p.name)}</span></div>
+    <h1 style="margin-bottom:22px">${esc(p.name)}</h1>
+    <div style="display:flex;align-items:flex-start;flex-wrap:wrap;gap:20px">
+      <div style="flex:2 1 470px;min-width:0">
+        <section class="panel panel-pad">
+          <h2>Översikt</h2>
+          <p style="margin-top:8px"><strong>${esc(p.name)} (${esc(p.id)})</strong> är ett svenskt riksdagsparti.
+            I riksdagsvalet 2026 fick partiet ${pct(now.share)} av rösterna och ${fmt(now.seats)} mandat.</p>
+          <p class="small muted" style="margin-top:6px"><a class="linkish" href="${ext(p.website)}" target="_blank" rel="noopener noreferrer">Partiets officiella webbplats ↗</a></p>
+        </section>
+        <section class="panel panel-pad" style="margin-top:18px">
+          <h2>Valresultat</h2>
+          <div class="table-scroll" style="margin-top:10px"><table class="data-table" aria-label="Valresultat i riksdagsvalen 2022 och 2026" style="min-width:0">
+            <thead><tr><th scope="col">Riksdagsval</th><th scope="col">Röstandel</th><th scope="col">Mandat</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">2026</th><td>${pct(now.share)}</td><td>${fmt(now.seats)}</td></tr>
+              <tr><th scope="row">2022</th><td>${pct(past.share)}</td><td>${fmt(past.seats)}</td></tr>
+            </tbody>
+          </table></div>
+          <p class="small muted" style="margin-top:8px">Förändring i röstandel ${diff(dp)} procentenheter.</p>
+          ${updatedInfo()}
+        </section>
+        <section class="panel party-detail-main" style="margin-top:18px"><div class="section-title"><div><h2>Dokumenterad politik</h2><p>Frågor med källbelagt underlag.</p></div></div>
+           ${mapped.length?mapped.map(t=>`<div class="party-issue-row"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><h3>${esc(t.title)}</h3><a class="clever-link" href="#sakfragor/${esc(t.id)}">Alla partier →</a></div><p>${esc(t.positions[p.id].summary)}</p><div class="micro" style="margin-top:7px">${srcLinks(t.positions[p.id].sources)}</div></div>`).join(''):`<div class="empty-message">Inga redaktionellt verifierade ståndpunkter inlagda ännu.</div>`}
+        </section>
+      </div>
+      <aside class="panel panel-pad" aria-label="Partifakta" style="flex:1 1 245px;min-width:0;border-top:5px solid ${esc(p.color)}">
+        <div style="display:flex;align-items:center;gap:10px">
+          <img src="https://media.riksdagen.se/images/${partySymbolIds[p.id]}" alt="" width="38" height="38" referrerpolicy="no-referrer" style="object-fit:contain">
+          <h2 style="font-size:21px">Partifakta</h2>
+        </div>
+        ${partyLeadership(p)}
+        <dl style="display:grid;grid-template-columns:1fr auto;gap:6px;margin:16px 0 0">
+          <dt>Mandat efter valet 2026</dt><dd style="margin:0;font-weight:700">${fmt(now.seats)}</dd>
+          <dt>Röstandel 2026</dt><dd style="margin:0;font-weight:700">${pct(now.share)}</dd>
+        </dl>
+      </aside>
+    </div>
+    <div class="hero-actions" style="margin-top:21px"><a class="btn primary" href="#jamfor">Jämför partier →</a><a class="btn" href="#partier">Alla partier →</a></div>
+  </div>`;
+
  }
  return `<div class="page-wrap">${pageIntro('Partier','Sveriges riksdagspartier','De åtta partier som fick mandat vid riksdagsvalet 2026. Varje profilsida använder samma struktur och har länkar till partiets egna källor.')}
    <div class="party-list">${store.parties.map(p=>`
