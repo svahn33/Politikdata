@@ -6,7 +6,7 @@ const store = { parties: [], issues: [], elections: {}, parliament: {} };
 const state = {
   route: 'oversikt', routeArg: '', selected: ['C','KD'], comparison: 'issues',
   compareTopic: 'new-nuclear', topicSearch: '', topicCategory: 'Alla',
-  voteSearch: '', voteParty: 'Alla', voteSession: 'Alla',
+  voteSearch: '', voteParty: 'Alla', voteSession: 'Alla', voteDecision: 'Alla', voteLimit: 40,
   historyMetric: 'share', profile: 'C', landingSearch: ''
 };
 const MAIN = document.querySelector('#main');
@@ -140,11 +140,12 @@ function renderTopics(){
 function voteDesignation(v){
   return [v.session, v.document].filter(Boolean).join(':');
 }
-function voteResult(v){
-  const decision = {
+const voteDecisions = {
     committee_approved: 'Kammaren biföll utskottets förslag',
     alternative_approved: 'Kammaren biföll ett motförslag'
-  }[v.decision] || 'Beslut för den här voteringen saknas';
+};
+function voteResult(v){
+  const decision = voteDecisions[v.decision] || 'Beslut för den här voteringen saknas';
   const totals = v.totals || {};
   const yes = totals.Ja || 0;
   const no = totals.Nej || 0;
@@ -159,8 +160,6 @@ function voteResult(v){
   </div>`;
 }
 function summarizeVote(v){
-  const p=state.voteParty!=='Alla'?state.voteParty:null;
-  const shown= p ? [p] : store.parties.map(e=>e.id);
   const designation=voteDesignation(v);
   const title=esc(v.title || (`Betänkande ${v.document||'utan beteckning'}`));
   const documentUrl=ext(v.document_url);
@@ -169,24 +168,51 @@ function summarizeVote(v){
     <h3>${documentUrl==='#' ? title : `<a href="${documentUrl}" class="linkish" target="_blank" rel="noopener noreferrer">${title} <span aria-hidden="true">↗</span></a>`}</h3>
     <p class="micro muted">Förslagspunkt ${esc(v.point||'okänd')}${pointTitle} · Protokollförd omröstning, inte en klassificerad partiståndpunkt.</p>
     ${voteResult(v)}
-    <div class="vote-counts">${shown.map(id=>{
-      const counts=v.party_votes?.[id]; if(!counts)return '';
-      return `<span class="party-result">${partyBadge(partyById(id))} ${Object.entries(counts).filter(([k,n])=>n>0).map(([k,n])=>`${esc(k)} ${fmt(n)}`).join(' · ')}</span>`;
-    }).join('')}</div>
-    <div style="margin-top:13px"><a href="${ext(v.source_url)}" class="clever-link" target="_blank" rel="noopener noreferrer">Öppna officiellt voteringsunderlag ↗</a></div></article>`;
+    ${votePartyTable(v)}
+    <div style="margin-top:13px;display:flex;flex-wrap:wrap;gap:8px 18px">
+      <a href="#riksdagen/votering/${encodeURIComponent(v.id)}" class="clever-link">Direktlänk till voteringen</a>
+      ${v.session && v.document ? `<a href="#riksdagen/betankande/${encodeURIComponent(voteDesignation(v))}" class="clever-link">Voteringar i samma betänkande</a>` : ''}
+      <a href="${ext(v.source_url)}" class="clever-link" target="_blank" rel="noopener noreferrer">Öppna officiellt voteringsunderlag ↗</a>
+    </div></article>`;
+}
+function votePartyTable(v){
+  const rows=store.parties.filter(p=>v.party_votes?.[p.id]).map(p=>{
+    const counts=v.party_votes[p.id];
+    return `<tr><th scope="row">${esc(p.id)}</th>${['Ja','Nej','Avstår','Frånvarande'].map(key=>`<td>${fmt(counts[key]||0)}</td>`).join('')}</tr>`;
+  }).join('');
+  return `<details style="margin-top:12px"><summary class="semibold" style="cursor:pointer">Visa röster per parti</summary>
+    <div class="table-scroll"><table class="data-table" aria-label="Röster per parti">
+      <thead><tr><th scope="col">Parti</th><th scope="col">Ja</th><th scope="col">Nej</th><th scope="col">Avstod</th><th scope="col">Frånvarande</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div></details>`;
+}
+function renderVoteRoute(votes){
+  const [kind,key]=state.routeArg.split('/');
+  const byVote=kind==='votering';
+  const matching=votes.filter(v=>encodeURIComponent(byVote ? v.id : voteDesignation(v))===key);
+  const heading=byVote ? 'Votering' : 'Voteringar i betänkandet';
+  return `<div class="page-wrap"><div class="breadcrumb"><a href="#riksdagen">← Alla voteringar</a></div>
+    ${pageIntro('Riksdagen',heading,matching.length ? esc(voteDesignation(matching[0])) : '')}
+    <div class="vote-list">${matching.length ? matching.map(summarizeVote).join('') : '<p class="empty-message">Ingen matchande votering finns i Politikdatas arkiv.</p>'}</div></div>`;
+
 }
 function renderParliament(){
   const db=store.parliament;
   const votes=db.votes||[];
+  if (/^(votering|betankande)\//.test(state.routeArg)) return renderVoteRoute(votes);
   const sessions=['Alla',...new Set(votes.map(v=>v.session).filter(Boolean))];
   const q=state.voteSearch.toLocaleLowerCase('sv-SE').trim();
   const filtered=votes.filter(v=>(state.voteSession==='Alla'||v.session===state.voteSession)&&
     (state.voteParty==='Alla'||v.party_votes?.[state.voteParty])&&
+    (state.voteDecision==='Alla'||(v.decision||'unknown')===state.voteDecision)&&
     (`${v.title??''} ${voteDesignation(v)} ${v.point_title??''} ${v.point??''} ${v.date??''}`.toLocaleLowerCase('sv-SE').includes(q)));
   return `<div class="page-wrap">${pageIntro('Riksdagen','Vad hände i riksdagen?','Här skiljer vi på förslag, beslut och enskilda ledamöters röster. När voteringsdata har synkroniserats från Riksdagen visas faktiska röster och länkar till originalunderlaget.')}
     ${note('<strong>Att läsa voteringar:</strong> ”Ja” avser den aktuella förslagspunkten – inte nödvändigtvis ett generellt stöd för politikområdet. Partiernas medlemmar kan också rösta olika. ”Frånvarande” är inte en nej-röst.')}
     <div class="stats-row" style="margin-top:20px;margin-bottom:22px;grid-template-columns:repeat(3,1fr)"><div class="stat-card"><div class="label">Lokalt synkade voteringar</div><div class="value">${fmt(votes.length)}</div><div class="label">Ingår i webbplatsens datafil</div></div><div class="stat-card"><div class="label">Senaste datasynk</div><div class="value" style="font-size:20px;margin:15px 0">${esc(db.updated||'Ej körd')}</div><div class="label">Automatiseras via GitHub Actions</div></div><div class="stat-card"><div class="label">Aktuell datasession</div><div class="value" style="font-size:20px;margin:15px 0">${esc(db.session||'Ej hämtad')}</div><div class="label">Data från Sveriges riksdag</div></div></div>
-    ${votes.length?`<div class="panel filter-shell"><div class="vote-filters"><label class="form-group"><span class="form-label">Riksmöte</span><select class="select" data-field="vote-session">${sessions.map(s=>`<option value="${esc(s)}" ${state.voteSession===s?'selected':''}>${esc(s)}</option>`).join('')}</select></label><label class="form-group"><span class="form-label">Parti</span><select class="select" data-field="vote-party"><option>Alla</option>${store.parties.map(p=>`<option ${state.voteParty===p.id?'selected':''}>${p.id}</option>`).join('')}</select></label><label class="form-group"><span class="form-label">Sök bland dokument</span><div class="search-box"><input class="search-input" data-field="vote-search" placeholder="Titel, beteckning, datum …" value="${esc(state.voteSearch)}"></div></label></div></div><div class="section-title"><div><h2>${filtered.length} matchande voteringar</h2><p>Visar synkroniserat urval i bokstavsordning per partigrupp.</p></div></div><div class="vote-list">${filtered.length?filtered.slice(0,80).map(summarizeVote).join(''):`<div class="empty-message">Inga voteringar matchade filtret.</div>`}</div>${filtered.length>80?'<p class="footnote">Endast de första 80 matchningarna visas. Filtrera för att hitta en specifik votering.</p>':''}`:
+    ${votes.length?`<div class="panel filter-shell"><div class="vote-filters"><label class="form-group"><span class="form-label">Riksmöte</span><select class="select" data-field="vote-session">${sessions.map(s=>`<option value="${esc(s)}" ${state.voteSession===s?'selected':''}>${esc(s)}</option>`).join('')}</select></label><label class="form-group"><span class="form-label">Parti</span><select class="select" data-field="vote-party"><option>Alla</option>${store.parties.map(p=>`<option ${state.voteParty===p.id?'selected':''}>${p.id}</option>`).join('')}</select></label><label class="form-group"><span class="form-label">Sök bland dokument</span><div class="search-box"><input class="search-input" data-field="vote-search" placeholder="Titel, beteckning, datum …" value="${esc(state.voteSearch)}"></div></label></div>
+    <label class="form-group" style="max-width:340px"><span class="form-label">Utfall</span><select class="select" data-field="vote-decision">
+      ${Object.entries({Alla:'Alla', ...voteDecisions, unknown:'Beslut saknas'}).map(([value,label])=>`<option value="${value}" ${state.voteDecision===value?'selected':''}>${label}</option>`).join('')}
+    </select></label></div><div class="section-title"><div><h2>${filtered.length} matchande voteringar</h2></div></div><div class="vote-list">${filtered.length?filtered.slice(0,state.voteLimit).map(summarizeVote).join(''):`<div class="empty-message">Inga voteringar matchade filtret.</div>`}</div>${filtered.length>state.voteLimit?'<button class="btn" style="margin-top:14px" data-action="more-votes">Visa fler voteringar</button>':''}`:
      `<div class="empty-state"><div class="empty-icon">▦</div><h3>Voteringsdata inväntas</h3><p>Webbplatsen innehåller ännu ingen importerad votering. Det visas därför inga exempelröster som skulle kunna misstolkas som faktiska beslut. Starta arbetsflödet ”Synka riksdagsdata” i GitHub Actions efter publicering.</p>
      <a class="btn primary" href="https://data.riksdagen.se/voteringlista/" target="_blank" rel="noopener noreferrer">Se verkliga voteringar hos Riksdagen ↗</a></div>`}
     <div style="margin-top:24px" class="panel panel-pad"><h3>Originaldokument och motioner</h3><p class="small muted" style="margin:9px 0 16px">För fullständiga motioner, utskottsbetänkanden och propositioner kan du tills vidare söka direkt i Riksdagens officiella dokumentregister.</p><a class="btn" href="https://www.riksdagen.se/sv/dokument-och-lagar/" target="_blank" rel="noopener noreferrer">Öppna Riksdagens dokument ↗</a></div></div>`;
@@ -278,6 +304,13 @@ function attachHandlers(){
      }
      case 'compare-mode':state.comparison=val;location.hash=`#jamfor${val==='election'?'/val':''}`;render();break;
      case 'history-metric':state.historyMetric=val;render();break;
+     case 'more-votes':{
+       const firstNew=state.voteLimit;
+       state.voteLimit+=40;
+       render();
+       MAIN.querySelectorAll('.vote-item')[firstNew]?.querySelector('a')?.focus();
+       break;
+     }
      case 'clear-topic-search':state.topicSearch='';state.topicCategory='Alla';render();break;
    }
  });
@@ -286,14 +319,15 @@ function attachHandlers(){
    switch(el.dataset.field){
      case 'compare-topic':state.compareTopic=el.value;location.hash=`#jamfor/${el.value}`;render();break;
      case 'topic-category':state.topicCategory=el.value;render();break;
-     case 'vote-session':state.voteSession=el.value;render();break;
-     case 'vote-party':state.voteParty=el.value;render();break;
+     case 'vote-session':state.voteSession=el.value;state.voteLimit=40;render();break;
+     case 'vote-party':state.voteParty=el.value;state.voteLimit=40;render();break;
+     case 'vote-decision':state.voteDecision=el.value;state.voteLimit=40;render();break;
    }
  });
  document.addEventListener('input',(ev)=>{
    const el=ev.target;
    if(el.dataset.field==='topic-search')updateInputPreserveFocus('topicSearch',el.value);
-   if(el.dataset.field==='vote-search')updateInputPreserveFocus('voteSearch',el.value);
+   if(el.dataset.field==='vote-search'){state.voteLimit=40;updateInputPreserveFocus('voteSearch',el.value);}
  });
  window.addEventListener('hashchange',()=>{render();window.scrollTo({top:0,behavior:'instant'});});
 }
