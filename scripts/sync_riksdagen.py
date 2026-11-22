@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import html
 import io
 import json
 import sys
@@ -18,6 +19,7 @@ import urllib.parse
 import urllib.request
 import zipfile
 from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from itertools import chain
 from pathlib import Path
@@ -134,6 +136,69 @@ def aggregate(rows: list[dict], session: str) -> list[dict]:
     return output[:MAX_PER_SESSION]
 
 
+def fetch_json(url: str) -> dict:
+    request = urllib.request.Request(url, headers={'User-Agent': 'Politikdata/0.1 (public data)'})
+    with urllib.request.urlopen(request, timeout=12) as response:
+        return json.load(response)
+
+
+def document_list(session: str):
+    base = 'https://data.riksdagen.se/dokumentlista/?'
+    for page in range(1, 21):
+        query = urllib.parse.urlencode({
+            'rm': session, 'doktyp': 'bet', 'utformat': 'json', 'sz': 100, 'p': page,
+        })
+        result = fetch_json(base + query)['dokumentlista']
+        yield from result.get('dokument') or []
+        if page >= int(result['@sidor']):
+            break
+
+
+def proposal_titles(document_id: str) -> dict:
+    url = 'https://data.riksdagen.se/utskottsforslag/' + urllib.parse.quote(document_id, safe='') + '.json'
+    try:
+        result = fetch_json(url)['utskottsforslag']
+        points = (result.get('dokutskottsforslag') or {}).get('utskottsforslag') or []
+        if isinstance(points, dict):
+            points = [points]
+        return {str(point['punkt']): html.unescape(point['rubrik'])
+                for point in points if point.get('punkt') is not None and point.get('rubrik')}
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        print(f'Proposal titles unavailable for {document_id}: {exc}', file=sys.stderr)
+        return {}
+
+
+def enrich_votes(votes: list[dict], session: str) -> None:
+    by_document = defaultdict(list)
+    for vote in votes:
+        if vote['document']:
+            by_document[vote['document'].upper()].append(vote)
+
+    matched = {}
+    try:
+        for document in document_list(session):
+            designation = (document.get('beteckning') or '').upper()
+            title = document.get('titel')
+            document_id = document.get('dok_id')
+            if designation in by_document and document.get('rm') == session and title and document_id:
+                matched[designation] = document_id
+                document_slug = urllib.parse.quote(document_id.lower(), safe='')
+                url = f'https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_{document_slug}/'
+                for vote in by_document[designation]:
+                    vote['title'] = html.unescape(title)
+                    vote['document_url'] = url
+            if len(matched) == len(by_document):
+                break
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        print(f'Document metadata incomplete for {session}: {exc}', file=sys.stderr)
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for designation, points in zip(matched, pool.map(proposal_titles, matched.values())):
+            for vote in by_document[designation]:
+                if vote['point'] in points:
+                    vote['point_title'] = points[vote['point']]
+
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--fixture',type=Path,help='Read a local CSV for offline validation, instead of downloading')
@@ -149,6 +214,8 @@ def main():
         rows=fetch_session(session)
         subset=aggregate(rows,session)
         print(session, ':',len(rows),'member records →',len(subset),'vote events')
+        if subset:
+            enrich_votes(subset, session)
         aggregated.extend(subset)
     aggregated.sort(key=lambda v:(v['date'],v['session']),reverse=True)
     if not aggregated:
