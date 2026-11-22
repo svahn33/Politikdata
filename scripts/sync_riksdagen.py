@@ -102,11 +102,11 @@ def fetch_session(session: str) -> list[dict]:
 
 def aggregate(rows: list[dict], session: str) -> list[dict]:
     # Treat parties as labels from the historical session rather than present-day positions.
-    grouped = defaultdict(lambda: {'party_votes':defaultdict(Counter), 'date':'', 'document':'', 'point':'', 'title':''})
+    grouped = defaultdict(lambda: {'party_votes':defaultdict(Counter), 'totals':Counter(), 'date':'', 'document':'', 'point':'', 'title':''})
     for row in rows:
         party = (row.get('parti') or '').upper()
         ballot = (row.get('rost') or '').strip()
-        if party not in PARTIES or ballot not in VOTES:
+        if ballot not in VOTES:
             continue
         vote_id = row.get('votering_id') or ''
         doc = row.get('beteckning') or ''
@@ -115,6 +115,9 @@ def aggregate(rows: list[dict], session: str) -> list[dict]:
             continue
         key = vote_id or f'{session}|{doc}|{point}|{row.get("datum","")}'
         event = grouped[key]
+        event['totals'][ballot] += 1
+        if party not in PARTIES:
+            continue
         event['party_votes'][party][ballot] += 1
         event['date'] = (row.get('datum') or event['date']).split(' ')[0][:10]
         event['document'] = doc or event['document']
@@ -154,15 +157,14 @@ def document_list(session: str):
             break
 
 
-def proposal_titles(document_id: str) -> dict:
+def proposal_details(document_id: str) -> dict:
     url = 'https://data.riksdagen.se/utskottsforslag/' + urllib.parse.quote(document_id, safe='') + '.json'
     try:
         result = fetch_json(url)['utskottsforslag']
         points = (result.get('dokutskottsforslag') or {}).get('utskottsforslag') or []
         if isinstance(points, dict):
             points = [points]
-        return {str(point['punkt']): html.unescape(point['rubrik'])
-                for point in points if point.get('punkt') is not None and point.get('rubrik')}
+        return {str(point['punkt']): point for point in points if point.get('punkt') is not None}
     except (OSError, ValueError, KeyError, TypeError) as exc:
         print(f'Proposal titles unavailable for {document_id}: {exc}', file=sys.stderr)
         return {}
@@ -193,10 +195,19 @@ def enrich_votes(votes: list[dict], session: str) -> None:
         print(f'Document metadata incomplete for {session}: {exc}', file=sys.stderr)
 
     with ThreadPoolExecutor(max_workers=4) as pool:
-        for designation, points in zip(matched, pool.map(proposal_titles, matched.values())):
+        for designation, points in zip(matched, pool.map(proposal_details, matched.values())):
             for vote in by_document[designation]:
-                if vote['point'] in points:
-                    vote['point_title'] = points[vote['point']]
+                point = points.get(vote['point'], {})
+                if point.get('rubrik'):
+                    vote['point_title'] = html.unescape(point['rubrik'])
+                # The same point can also have preliminary votes on alternatives.
+                if (point.get('votering_id') or '').lower() != vote['id'].lower():
+                    continue
+                winner = (point.get('vinnare') or '').strip().lower()
+                if winner == 'utskottet':
+                    vote['decision'] = 'committee_approved'
+                elif winner.startswith(('reservation', 'res.', 'motförslag')):
+                    vote['decision'] = 'alternative_approved'
 
 
 def main():
