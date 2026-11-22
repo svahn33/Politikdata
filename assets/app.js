@@ -265,7 +265,7 @@ function renderParties(){
        <span style="display:grid;place-items:center;width:76px;height:76px;background:#fff;border-radius:50%;overflow:hidden">
          <img src="https://media.riksdagen.se/images/${partySymbolIds[p.id]}" alt="" width="54" height="54" referrerpolicy="no-referrer" style="object-fit:contain">
        </span>
-       <h3 style="color:#fff;background:#0009;border-radius:6px;padding:4px 8px;overflow-wrap:anywhere">${esc(p.name)}</h3>
+       <h3 style="color:#fff;overflow-wrap:anywhere">${esc(p.name)}</h3>
      </a>`).join('')}</div></div>`;
 }
 function renderMethod(){
