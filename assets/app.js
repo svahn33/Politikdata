@@ -233,6 +233,17 @@ function renderHistory(){
      <div class="panel table-scroll"><table class="data-table"><thead><tr><th>Parti</th><th>2022</th><th>2026</th><th>Skillnad (p.e.)</th><th>Mandat 2022 → 2026</th></tr></thead><tbody>${store.parties.map(p=>{const a=p.elections['2022'],b=p.elections['2026'];const d=b.share-a.share;return `<tr><td>${dot(p)} <strong>${esc(p.name)}</strong></td><td>${pct(a.share)}</td><td>${pct(b.share)}</td><td><span class="delta ${deltaClass(d)}">${diff(d)}</span></td><td>${a.seats} → ${b.seats}</td></tr>`}).join('')}</tbody></table></div></div>
     <div class="section-space"><div class="section-title"><div><h2>Historiska partiprogram</h2><p>Utforska originaldokument från olika tidsperioder.</p></div></div><div class="panel panel-pad"><div class="eyebrow" style="margin-bottom:10px">Forskningsunderlag</div><h3>Svenska partiprogram och valmanifest</h3><p class="small muted" style="margin-top:9px;max-width:800px">Svensk nationell datatjänst samlar svenska partiprogram och valmanifest från 1897 och framåt. Det är en lämplig källa för framtida tidsserier över partiernas formuleringar. Plattformen anger inte att en hållning ändrats utan dokumentstöd från båda tidpunkterna.</p><div class="hero-actions"><a href="https://snd.se/sv/vivill" class="btn primary small-btn" target="_blank" rel="noopener noreferrer">Öppna dokumentarkivet ↗</a><a href="#metodik" class="btn small-btn">Läs om historisk metodik →</a></div></div></div></div>`;
 }
+// Official party symbols published on the Riksdag's party overview.
+const partySymbolIds = {
+  C: 'ca407754a11711f1872a4a05b6e98f05',
+  KD: '3a6d980ac31d11f1938a0264793f1452',
+  L: '30966c26a10d11f1b3fc6e26682a384a',
+  MP: 'bbb5f0a6a11711f1872a4a05b6e98f05',
+  M: '7eb7ce24a10111f1872a4a05b6e98f05',
+  S: '288af204a12611f1872a4a05b6e98f05',
+  SD: '2795e324a11511f1a8a64a3727721460',
+  V: 'e066a36c7c6111f19721ba57d652d633'
+};
 function renderParties(){
  const focus=state.routeArg && partyById(state.routeArg);
  if(focus){
@@ -248,7 +259,14 @@ function renderParties(){
       </div></div><div class="hero-actions" style="margin-top:21px"><a class="btn primary" href="#jamfor">Jämför partier →</a><a class="btn" href="#partier">Alla partier →</a></div>${updatedInfo()}</div>`;
  }
  return `<div class="page-wrap">${pageIntro('Partier','Sveriges riksdagspartier','De åtta partier som fick mandat vid riksdagsvalet 2026. Varje profilsida använder samma struktur och har länkar till partiets egna källor.')}
-   <div class="party-list">${store.parties.map(p=>`<a class="panel party-card" href="#partier/${esc(p.id)}"><div class="party-avatar" style="--party-color:${p.color}">${p.id}</div><h3>${esc(p.name)}</h3><p>${pct(p.elections['2026'].share)} av rösterna · ${p.elections['2026'].seats} mandat</p><span class="clever-link" style="margin-top:auto">Visa partiet →</span></a>`).join('')}</div>${updatedInfo()}</div>`;
+   <div class="party-list">${store.parties.map(p=>`
+     <a class="panel party-card" href="#partier/${esc(p.id)}"
+        style="background:${esc(p.color)};align-items:center;justify-content:center;text-align:center;padding:22px 10px">
+       <span style="display:grid;place-items:center;width:76px;height:76px;background:#fff;border-radius:50%;overflow:hidden">
+         <img src="https://media.riksdagen.se/images/${partySymbolIds[p.id]}" alt="" width="54" height="54" referrerpolicy="no-referrer" style="object-fit:contain">
+       </span>
+       <h3 style="color:${['KD','V'].includes(p.id) ? '#fff' : '#000'};overflow-wrap:anywhere">${esc(p.name)}</h3>
+     </a>`).join('')}</div></div>`;
 }
 function renderMethod(){
  const sources=[
