@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22 21:23 UTC",
+  "updated": "2026-11-23 16:19 UTC",
   "status": "synced",
   "session": "2026/27, 2025/26, 2024/25",
   "source": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
@@ -24,8 +24,8 @@
           "Frånvarande": 2
         },
         "MP": {
-          "Ja": 20,
-          "Frånvarande": 2
+          "Frånvarande": 2,
+          "Ja": 20
         },
         "S": {
           "Frånvarande": 3,
@@ -41,9 +41,9 @@
         }
       },
       "totals": {
-        "Nej": 61,
         "Frånvarande": 17,
-        "Ja": 271
+        "Ja": 271,
+        "Nej": 61
       },
       "date": "2026-11-18",
       "document": "AU3",
@@ -63,8 +63,8 @@
           "Frånvarande": 2
         },
         "KD": {
-          "Ja": 21,
-          "Frånvarande": 1
+          "Frånvarande": 1,
+          "Ja": 21
         },
         "L": {
           "Ja": 19
@@ -90,8 +90,8 @@
       },
       "totals": {
         "Ja": 292,
-        "Nej": 51,
-        "Frånvarande": 6
+        "Frånvarande": 6,
+        "Nej": 51
       },
       "date": "2026-11-11",
       "document": "KU9",
@@ -159,8 +159,8 @@
           "Frånvarande": 2
         },
         "KD": {
-          "Frånvarande": 1,
-          "Ja": 21
+          "Ja": 21,
+          "Frånvarande": 1
         },
         "L": {
           "Ja": 19
@@ -186,8 +186,8 @@
       },
       "totals": {
         "Ja": 322,
-        "Frånvarande": 6,
-        "Nej": 21
+        "Nej": 21,
+        "Frånvarande": 6
       },
       "date": "2026-11-11",
       "document": "KU6",
@@ -230,8 +230,8 @@
         }
       },
       "totals": {
-        "Nej": 61,
         "Ja": 284,
+        "Nej": 61,
         "Frånvarande": 4
       },
       "date": "2026-11-04",
