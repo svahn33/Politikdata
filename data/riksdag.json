@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23 16:19 UTC",
+  "updated": "2026-11-24 16:06 UTC",
   "status": "synced",
   "session": "2026/27, 2025/26, 2024/25",
   "source": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
@@ -24,25 +24,25 @@
           "Frånvarande": 2
         },
         "MP": {
-          "Frånvarande": 2,
-          "Ja": 20
+          "Ja": 20,
+          "Frånvarande": 2
         },
         "S": {
-          "Frånvarande": 3,
-          "Ja": 96
+          "Ja": 96,
+          "Frånvarande": 3
         },
         "SD": {
           "Nej": 61,
           "Frånvarande": 1
         },
         "V": {
-          "Ja": 26,
-          "Frånvarande": 4
+          "Frånvarande": 4,
+          "Ja": 26
         }
       },
       "totals": {
-        "Frånvarande": 17,
         "Ja": 271,
+        "Frånvarande": 17,
         "Nej": 61
       },
       "date": "2026-11-18",
@@ -59,12 +59,12 @@
     {
       "party_votes": {
         "C": {
-          "Ja": 23,
-          "Frånvarande": 2
+          "Frånvarande": 2,
+          "Ja": 23
         },
         "KD": {
-          "Frånvarande": 1,
-          "Ja": 21
+          "Ja": 21,
+          "Frånvarande": 1
         },
         "L": {
           "Ja": 19
@@ -118,13 +118,13 @@
           "Ja": 19
         },
         "M": {
-          "Ja": 69,
-          "Frånvarande": 1
+          "Frånvarande": 1,
+          "Ja": 69
         },
         "MP": {
           "Ja": 19,
-          "Frånvarande": 2,
-          "Nej": 1
+          "Nej": 1,
+          "Frånvarande": 2
         },
         "S": {
           "Ja": 99
@@ -251,8 +251,8 @@
           "Ja": 25
         },
         "KD": {
-          "Ja": 19,
-          "Frånvarande": 3
+          "Frånvarande": 3,
+          "Ja": 19
         },
         "L": {
           "Ja": 19
@@ -276,8 +276,8 @@
       },
       "totals": {
         "Ja": 315,
-        "Nej": 30,
-        "Frånvarande": 4
+        "Frånvarande": 4,
+        "Nej": 30
       },
       "date": "2026-11-04",
       "document": "FöU2",
@@ -12591,8 +12591,8 @@
         }
       },
       "totals": {
-        "Ja": 25,
-        "Nej": 324
+        "Nej": 324,
+        "Ja": 25
       },
       "date": "",
       "document": "1103-1",
@@ -12632,8 +12632,8 @@
         }
       },
       "totals": {
-        "Ja": 99,
         "Nej": 248,
+        "Ja": 99,
         "Frånvarande": 2
       },
       "date": "",
