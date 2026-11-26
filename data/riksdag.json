@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24 16:06 UTC",
+  "updated": "2026-11-26 15:35 UTC",
   "status": "synced",
   "session": "2026/27, 2025/26, 2024/25",
   "source": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
@@ -8,8 +8,431 @@
     {
       "party_votes": {
         "C": {
-          "Ja": 23,
+          "Ja": 22,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Nej": 20,
           "Frånvarande": 2
+        },
+        "L": {
+          "Nej": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Nej": 63,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Ja": 20,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 10
+        },
+        "SD": {
+          "Nej": 55,
+          "Frånvarande": 7
+        },
+        "V": {
+          "Ja": 27,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 158,
+        "Frånvarande": 36,
+        "Nej": 155
+      },
+      "date": "2026-11-25",
+      "document": "SoU3",
+      "point": "3",
+      "title": "En förändrad abortlag",
+      "id": "198C54F6-8324-4E75-8447-EF6473E66A9A",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=SoU3&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01sou3/",
+      "point_title": "Utländska kvinnors rätt till abort",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 22,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Nej": 20,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Nej": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Nej": 62,
+          "Frånvarande": 7,
+          "Avstår": 1
+        },
+        "MP": {
+          "Ja": 18,
+          "Frånvarande": 2,
+          "Nej": 1,
+          "Avstår": 1
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 10
+        },
+        "SD": {
+          "Nej": 54,
+          "Frånvarande": 7,
+          "Ja": 1
+        },
+        "V": {
+          "Ja": 26,
+          "Frånvarande": 3,
+          "Nej": 1
+        }
+      },
+      "totals": {
+        "Ja": 156,
+        "Nej": 155,
+        "Frånvarande": 36,
+        "Avstår": 2
+      },
+      "date": "2026-11-25",
+      "document": "SoU3",
+      "point": "2",
+      "title": "En förändrad abortlag",
+      "id": "68DF2A4B-1362-4317-91C9-93DB45371F2D",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=SoU3&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01sou3/",
+      "point_title": "Förtydligande av lagen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 22,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 20,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 63,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Nej": 20,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 10
+        },
+        "SD": {
+          "Ja": 55,
+          "Frånvarande": 7
+        },
+        "V": {
+          "Avstår": 26,
+          "Frånvarande": 3,
+          "Ja": 1
+        }
+      },
+      "totals": {
+        "Ja": 267,
+        "Nej": 20,
+        "Avstår": 26,
+        "Frånvarande": 36
+      },
+      "date": "2026-11-25",
+      "document": "KrU3",
+      "point": "3",
+      "title": "Ny politisk inriktning för ett starkare filmland",
+      "id": "91EBF5B0-E95C-42DB-A2F4-499E158A98E9",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KrU3&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01kru3/",
+      "point_title": "Stödgivning till film",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 22,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 20,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 63,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Nej": 20,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 10
+        },
+        "SD": {
+          "Ja": 55,
+          "Frånvarande": 7
+        },
+        "V": {
+          "Avstår": 23,
+          "Frånvarande": 3,
+          "Nej": 1,
+          "Ja": 3
+        }
+      },
+      "totals": {
+        "Ja": 269,
+        "Frånvarande": 36,
+        "Nej": 21,
+        "Avstår": 23
+      },
+      "date": "2026-11-25",
+      "document": "KrU3",
+      "point": "2",
+      "title": "Ny politisk inriktning för ett starkare filmland",
+      "id": "B4397699-5B2D-4585-8107-059508F80F7B",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=KrU3&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01kru3/",
+      "point_title": "Framtida finansiering av svensk film",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 22,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 20,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 63,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Avstår": 20,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Ja": 89,
+          "Frånvarande": 10
+        },
+        "SD": {
+          "Nej": 54,
+          "Frånvarande": 7,
+          "Avstår": 1
+        },
+        "V": {
+          "Avstår": 26,
+          "Frånvarande": 3,
+          "Ja": 1
+        }
+      },
+      "totals": {
+        "Ja": 212,
+        "Frånvarande": 36,
+        "Nej": 54,
+        "Avstår": 47
+      },
+      "date": "2026-11-25",
+      "document": "JuU9",
+      "point": "3",
+      "title": "Ett nytt brott och andra åtgärder mot människohandel",
+      "id": "CB04DA35-9E17-4158-8EE6-D59BDE67D402",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=JuU9&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01juu9/",
+      "point_title": "Nationell kontaktpunkt enligt direktivet",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 22,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 20,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 63,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Nej": 20,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Frånvarande": 10,
+          "Ja": 89
+        },
+        "SD": {
+          "Ja": 55,
+          "Frånvarande": 7
+        },
+        "V": {
+          "Nej": 26,
+          "Frånvarande": 4
+        }
+      },
+      "totals": {
+        "Frånvarande": 37,
+        "Ja": 266,
+        "Nej": 46
+      },
+      "date": "2026-11-25",
+      "document": "JuU9",
+      "point": "2",
+      "title": "Ett nytt brott och andra åtgärder mot människohandel",
+      "id": "F6B74393-2B7F-47FD-A3D7-4ED641E6776B",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=JuU9&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01juu9/",
+      "point_title": "Skydd och stöd till offer för människohandel",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 22,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 20,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 63,
+          "Frånvarande": 7
+        },
+        "MP": {
+          "Nej": 20,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Frånvarande": 10,
+          "Ja": 89
+        },
+        "SD": {
+          "Frånvarande": 9,
+          "Ja": 53
+        },
+        "V": {
+          "Ja": 27,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 291,
+        "Frånvarande": 38,
+        "Nej": 20
+      },
+      "date": "2026-11-25",
+      "document": "CU2",
+      "point": "3",
+      "title": "Stärkt trygghet i bostadsrätter",
+      "id": "97AF6351-33EC-4C97-A33E-E94E81C4D690",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=CU2&punkt=3&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01cu2/",
+      "point_title": "Lagstiftningens framtida utformning i övrigt m.m.",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Ja": 22,
+          "Frånvarande": 3
+        },
+        "KD": {
+          "Ja": 20,
+          "Frånvarande": 2
+        },
+        "L": {
+          "Ja": 17,
+          "Frånvarande": 2
+        },
+        "M": {
+          "Ja": 62,
+          "Frånvarande": 8
+        },
+        "MP": {
+          "Nej": 20,
+          "Frånvarande": 2
+        },
+        "S": {
+          "Frånvarande": 10,
+          "Ja": 88,
+          "Nej": 1
+        },
+        "SD": {
+          "Ja": 55,
+          "Frånvarande": 7
+        },
+        "V": {
+          "Nej": 27,
+          "Frånvarande": 3
+        }
+      },
+      "totals": {
+        "Ja": 264,
+        "Frånvarande": 37,
+        "Nej": 48
+      },
+      "date": "2026-11-25",
+      "document": "CU2",
+      "point": "2",
+      "title": "Stärkt trygghet i bostadsrätter",
+      "id": "EF32EEF2-7A08-421D-80E9-487AEACBEC37",
+      "session": "2026/27",
+      "source_url": "https://data.riksdagen.se/voteringlista/?rm=2026%2F27&bet=CU2&punkt=2&utformat=HTML",
+      "document_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_he01cu2/",
+      "point_title": "Begrepp och kriterier i lagstiftningen",
+      "decision": "committee_approved"
+    },
+    {
+      "party_votes": {
+        "C": {
+          "Frånvarande": 2,
+          "Ja": 23
         },
         "KD": {
           "Ja": 21,
@@ -36,14 +459,14 @@
           "Frånvarande": 1
         },
         "V": {
-          "Frånvarande": 4,
-          "Ja": 26
+          "Ja": 26,
+          "Frånvarande": 4
         }
       },
       "totals": {
         "Ja": 271,
-        "Frånvarande": 17,
-        "Nej": 61
+        "Nej": 61,
+        "Frånvarande": 17
       },
       "date": "2026-11-18",
       "document": "AU3",
@@ -59,8 +482,8 @@
     {
       "party_votes": {
         "C": {
-          "Frånvarande": 2,
-          "Ja": 23
+          "Ja": 23,
+          "Frånvarande": 2
         },
         "KD": {
           "Ja": 21,
@@ -90,8 +513,8 @@
       },
       "totals": {
         "Ja": 292,
-        "Frånvarande": 6,
-        "Nej": 51
+        "Nej": 51,
+        "Frånvarande": 6
       },
       "date": "2026-11-11",
       "document": "KU9",
@@ -118,8 +541,8 @@
           "Ja": 19
         },
         "M": {
-          "Frånvarande": 1,
-          "Ja": 69
+          "Ja": 69,
+          "Frånvarande": 1
         },
         "MP": {
           "Ja": 19,
@@ -139,8 +562,8 @@
       },
       "totals": {
         "Ja": 341,
-        "Frånvarande": 7,
-        "Nej": 1
+        "Nej": 1,
+        "Frånvarande": 7
       },
       "date": "2026-11-11",
       "document": "KU6",
@@ -230,8 +653,8 @@
         }
       },
       "totals": {
-        "Ja": 284,
         "Nej": 61,
+        "Ja": 284,
         "Frånvarande": 4
       },
       "date": "2026-11-04",
@@ -251,8 +674,8 @@
           "Ja": 25
         },
         "KD": {
-          "Frånvarande": 3,
-          "Ja": 19
+          "Ja": 19,
+          "Frånvarande": 3
         },
         "L": {
           "Ja": 19
@@ -276,8 +699,8 @@
       },
       "totals": {
         "Ja": 315,
-        "Frånvarande": 4,
-        "Nej": 30
+        "Nej": 30,
+        "Frånvarande": 4
       },
       "date": "2026-11-04",
       "document": "FöU2",
